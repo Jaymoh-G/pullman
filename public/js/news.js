@@ -127,7 +127,7 @@ $(document).ready(function()
 			if(val == 'videos-btn'){
 				$('#videos').show('slow');
 				$('#photos,#publications,#podcasts').hide('slow');
-				$("#videos-btn").css("background-color","#4baf48");
+				$("#videos-btn").css("background-color","#FBBF3F");
 				$("#videos-btn").css("color","#fff");
 				$("#podcasts-btn,#photos-btn,#publications-btn").css("background-color","#fff");
 				$('#podcasts-btn,#photos-btn,#publications-btn').css( "color","rgb(41, 39, 39)");
@@ -135,9 +135,9 @@ $(document).ready(function()
 			}else if(val == 'photos-btn'){
 				$('#photos').show('slow');
 				$('#videos,#publications,#podcasts').hide();
-				$("#photos-btn").css("background-color","#4baf48");
+				$("#photos-btn").css("background-color","#FBBF3F");
 				$("#photos-btn").css("color","#fff");
-				$("#photos-btn").css("background-color","#4baf48");
+				$("#photos-btn").css("background-color","#FBBF3F");
 				$("#photos-btn").css("color","#fff");
 				$("#podcasts-btn,#videos-btn,#publications-btn").css("background-color","#fff");
 				$('#podcasts-btn,#videos-btn,#publications-btn').css( "color","rgb(41, 39, 39)");
@@ -145,7 +145,7 @@ $(document).ready(function()
 			}else if(val == 'publications-btn'){
 				$('#publications').show('slow');
 				$('#videos,#photos,#podcasts').hide();
-				$("#publications-btn").css("background-color","#4baf48");
+				$("#publications-btn").css("background-color","#FBBF3F");
 				$("#publications-btn").css("color","#fff");
 				$("#photos-btn,#videos-btn,#podcasts-btn").css("background-color","#fff");
 				$('#photos-btn,#videos-btn,#podcasts-btn').css( "color","rgb(41, 39, 39)");
@@ -153,9 +153,9 @@ $(document).ready(function()
 			}else{
 				$('#podcasts').show('slow');
 				$('#videos,#photos,#publications').hide();
-				$("#podcasts-btn").css("background-color","#4baf48");
+				$("#podcasts-btn").css("background-color","#FBBF3F");
 				$("#podcasts-btn").css("color","#fff");
-				$("#podcasts-btn").css("background-color","#4baf48");
+				$("#podcasts-btn").css("background-color","#FBBF3F");
 				$("#podcasts-btn").css("color","#fff");
 				$("#photos-btn,#videos-btn,#publications-btn").css("background-color","#fff");
 				$('#photos-btn,#videos-btn,#publications-btn').css( "color","rgb(41, 39, 39)");

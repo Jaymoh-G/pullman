@@ -227,7 +227,7 @@
         <!-- START Bootstrap-Cookie-Alert -->
         <div
             class="alert text-center cookiealert"
-            style="color: #4baf48"
+            style="color: #FBBF3F"
             role="alert"
         >
             <b>Cookie consent. </b> We are using cookies to ensure you get the

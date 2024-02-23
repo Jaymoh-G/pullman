@@ -290,7 +290,7 @@ section {
 *********************************/
 #topbar {
     font-family: "Montserrat", sans-serif;
-    background: #0393D0;
+    background: #5caa47;
     height: 40px;
     font-size: 12.5px;
     transition: all 0.5s;
@@ -664,11 +664,11 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #0393D0;
+    color: #5caa47;
 }
 
 .navbar .nav-item .nav-link.active {
-    color: #0393D0;
+    color: #5caa47;
 }
 
 .navbar .dropdown ul {
@@ -698,7 +698,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-    color: #0393D0;
+    color: #5caa47;
 }
 .navbar .dropdown:hover > ul {
     opacity: 1;

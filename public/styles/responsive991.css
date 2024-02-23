@@ -97,13 +97,13 @@
         font-weight: bolder;
         padding-top: 8px;
         padding-left: 1em;
-        background-color: #4baf48;
+        background-color: #FBBF3F;
         width: 160px;
         height: 40px;
         border: none;
     }
     .home_content .btn-home {
-        background-color: #4baf48;
+        background-color: #FBBF3F;
         width: 120px;
         height: 40px;
         font-size: 14px;
@@ -474,7 +474,7 @@
     .card-date.date-no {
         font-size: 18px;
         font-weight: 800;
-        color: #4baf48;
+        color: #FBBF3F;
     }
     .latest-row .card-img-top {
         width: 100%;
@@ -531,7 +531,7 @@
 	***********************************/
     .event-detail .child-div i {
         padding-left: 1.8em;
-        color: #4baf48;
+        color: #FBBF3F;
     }
     .event-detail .btn-reg {
         margin-left: 0em;

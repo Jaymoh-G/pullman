@@ -255,7 +255,7 @@
     }
     .event-detail .child-div i {
         padding-left: 1.8em;
-        color: #4baf48;
+        color: #FBBF3F;
     }
     .team-details .card-img-top {
         margin-left: 2em;
@@ -294,7 +294,7 @@
         transform: translateX(-50%);
         width: 124px;
         height: 4px;
-        background: #4baf48;
+        background: #FBBF3F;
         content: "";
     }
     .events .card2 {

@@ -88,7 +88,7 @@ a:link {
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 a:hover {
-    color: #4baf48 !important;
+    color: #FBBF3F !important;
 }
 h1 {
     font-size: 48px;
@@ -204,7 +204,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 3px;
-    background: #4baf48;
+    background: #FBBF3F;
     content: "";
     z-index: 0;
     -webkit-transition: all 400ms cubic-bezier(0.33, 0.68, 0.59, 0.99);
@@ -247,7 +247,7 @@ section {
     top: 0;
     width: 54px;
     height: 3px;
-    background: #4baf48;
+    background: #FBBF3F;
     content: "";
 }
 .section_title_light h2 {
@@ -301,7 +301,7 @@ section {
 }
 .emergencies {
     height: 100%;
-    background: #4baf48;
+    background: #FBBF3F;
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
@@ -390,13 +390,13 @@ section {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #4baf48;
+    background: #FBBF3F;
 }
 .logo {
     margin-top: 27px;
 }
 .logo span {
-    color: #4baf48;
+    color: #FBBF3F;
 }
 .logo_container a .logo:hover {
     color: #283290;
@@ -411,7 +411,7 @@ section {
     display: inline-block;
     width: 23px;
     height: 23px;
-    background: #4baf48;
+    background: #FBBF3F;
     color: #ffffff;
     font-size: 24px;
     line-height: 23px;
@@ -546,7 +546,7 @@ section {
 }
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after {
-    background: #4baf48;
+    background: #FBBF3F;
 }
 .menu_extra {
     position: absolute;
@@ -591,7 +591,7 @@ section {
     color: #ffffff;
 }
 .home_title span {
-    color: #4baf48;
+    color: #FBBF3F;
 }
 .breadcrumbs {
     margin-top: -2px;
@@ -648,7 +648,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #4baf48;
+    background: #FBBF3F;
     content: "";
     visibility: hidden;
     opacity: 0;
@@ -678,7 +678,7 @@ section {
 .svg path,
 .svg rect,
 .svg polygon {
-    fill: #4baf48;
+    fill: #FBBF3F;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -720,7 +720,7 @@ section {
     transform: translateX(-50%);
     width: 54px;
     height: 3px;
-    background: #4baf48;
+    background: #FBBF3F;
     content: "";
 }
 .service:hover .service_title {
