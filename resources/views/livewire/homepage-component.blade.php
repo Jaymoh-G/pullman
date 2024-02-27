@@ -161,7 +161,7 @@
                         rgba(179, 104, 18, 0.6)
                     );
                 "
-                data-image-src="images/power2.jpg"
+                data-image-src="images/Pullman-Exacavators-Kenya.png"
                 data-speed="0.8"
             ></div>
             <div class="container">
@@ -174,7 +174,7 @@
                                 </h2>
                                 <p>{{$this->petition[0]->description}}</p>
                                 <div class="cta_button pt-1" style="width:150px; margin-left: auto; margin-right: auto;">
-                                    <a href="{{$this->petition[0]->petition_url}}">Endorse Treaty</a>
+                                    <a href="{{$this->petition[0]->petition_url}}">Contact Us</a>
                                 </div>
                             </div>
                         @else
@@ -196,7 +196,7 @@
         <!-- LATEST SECTION -->
         <div class="container latest mt-5">
             <div class="container text-center">
-                <h2 class="styled-h2 media_title mb-5">Latest</h2>
+                <h2 class="styled-h2 media_title mb-5">Our Works</h2>
             </div>
             <div class="container-full cards">
                 <div class="row">
@@ -206,7 +206,7 @@
                             <div class="img-preview">
                                 <img class="card-img-top post-img" src="{{'/'.$latestEvent[0]->image}}"
                                 alt="Card image cap" width="330" height="247" />
-                                <p class="power-title"><a href="/events">Power Shift Events</a></p>
+                                <p class="power-title"><a href="/events">See our featured works</a></p>
                             </div>
                             <div class="container">
                                 <div class="row">
@@ -304,7 +304,7 @@
                                 </div>
                             </div>
                             @else
-                            <p>Latest Power Shift news not found</p>
+                            <p>See our featured works</p>
                             @endif
                         </div>
                     </div>
@@ -378,7 +378,7 @@
                         <a
                             class="text-white pt-3"
                             href="{{ $sectionThreeData->link }}"
-                            >Join Us</a
+                            >Contact Us</a
                         >
                     </div>
                 </div>

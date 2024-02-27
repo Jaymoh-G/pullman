@@ -95,10 +95,7 @@
     margin-right: 0.1em;
     padding-left: 3em;
 }
-
-
-
-      }
+}
     </style>
 
       <!-- Home -->
@@ -143,7 +140,7 @@
                 {!!$this->whatWeDos->description!!}
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-              <img src="/{{$this->whatWeDos->image}}" style="object-fit: cover;" alt="{{$this->whatWeDos->image}}" srcset="">
+              <img src="/{{$this->whatWeDos->image}}" style="width:475px;height:200px" alt="{{$this->whatWeDos->image}}" srcset="">
             </div>
           </div>
         </div>
@@ -156,13 +153,13 @@
             <h2>Our statistics on renewable energy</h2>
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-               <p>{{$this->whatWeDos->partnerCountries}} <br> <span>Equipment availability</span></p>
+               <p>{{$this->whatWeDos->partnerCountries}} <br> <span style="color:white">Equipment availability</span></p>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p>{{$this->whatWeDos->collaborations}}<br><span>Cost savings</span><p>
+                <p>{{$this->whatWeDos->collaborations}}<br><span style="color:white">Cost savings</span><p>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p>{{$this->whatWeDos->peopleReached}}<br><span>Customer Satisfaction</span></p>
+                <p>{{$this->whatWeDos->peopleReached}}<br><span style="color:white">Customer Satisfaction</span></p>
               </div>
             </div>
           </div>
@@ -207,7 +204,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-lg-9">
-					<p>Looking to partner with a think-tank for cutting-edge analysis and solutions</p>
+					<p style="color:white">Looking to work with an efficient, cost friendly and timely construct company</p>
         </div>
 
         <div class="col-lg-3">

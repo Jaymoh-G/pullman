@@ -28,7 +28,7 @@ class HomepageComponent extends Component{
     public $sectionTwoData;
 
     public function mount(){
-        $this->sectionOneData = $this->getSectionData('Africa is the most affected yet least responsible for climate change');
+        $this->sectionOneData = $this->getSectionData('Crafting foundations, Building Africa');
         $this->sectionTwoData = $this->getSectionData('Our Mission');
         $this->sectionThreeData = $this->getSectionData('Join Us');
         $this->sliders = PageSectionData::where('type', 'slider')->orderBy('created_at', 'asc')->take(4)->get();

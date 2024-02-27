@@ -7,9 +7,9 @@
                     <div class="footer_about footer_column">
                         <div class="footer_about_logo">
                             <img
-                                style="height: 50px; width: 160px"
+                                style="height: 60px; width: 150px"
                                 class="ml-1"
-                                src="/images/logo_pullman.png"
+                                src="/images/logo_pullman-rsz.png"
                             />
                         </div>
                         <div class="footer_about_text">
@@ -64,13 +64,13 @@
                         <div class="footer_title">Twitter Feed</div>
                         <!-- Twitter section -->
                         <div class="twitter-footer">
-                            <a
+                            <!-- <a
                                 class="twitter-timeline"
                                 data-width="400"
                                 data-height="200"
                                 href="https://twitter.com/PowerShftAfrica?ref_src=twsrc%5Etfw"
                             >
-                            </a>
+                            </a> -->
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             <!-- <script>
                                 var script = document.createElement("script");
@@ -99,8 +99,8 @@
                                         aria-hidden="true"
                                     ></i>
                                 </div>
-                                <a href="tel:+254731808070">
-                                    <span>+254 731 808 070</span></a
+                                <a href="tel:+254726151933">
+                                    <span>+254 726 151 933</span></a
                                 >
                             </li>
                             
@@ -111,8 +111,8 @@
                                         aria-hidden="true"
                                     ></i>
                                 </div>
-                                <a href="tel:+2540204407113">
-                                    <span>+254 204 407 113</span
+                                <a href="tel:+254726634673">
+                                    <span>+254 726 634 673</span
                                     ></a>
                             </li>
                             
@@ -125,8 +125,8 @@
                                 </div>
 
                                 <!-- mailto link to info@powershiftafrica.org-->
-                                <a href="mailto:info@powershiftafrica.org"
-                                    ><span>info@powershiftafrica.org</span></a
+                                <a href="mailto:info@pullmanexcavatorskenya.com"
+                                    ><span>info@pullmanexcavatorskenya.com</span></a
                                 >
                             </li>
                             <li>
@@ -137,15 +137,11 @@
                                     ></i>
                                 </div>
                                 <a
-                                    href="https://goo.gl/maps/MVaR74zb5bboX32D7"
+                                    href="#"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <span
-                                        >No: 5, Waridi Court, <br />
-                                        <div class="rose">
-                                            Rose Avenue, Kilimani
-                                        </div>
+                                    <span>Nairobi, Kenya<br />
                                     </span>
                                 </a>
                             </li>

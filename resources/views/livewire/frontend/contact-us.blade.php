@@ -54,27 +54,27 @@
                     <div class="contact_text"></div>
                     <ul class="contact_about_list">
                         <li>
-                            <a href="tel:+254731808070">
+                            <a href="tel:+254726151933">
                                 <div class="contact_about_icon">
                                     <img src="images/phone-call.svg" alt="" />
                                 </div>
-                                <span>+254 731 808 070</span>
+                                <span>+254 726 151 933</span>
                             </a>
                         </li>
                         <li>
-                            <a href="tel:+02004407113">
+                            <a href="tel:+254726634673">
                                 <div class="contact_about_icon">
                                     <img src="images/phone-call.svg" alt="" />
                                 </div>
-                                <span>+254 02 04 407 113</span>
+                                <span>+254 726 634 673</span>
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:info@powershiftafrica.org">
+                            <a href="mailto:info@pullmanexcavatorskenya.com">
                                 <div class="contact_about_icon">
                                     <img src="images/envelope.svg" alt="" />
                                 </div>
-                                <span>info@powershiftafrica.org</span></a
+                                <span>info@pullmanexcavatorskenya.com</span></a
                             >
                         </li>
                         <li>
@@ -87,8 +87,7 @@
                                     <img src="images/placeholder.svg" alt="" />
                                 </div>
                                 <span
-                                    >No: 5, Waridi Court, Rose Avenue, Kilimani,
-                                    Nairobi</span
+                                    >Nairobi, Kenya</span
                                 ></a
                             >
                         </li>

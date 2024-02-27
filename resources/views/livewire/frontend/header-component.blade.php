@@ -73,7 +73,7 @@
       <div class="social-links d-md-flex align-items-center pt-2">
         <div class="contact-links">
           <span class="pl-2">+254 726 151 933</span>
-          <span class="pl-2"><i class="fa fa-envelope"></i> info@powershiftafrica.org</span>
+          <span class="pl-2"><i class="fa fa-envelope"></i> info@pullmanexcavatorskenya.com</span>
         </div>
 
         <div class="social">
@@ -106,7 +106,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
           <h1 class="logo"><a href="{{route('homepage.index')}}">
-            <img style="height:60px; width:214px;" src="/images/logo_pullman.png">
+            <img style="height:60px; width:150px;" src="/images/logo_pullman-rsz.png">
           </a></h1>
           <div class="mobile-nav hamburger ml-auto"><i class="open-menu fa fa-bars" aria-hidden="true"></i></div>
           <nav id="navbar" class="navbar">
@@ -162,6 +162,8 @@
               <li class="menu-item nav-item"><a class="nav-link {{ $this->checkActivePage('media') }}" href="{{route('frontend.media')}}"><span>Media</span> <i class="bi bi-chevron-down"></i></a>
               </li>
               <li class="menu-item dropdown nav-item"><a class="nav-link {{ $this->checkActivePage('joinUs') }}" href="{{route('frontend.careers')}}"><span>Join Us</span> <i class="bi bi-chevron-down"></i></a>
+              </li>
+              <li class="menu-item dropdown nav-item"><a class="nav-link {{ $this->checkActivePage('contactUs') }}" href="{{route('frontend.contactUs')}}"><span>Contact Us</span> <i class="bi bi-chevron-down"></i></a>
               </li>
             </ul>
 
