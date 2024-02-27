@@ -106,7 +106,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
           <h1 class="logo"><a href="{{route('homepage.index')}}">
-            <img style="height:60px; width:214px;" src="/images/power1.png">
+            <img style="height:60px; width:214px;" src="/images/logo_pullman.png">
           </a></h1>
           <div class="mobile-nav hamburger ml-auto"><i class="open-menu fa fa-bars" aria-hidden="true"></i></div>
           <nav id="navbar" class="navbar">

@@ -110,13 +110,13 @@
                                         <div class="form-group">
                                             <label
                                                 class="col-sm-2 control-label"
-                                                >Partner countries</label
+                                                >Equipment Availability</label
                                             >
                                             <div class="col-sm-10">
                                                 <input
                                                     type="text"
                                                     class="form-control"
-                                                    placeholder="Enter partnerCountries"
+                                                    placeholder="Enter equimentAvailability"
                                                     wire:model="partnerCountries"
                                                     required
                                                 />
@@ -132,13 +132,13 @@
                                         <div class="form-group">
                                             <label
                                                 class="col-sm-2 control-label"
-                                                >Collaborations</label
+                                                >Cost Savings</label
                                             >
                                             <div class="col-sm-10">
                                                 <input
                                                     type="text"
                                                     class="form-control"
-                                                    placeholder="Enter collaborations"
+                                                    placeholder="Enter costSavings"
                                                     wire:model="collaborations"
                                                     required
                                                 />
@@ -154,13 +154,13 @@
                                         <div class="form-group">
                                             <label
                                                 class="col-sm-2 control-label"
-                                                >People reached</label
+                                                >Customer Satisfaction</label
                                             >
                                             <div class="col-sm-10">
                                                 <input
                                                     type="text"
                                                     class="form-control"
-                                                    placeholder="Enter peopleReached"
+                                                    placeholder="Enter customerSatisfaction"
                                                     wire:model="peopleReached"
                                                     required
                                                 />

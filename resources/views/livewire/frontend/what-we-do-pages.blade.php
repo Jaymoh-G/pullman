@@ -156,13 +156,13 @@
             <h2>Our statistics on renewable energy</h2>
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-               <p>{{$this->whatWeDos->partnerCountries}} <br> <span>Countries we partner with</span></p>
+               <p>{{$this->whatWeDos->partnerCountries}} <br> <span>Equipment availability</span></p>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p>{{$this->whatWeDos->collaborations}}<br><span>Collaborations</span><p>
+                <p>{{$this->whatWeDos->collaborations}}<br><span>Cost savings</span><p>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p>{{$this->whatWeDos->peopleReached}}<br><span>People reached</span></p>
+                <p>{{$this->whatWeDos->peopleReached}}<br><span>Customer Satisfaction</span></p>
               </div>
             </div>
           </div>

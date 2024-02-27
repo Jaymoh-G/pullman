@@ -91,7 +91,7 @@
                 <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 ">
                     <a
                         href="#"
-                        id="videos-btn"> <button   style=" border: 1px solid #FBBF3F;
+                        id="videos-btn"> <button   style=" border: 1px solid #111112;
     margin: 6px auto;
     padding: 7px;
     font-weight: 500; min-width: 100%">Videos </button></a
@@ -100,7 +100,7 @@
                         href="#"
                         id="photos-btn">
 
-                       <button   style=" border: 1px solid #FBBF3F;
+                       <button   style=" border: 1px solid #111112;
     margin: 6px auto;
     padding: 7px;
     font-weight: 500; min-width: 100%">Photo Gallery </button></a
@@ -109,7 +109,7 @@
                     <a
                         href="#"
                         id="podcasts-btn">
-                        <button   style=" border: 1px solid #FBBF3F;
+                        <button   style=" border: 1px solid #111112;
     margin: 6px auto;
     padding: 7px;
     font-weight: 500; min-width: 100%">Podcasts</button></a>

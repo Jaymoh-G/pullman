@@ -57,7 +57,7 @@
                                             @forelse($galleries as $gallery)
                                             <div class="col-lg-12 col-md-12 col-6">
 
-                                                    <a href="{{route('frontend.gallery',['albumId'=>$gallery->id])}} "><button   style=" border: 1px solid #FBBF3F;
+                                                    <a href="{{route('frontend.gallery',['albumId'=>$gallery->id])}} "><button   style=" border: 1px solid #111112;
     margin: 6px auto;
     padding: 7px;
     font-weight: 500; min-width: 100%">{{$gallery->title}}</button></a>

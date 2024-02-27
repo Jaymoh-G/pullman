@@ -88,7 +88,7 @@ a:link {
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 a:hover {
-    color: #FBBF3F;
+    color: #111112;
 }
 h1 {
     font-size: 48px;
@@ -204,7 +204,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 3px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
     z-index: 0;
     -webkit-transition: all 400ms cubic-bezier(0.33, 0.68, 0.59, 0.99);
@@ -221,7 +221,7 @@ section {
     padding: 7px;
     font-weight: 500;
     min-width: 100%;
-    hover: #FBBF3F;
+    hover: #111112;
 }
 .button a {
     display: block;
@@ -257,7 +257,7 @@ section {
     top: 0;
     width: 54px;
     height: 3px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 .section_title_light h2 {
@@ -290,7 +290,7 @@ section {
 *********************************/
 #topbar {
     font-family: "Montserrat", sans-serif;
-    background: #0393D0;
+    background: #EE1C25;
     height: 40px;
     font-size: 12.5px;
     transition: all 0.5s;
@@ -575,7 +575,7 @@ section {
 }
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after {
-    background: #FBBF3F;
+    background: #111112;
 }
 .menu_extra {
     position: absolute;
@@ -664,11 +664,11 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #0393D0;
+    color: #EE1C25;
 }
 
 .navbar .nav-item .nav-link.active {
-    color: #0393D0;
+    color: #EE1C25;
 }
 
 .navbar .dropdown ul {
@@ -698,7 +698,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-    color: #0393D0;
+    color: #EE1C25;
 }
 .navbar .dropdown:hover > ul {
     opacity: 1;
@@ -831,7 +831,7 @@ section {
     width: 0;
     max-width: 100%;
     height: 2px;
-    background: #FBBF3F;
+    background: #111112;
     z-index: 1;
 }
 .home_content {
@@ -967,7 +967,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 5px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 .box-brown::after {
@@ -977,7 +977,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 7px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 .box:hover {
@@ -1015,7 +1015,7 @@ section {
 }
 .box_icon .fa-fire {
     font-size: 28px;
-    color: #FBBF3F;
+    color: #111112;
 }
 .box_icon img {
     max-width: 18%;
@@ -1030,7 +1030,7 @@ section {
 .box_phone {
     font-size: 30px;
     font-weight: 400;
-    color: #FBBF3F;
+    color: #111112;
     margin-top: 20px;
 }
 .box_appointments {
@@ -1081,7 +1081,7 @@ section {
 
 .about_button {
     margin-top: 42px;
-    background-color: #FBBF3F;
+    background-color: #111112;
     width: 150px;
     height: 40px;
     padding-top: 10px;
@@ -1173,7 +1173,7 @@ section {
 /* About text */
 .about-text {
     width: 100%;
-    background-color: #FBBF3F;
+    background-color: #111112;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -1217,7 +1217,7 @@ section {
 
 .goals ul li::before {
     content: "\2022";
-    color: #FBBF3F;
+    color: #111112;
     font-weight: 800;
     display: inline-block;
     width: 1em;
@@ -1345,7 +1345,7 @@ section {
 
 .section-done {
     width: 100%;
-    background: #FBBF3F;
+    background: #111112;
     text-align: center;
     margin-top: 2em;
     position: relative;
@@ -1444,14 +1444,14 @@ section {
 /* Get In Touch Section */
 .get-in-touch {
     width: 100%;
-    background-color: #FBBF3F;
+    background-color: #111112;
     padding-top: 24px;
     padding-bottom: 16px;
 }
 
 .get-in-touch .fa-chevron-right {
     font-size: 10px;
-    color: #FBBF3F;
+    color: #111112;
 }
 .get-in-touch p {
     color: rgb(41, 39, 39);
@@ -1562,7 +1562,7 @@ section {
 }
 
 .section2 .fas {
-    color: #FBBF3F;
+    color: #111112;
     font-size: 24px;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -1582,7 +1582,7 @@ section {
     padding-right: 3em;
 }
 .section2 .btn {
-    background-color: #FBBF3F;
+    background-color: #111112;
     padding-top: 0.4em;
 }
 .section2 .btn:hover {
@@ -1668,7 +1668,7 @@ section {
     left: 0;
     width: 100%;
     height: 5px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 .dept_title {
@@ -1729,7 +1729,7 @@ section {
     font-size: 12px;
 }
 .searches-found .fa-clock {
-    color: #FBBF3F;
+    color: #111112;
 }
 .searches-found p {
     font-size: 13px;
@@ -1818,7 +1818,7 @@ hr {
     font-size: 11px;
 }
 .card-date {
-    color: #FBBF3F;
+    color: #111112;
     font-size: 12px;
     font-weight: 400;
     line-height: 2em;
@@ -1838,7 +1838,7 @@ hr {
     font-size: 13px;
 }
 .latest .card_text {
-    color: #FBBF3F;
+    color: #111112;
     font-size: 14px;
     letter-spacing: 0.6px;
 }
@@ -1856,7 +1856,7 @@ hr {
  Join Us
 *********************************/
 .join_us {
-    background-color: #FBBF3F;
+    background-color: #111112;
 }
 .join_us .container {
     display: flex;
@@ -1901,7 +1901,7 @@ hr {
     transform: translateX(-50%);
     width: 124px;
     height: 4px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 .media_title::after {
@@ -1916,7 +1916,7 @@ hr {
     transform: translateX(-50%);
     width: 124px;
     height: 4px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 
@@ -1947,7 +1947,7 @@ hr {
 }
 
 .media .btn-primary {
-    background-color: #FBBF3F;
+    background-color: #111112;
 }
 
 .media-subtitle {
@@ -2003,7 +2003,7 @@ hr {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
     visibility: hidden;
     opacity: 0;
@@ -2033,7 +2033,7 @@ hr {
 .svg path,
 .svg rect,
 .svg polygon {
-    fill: #FBBF3F;
+    fill: #111112;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -2075,7 +2075,7 @@ hr {
     transform: translateX(-50%);
     width: 54px;
     height: 3px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 .service:hover .service_title {
@@ -2102,7 +2102,7 @@ hr {
     margin: 8px 0;
     height: 3em;
     display: inline-block;
-    border: 2px solid #FBBF3F;
+    border: 2px solid #111112;
     text-align: center;
     flex-direction: row;
     box-sizing: border-box;
@@ -2122,9 +2122,9 @@ hr {
 
 /* Style the submit button */
 .subscribe-btn {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: white;
-    border: solid #FBBF3F;
+    border: solid #111112;
     height: 2.8em;
     width: 8em;
 }
@@ -2241,7 +2241,7 @@ hr {
 .blogs .fa-user,
 .blogs .fa-comment {
     font-size: 14px;
-    color: #FBBF3F;
+    color: #111112;
     padding-right: 7px;
     font-weight: 400;
 }
@@ -2373,14 +2373,14 @@ hr {
     margin-top: 0.8em;
 }
 .btn:hover {
-    background-color: #FBBF3F;
-    border: 1px solid #FBBF3F;
+    background-color: #111112;
+    border: 1px solid #111112;
 }
 .btn:hover > .fa-chevron-right {
     color: white;
 }
 .btn .fa-chevron-right {
-    color: #FBBF3F;
+    color: #111112;
     padding-right: 5px;
 }
 .sidebar h5 {
@@ -2670,7 +2670,7 @@ li > a {
 
 .event-detail .child-div i {
     padding-left: 2.4em;
-    color: #FBBF3F;
+    color: #111112;
 }
 
 .event-detail .btn {
@@ -2682,7 +2682,7 @@ li > a {
 }
 
 .event-detail .btn-reg {
-    background-color: #FBBF3F;
+    background-color: #111112;
     height: 2.7em;
 }
 
@@ -2711,7 +2711,7 @@ li > a {
 .sidebar .contact-div,
 .contact-div h4,
 .contact-div p {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: #f1eeee;
     padding-top: 1em;
 }
@@ -2784,7 +2784,7 @@ li > a {
 }
 .other-events .card-date {
     font-family: "Montserrat", sans-serif;
-    color: #FBBF3F;
+    color: #111112;
     font-size: 10px;
     line-height: 1.4;
 }
@@ -2800,7 +2800,7 @@ li > a {
     font-size: 10px;
 }
 .other-events .card-loc {
-    color: #FBBF3F;
+    color: #111112;
     font-size: 12px;
     padding-left: 6px;
 }
@@ -2872,7 +2872,7 @@ li > a {
     padding-top: 0.5em;
 }
 .bio-info h2 {
-    color: #FBBF3F;
+    color: #111112;
     font-size: 18px;
     font-weight: 700;
 }
@@ -2888,7 +2888,7 @@ li > a {
 .bio-info a > i {
     padding-left: 5px;
     font-size: 16px;
-    color: #FBBF3F;
+    color: #111112;
 }
 
 .member-desc p,
@@ -3457,7 +3457,7 @@ li > a {
 }
 
 .publicationspage .publication .btn-primary {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: white;
     height: 2.4em;
     width: 10em;
@@ -3466,7 +3466,7 @@ li > a {
 }
 .publicationspage .publication .btn-primary:hover {
     background-color: #fdfdfd;
-    border: #FBBF3F 1px solid;
+    border: #111112 1px solid;
 }
 .publicationspage .media-spanmb {
     padding-left: 2px;
@@ -3597,7 +3597,7 @@ Media Page
 
 .featured-options .btn {
     background-color: rgb(247, 241, 241);
-    border: solid 2px #FBBF3F;
+    border: solid 2px #111112;
     color: rgb(41, 39, 39);
     text-transform: uppercase;
     padding-top: 0.2em;
@@ -3605,7 +3605,7 @@ Media Page
     width: 10em;
 }
 .featured-options .btn:hover {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: #dae6da;
 }
 
@@ -3613,7 +3613,7 @@ Media Page
     padding-left: 7px;
 }
 .featured-options .btn:focus {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: white;
     outline-style: none;
     box-shadow: none;
@@ -3805,7 +3805,7 @@ Media Page
     font-size: 15px;
 }
 .publication .btn-primary {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: white;
     height: 2.4em;
 }
@@ -3927,11 +3927,11 @@ audio::-webkit-media-controls-panel {
     flex-direction: row;
 }
 .card .card-link {
-    color: #FBBF3F;
+    color: #111112;
     font-weight: 600;
 }
 .card-content .card-link {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: #fcf9f9;
     padding-left: 0.6em;
     padding-top: 0.4em;
@@ -3972,7 +3972,7 @@ audio::-webkit-media-controls-panel {
     padding-left: 100px;
 }
 .no-pos .social a {
-    color: #FBBF3F;
+    color: #111112;
     padding-right: 16px;
 }
 /*********************************
@@ -3994,7 +3994,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .job-desc a .btn .btn-reply {
-    background-color: #FBBF3F;
+    background-color: #111112;
     color: #e0f2df;
     width: 120px;
     height: 40px;
@@ -4035,7 +4035,7 @@ audio::-webkit-media-controls-panel {
 
 #job-form fieldset input:focus,
 [type="text"]:focus {
-    border: #FBBF3F 2px solid;
+    border: #111112 2px solid;
     --tw-ring-color: transparent;
 }
 
@@ -4106,7 +4106,7 @@ audio::-webkit-media-controls-panel {
 }
 
 #contact-submit {
-    background-color: #FBBF3F;
+    background-color: #111112;
     width: 11rem;
     height: 2.6rem;
     padding: 4px;
@@ -4236,7 +4236,7 @@ audio::-webkit-media-controls-panel {
     transform: translateX(-50%);
     width: 58px;
     height: 2px;
-    background: #FBBF3F;
+    background: #111112;
     content: "";
 }
 .footer_links ul,
@@ -4253,7 +4253,7 @@ audio::-webkit-media-controls-panel {
     line-height: 1.2;
 }
 .footer_links ul li a:hover {
-    color: #FBBF3F;
+    color: #111112;
 }
 .footer_news_title a {
     font-size: 14px;

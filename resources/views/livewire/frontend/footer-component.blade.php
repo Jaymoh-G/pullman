@@ -9,11 +9,11 @@
                             <img
                                 style="height: 50px; width: 160px"
                                 class="ml-1"
-                                src="/images/power white.png"
+                                src="/images/logo_pullman.png"
                             />
                         </div>
                         <div class="footer_about_text">
-                            <p>Mobilising climate action in Africa</p>
+                            <p>Earth works experts</p>
                         </div>
                     </div>
                 </div>
