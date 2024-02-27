@@ -192,7 +192,7 @@
                             <div id="google_map" class="google_map">
                                 <div class="map_container">
                                     <iframe
-                                        src="https://www.google.com/maps/d/embed?mid=11e_dxql1dXQRMOAfw5HXJqGa0f_6Gj1X&ehbc=2E312F"
+                                        src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d127642.00860789666!2d36.817222!3d-1.286389!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMcKwMTcnMTEuMCJTIDM2wrA0OScwMi4wIkU!5e0!3m2!1sen!2snl!4v1709054263886!5m2!1sen!2snl"
                                         width="100%"
                                         height="480"
                                     ></iframe>

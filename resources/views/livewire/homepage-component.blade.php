@@ -413,7 +413,7 @@
                                     <h3 class="media-subtitle">
                                       {{$publication->title}}
                                     </h3></a>
-                                    <a
+                                    <!-- <a
                                         href="{{'/'.$publication->file_path}}"
                                         class="btn btn-primary pt-1 publication-download-button"
                                     >
@@ -422,7 +422,7 @@
                                             aria-hidden="true"
                                         ></i>
                                         Download
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                             @empty Publications not found @endforelse

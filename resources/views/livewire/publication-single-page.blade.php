@@ -108,7 +108,7 @@
                         </p>
 
                         <div>{!!$publication->description!!}</div>
-                        <a
+                        <!-- <a
                             href="{{'/'.$publication->file_path}}"
                             class="btn btn-primary pt-1"
                         >
@@ -117,6 +117,16 @@
                                 aria-hidden="true"
                             ></i>
                             Download
+                        </a> -->
+                        <a
+                            href="{{ route('frontend.contactUs') }}"
+                            class="btn btn-primary pt-1"
+                        >
+                            <i
+                                class="fa fa-cloud-download"
+                                aria-hidden="true"
+                            ></i>
+                            Contact Us
                         </a>
                     </div>
                 </div>

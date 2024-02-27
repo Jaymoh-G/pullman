@@ -163,8 +163,8 @@
               </li>
               <li class="menu-item dropdown nav-item"><a class="nav-link {{ $this->checkActivePage('joinUs') }}" href="{{route('frontend.careers')}}"><span>Join Us</span> <i class="bi bi-chevron-down"></i></a>
               </li> -->
-              <li class="menu-item dropdown nav-item"><a class="nav-link {{ $this->checkActivePage('contactUs') }}" href="{{route('frontend.contactUs')}}"><span>Get a Quote</span> <i class="bi bi-chevron-down"></i></a>
-              </li>
+              <!-- <li class="menu-item dropdown nav-item"><a class="nav-link {{ $this->checkActivePage('contactUs') }}" href="{{route('frontend.contactUs')}}"><span>Get a Quote</span> <i class="bi bi-chevron-down"></i></a>
+              </li> -->
               <li class="menu-item dropdown nav-item"><a class="nav-link {{ $this->checkActivePage('contactUs') }}" href="{{route('frontend.contactUs')}}"><span>Contact Us</span> <i class="bi bi-chevron-down"></i></a>
               </li>
             </ul>
