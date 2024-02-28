@@ -200,61 +200,61 @@
             </div>
             <div class="container-full cards">
                 <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <div class="card">
-                            @if (count($latestPressRelease) > 0)
-                            <div class="img-preview">
-                                <img
-                                    class="card-img-top post-img"
-                                    src="{{'/'.$latestPressRelease[0]->image}}"
-                                    alt="Card image cap"
-                                    width="330"
-                                    height="247"
-                                />
-                                <p class="power-title">
-                                    <a href="/{{$latestPressRelease[0]->category_slug}}">
-                                        {{$latestPressRelease[0]->category->name}}
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="container">
-                                <div class="row pl-2">
-                                    <div class="col-10 col-sm-10">
-                                        <a
-                                            href="{{route('frontend.blog.details',['category'=>$latestPressRelease[0]->category->slug,'slug'=>$latestPressRelease[0]->slug])}}"
-                                        >
-                                            <h5 class="card-title pt-2 pl-0">
-                                                {{$latestPressRelease[0]->titleExcerpt()}}
-                                            </h5>
-                                            <div class="card-body pt-0 pl-0">
-                                                <p class="card-text">
-
-                                                </p>
-                                                <i class="fa
-                                                        fa-calendar-check-o"></i>
-                                                <span class="card-date"
-                                                    >
-                                                    {!! htmlspecialchars_decode($latestPressRelease[0]->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
-                                                </span
-                                                >
-                                                <div class="readmore-sec2">
-                                                    <a
-                                                        href="{{route('frontend.blog.details',['category'=>$latestPressRelease[0]->category->slug,'slug'=>$latestPressRelease[0]->slug])}}"
-                                                        class="btn btn-primary pt-1"
-                                                        >Read More
-                                                    </a>
-                                                </div>
-                                            </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="card">
+                                @if (count($latestPressRelease) > 0)
+                                <div class="img-preview">
+                                    <img
+                                        class="card-img-top post-img"
+                                        src="{{'/'.$latestPressRelease[0]->image}}"
+                                        alt="Card image cap"
+                                        width="330"
+                                        height="247"
+                                    />
+                                    <p class="power-title">
+                                        <a href="/{{$latestPressRelease[0]->category_slug}}">
+                                            {{$latestPressRelease[0]->category->name}}
                                         </a>
+                                    </p>
+                                </div>
+                                <div class="container">
+                                    <div class="row pl-2">
+                                        <div class="col-10 col-sm-10">
+                                            <a
+                                                href="{{route('frontend.blog.details',['category'=>$latestPressRelease[0]->category->slug,'slug'=>$latestPressRelease[0]->slug])}}"
+                                            >
+                                                <h5 class="card-title pt-2 pl-0">
+                                                    {{$latestPressRelease[0]->titleExcerpt()}}
+                                                </h5>
+                                                <div class="card-body pt-0 pl-0">
+                                                    <p class="card-text">
+
+                                                    </p>
+                                                    <!-- <i class="fa
+                                                            fa-calendar-check-o"></i>
+                                                    <span class="card-date"
+                                                        >
+                                                        {!! htmlspecialchars_decode($latestPressRelease[0]->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
+                                                    </span
+                                                    > -->
+                                                    <div class="readmore-sec2">
+                                                        <a
+                                                            href="{{route('frontend.blog.details',['category'=>$latestPressRelease[0]->category->slug,'slug'=>$latestPressRelease[0]->slug])}}"
+                                                            class="btn btn-primary pt-1"
+                                                            >Read More
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
+                                @else
+                                <p>Latest press release not found</p>
+                                @endif
                             </div>
-                            @else
-                            <p>Latest press release not found</p>
-                            @endif
-                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="card">
                             @if (count($latestPowershiftNews) > 0)
                             <div class="img-preview">
@@ -311,6 +311,60 @@
                             <p>See our featured works</p>
                             @endif
                         </div>
+                    </div> -->
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <div class="card">
+                            @if (count($latestPressRelease) > 0)
+                            <div class="img-preview">
+                                <img
+                                    class="card-img-top post-img"
+                                    src="{{'/'.$latestPressRelease[0]->image}}"
+                                    alt="Card image cap"
+                                    width="330"
+                                    height="247"
+                                />
+                                <p class="power-title">
+                                    <a href="/{{$latestPressRelease[0]->category_slug}}">
+                                        {{$latestPressRelease[0]->category->name}}
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="container">
+                                <div class="row pl-2">
+                                    <div class="col-10 col-sm-10">
+                                        <a
+                                            href="{{route('frontend.blog.details',['category'=>$latestPressRelease[0]->category->slug,'slug'=>$latestPressRelease[0]->slug])}}"
+                                        >
+                                            <h5 class="card-title pt-2 pl-0">
+                                                {{$latestPressRelease[0]->titleExcerpt()}}
+                                            </h5>
+                                            <div class="card-body pt-0 pl-0">
+                                                <p class="card-text">
+
+                                                </p>
+                                                <!-- <i class="fa
+                                                        fa-calendar-check-o"></i>
+                                                <span class="card-date"
+                                                    >
+                                                    {!! htmlspecialchars_decode($latestPressRelease[0]->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
+                                                </span
+                                                > -->
+                                                <div class="readmore-sec2">
+                                                    <a
+                                                        href="{{route('frontend.blog.details',['category'=>$latestPressRelease[0]->category->slug,'slug'=>$latestPressRelease[0]->slug])}}"
+                                                        class="btn btn-primary pt-1"
+                                                        >Read More
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            @else
+                            <p>Latest press release not found</p>
+                            @endif
+                        </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="card">
@@ -342,13 +396,13 @@
                                                 <p class="card-text">
 
                                                 </p>
-                                                <i class="fa
+                                                <!-- <i class="fa
                                                         fa-calendar-check-o"></i>
                                                 <span class="card-date"
                                                     >
                                                     {!! htmlspecialchars_decode($latestPressRelease[0]->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
                                                 </span
-                                                >
+                                                > -->
                                                 <div class="readmore-sec2">
                                                     <a
                                                         href="{{route('frontend.blog.details',['category'=>$latestPressRelease[0]->category->slug,'slug'=>$latestPressRelease[0]->slug])}}"
