@@ -20,7 +20,7 @@
 
         .btn-cookie{
     border: 1px solid #EE1C25;
-    background: #4dae47;
+    background: #EE1C25;
     color: #fff;
     display: inline-block;
     text-decoration: none;
@@ -34,8 +34,8 @@
     transition: 1s;
         }
     .btn-cookie::after{
-    background: #4dae47;
+    background: #EE1C25;
 }
     .btn-cookie::before{
-    background: #4dae47;
+    background: #EE1C25;
      }

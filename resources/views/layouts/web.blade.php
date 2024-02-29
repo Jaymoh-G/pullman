@@ -46,8 +46,8 @@
             content="{{ isset($metaDescription) ? $metaDescription : $title }}"
         />
         @else
-        <title>Power Shift Africa</title>
-        <meta name="description" content="Power shift Africa" />
+        <title>Pullman Construction</title>
+        <meta name="description" content="Pullman construction" />
         @endif
         <!-- Google Tag Manager -->
         <script>

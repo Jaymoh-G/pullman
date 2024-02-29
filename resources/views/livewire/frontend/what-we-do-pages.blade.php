@@ -150,7 +150,7 @@
         <!-- WHAT WE HAVE DONE -->
         <div class="container-full section-done">
           <div class="container">
-            <h2>Our statistics on renewable energy</h2>
+            <h2>Statistics on our services</h2>
             <div class="row">
               <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                <p>{{$this->whatWeDos->partnerCountries}} <br> <span style="color:white">Equipment availability</span></p>
@@ -163,41 +163,54 @@
               </div>
             </div>
           </div>
-
         </div>
 
-		<!-- PARTNERS SECTION  -->
-    <div class="container-full partners pt-2 mb-4">
-      <div class="container text-center">
-          <h2 class="styled-h2 media_title">Publications</h2>
-      </div>
-      <!-- Top content -->
-      <div class="swiper-container partners-slider">
-          <div class="swiper-wrapper">
-              @if(!is_null($publications)) @forelse ($publications as $publication)
-              <div class="swiper-slide slide">
-                <div class="slider">
-                  <img
-                      class="pdficon-img"
-                      src="{{'/'.$publication->publication_image}}"
-                      alt="{{$publication->title}}"
-                      srcset=""
-                      style="object-fit: cover;"
-                  />
-                  <a href="{{route('frontend.publications.detail',['slug'=>$publication->slug])}}" > <p>{{$publication->title}} </p></a>
-                  <a href="{{'/'.$publication->file_path}}" class="btn btn-primary pt-1">
-                    <i class="fa fa-cloud-download" aria-hidden="true"></i>Download
-                  </a>
+		<!-- WORKS SECTION  -->
+
+  <div class="container-full press">
+            <div class="container">
+            <div class="container text-center">
+                <h2 class="styled-h2 media_title mb-5">Our Works</h2>
+            </div>
+                <div class="row latest-row">
+                    @forelse($latestPressRelease as $pr)
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="{{"/".$pr->image}}"
+                            alt="{{$pr->title}}" />
+                            <div class="card-body">
+                                <p class="card-text-head">
+                                    {{$pr->category->name}}
+                                </p>
+                                <a
+                                    href="{{route('frontend.blog.details',['category'=>$pr->category->name,'slug'=>$pr->slug])}}"
+
+                                >
+                                    <h6 class="card-title">
+                                        {{$pr->titleExcerpt()}}
+                                    </h6>
+                                    <p class="readmore-sec2">
+                                            <a
+                                                href="{{route('frontend.blog.details',['category'=>$pr->category->name,'slug'=>$pr->slug])}}"
+                                                class="btn btn-primary pt-1"
+                                                >Read More
+                                            </a>
+                                    </p>
+                                </a>
+                                    
+                                <!-- <i class="fas fa-calendar-check"></i>
+                            <span class="card-date">
+                                {!! htmlspecialchars_decode($pr->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
+                            </span> -->
+                            </div>
+                        </div>
+                    </div>
+                    @empty
+                    <p>No post found.</p>
+                    @endforelse
                 </div>
-              </div>
-              @empty
-              <p>No publication found.</p>
-              @endforelse @endif
-          </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-      </div>
-  </div>
+            </div>
+        </div>
 
 	<!-- GET IN TOUCH SECTION -->
   <div class="get-in-touch">

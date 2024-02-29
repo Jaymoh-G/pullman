@@ -17,6 +17,7 @@ storage/framework/views
 /storage/*.key
 /vendor
 .env
+.exampleenv
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml

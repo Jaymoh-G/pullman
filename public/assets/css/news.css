@@ -86,7 +86,7 @@ a:link {
     text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 a:hover {
-    color: #4dae47 !important;
+    color: #EE1C25 !important;
 }
 h1 {
     font-size: 48px;
@@ -200,7 +200,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 3px;
-    background: #4dae47;
+    background: #EE1C25;
     content: "";
     z-index: 0;
     -webkit-transition: all 400ms cubic-bezier(0.33, 0.68, 0.59, 0.99);
@@ -243,7 +243,7 @@ section {
     top: 0;
     width: 54px;
     height: 3px;
-    background: #4dae47;
+    background: #EE1C25;
     content: "";
 }
 .section_title_light h2 {
@@ -297,7 +297,7 @@ section {
 }
 .emergencies {
     height: 100%;
-    background: #4dae47;
+    background: #EE1C25;
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
@@ -386,13 +386,13 @@ section {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #4dae47;
+    background: #EE1C25;
 }
 .logo {
     margin-top: 27px;
 }
 .logo span {
-    color: #4dae47;
+    color: #EE1C25;
 }
 .logo_container a .logo:hover {
     color: #283290;
@@ -407,7 +407,7 @@ section {
     display: inline-block;
     width: 23px;
     height: 23px;
-    background: #4dae47;
+    background: #EE1C25;
     color: #ffffff;
     font-size: 24px;
     line-height: 23px;
@@ -542,7 +542,7 @@ section {
 }
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after {
-    background: #4dae47;
+    background: #EE1C25;
 }
 .menu_extra {
     position: absolute;
@@ -587,7 +587,7 @@ section {
     color: #ffffff;
 }
 .home_title span {
-    color: #4dae47;
+    color: #EE1C25;
 }
 .breadcrumbs {
     margin-top: -2px;
@@ -639,7 +639,7 @@ section {
     top: 21px;
     width: 69px;
     height: 69px;
-    background: #4dae47;
+    background: #EE1C25;
 }
 .news_day {
     display: inline-block;
@@ -678,7 +678,7 @@ section {
     top: 0;
     width: 54px;
     height: 3px;
-    background: #4dae47;
+    background: #EE1C25;
     content: "";
 }
 .news_info {
@@ -707,7 +707,7 @@ section {
 }
 .news_author a,
 .news_tags a {
-    color: #4dae47;
+    color: #EE1C25;
 }
 .news_text {
     margin-top: 28px;
@@ -720,7 +720,7 @@ section {
     position: relative;
     font-size: 15px;
     font-weight: 400;
-    color: #4dae47;
+    color: #EE1C25;
     line-height: 0.75;
 }
 .news_link a::after {
@@ -730,7 +730,7 @@ section {
     left: 0;
     width: 100%;
     height: 1px;
-    background: #4dae47;
+    background: #EE1C25;
     content: "";
 }
 .news_page_nav {
@@ -749,7 +749,7 @@ section {
     line-height: 0.75;
 }
 .news_page_nav ul li.active a {
-    color: #4dae47;
+    color: #EE1C25;
 }
 
 /*********************************
@@ -804,7 +804,7 @@ section {
     right: 0;
     width: 56px;
     height: 56px;
-    background: #4dae47;
+    background: #EE1C25;
     text-align: center;
     border: none;
     outline: none;
@@ -828,7 +828,7 @@ section {
     right: 0;
     width: calc(100% - 107px);
     height: 2px;
-    background: #4dae47;
+    background: #EE1C25;
     content: "";
 }
 .sidebar_title {
@@ -872,7 +872,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #4dae47;
+    background: #EE1C25;
     content: "";
 }
 .box_title {
@@ -923,7 +923,7 @@ section {
     bottom: 0;
     width: 100%;
     height: 4px;
-    background: #4dae47;
+    background: #EE1C25;
     content: "";
 }
 .ad_background {
@@ -950,7 +950,7 @@ section {
     line-height: 1.46;
 }
 .ad_text span {
-    color: #4dae47;
+    color: #EE1C25;
 }
 .ad_button {
     margin-top: 37px;

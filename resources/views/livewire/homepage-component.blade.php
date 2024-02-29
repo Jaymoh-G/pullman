@@ -202,8 +202,8 @@
                     @forelse($latestPressRelease as $pr)
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
-                            <img class="card-img-top" src="{{"/".$pr->image}}"
-                            alt="{{$pr->title}}" />
+                        <img class="card-img-top post-img" src='{{"/".$pr->image}}' alt="{{$pr->title}}"
+                        width="330" height="247" alt="{{$pr->title}}" />
                             <div class="card-body">
                                 <p class="card-text-head">
                                     {{$pr->category->name}}
@@ -223,11 +223,6 @@
                                             </a>
                                     </p>
                                 </a>
-                                    
-                                <!-- <i class="fas fa-calendar-check"></i>
-                            <span class="card-date">
-                                {!! htmlspecialchars_decode($pr->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
-                            </span> -->
                             </div>
                         </div>
                     </div>

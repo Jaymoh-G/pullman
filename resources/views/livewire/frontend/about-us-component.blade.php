@@ -21,7 +21,7 @@
         @media only screen and (min-width: 1300px) {
             .about-image img {
                 width: 450px;
-                height: 403px;
+                height: 250px;
                 margin-top: 13px;
             }
 
@@ -204,7 +204,7 @@
         <!-- PARTNERS SECTION  -->
         <div class="container-full partners pt-2 mb-4">
             <div class="container text-center">
-                <h2 class="styled-h2 media_title">Partners</h2>
+                <h2 class="styled-h2 media_title" style="color:#111112">Clients</h2>
             </div>
             <!-- Top content -->
             <div class="swiper-container partners-slider">
@@ -232,7 +232,7 @@
             <div class="row">
                 <div class="col">
                     <div>
-                        <h2 class="styled-h2">Subscribe to our newsletter</h2>
+                        <h2 class="styled-h2" style="color:#111112">Subscribe to our newsletter</h2>
                     </div>
                 </div>
             </div>
@@ -301,7 +301,7 @@
                     slidesPerView: 3,
                 },
                 1024: {
-                    slidesPerView: 5,
+                    slidesPerView: 3,
                 },
             },
             navigation: {
