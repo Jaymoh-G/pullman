@@ -25,21 +25,17 @@
                         <div class="footer_title">Useful Links</div>
                         <ul class="footerlinks">
                             <li>
-                                <a href="{{ route('frontend.publications') }}"
-                                    >Publications</a
+                                <a href="{{route('homepage.index')}}"
+                                    >Home</a
                                 >
                             </li>
                             <li>
-                                <a href="{{ route('frontend.careers') }}"
-                                    >Careers</a
+                                <a href="{{route('frontend.aboutus')}}"
+                                    >About Us</a
                                 >
                             </li>
-                            <li>
-                                <a href="{{ route('frontend.events') }}"
-                                    >Events</a
-                                >
-                            </li>
-                            @foreach ($categories as $category)
+                                                        
+                            <!-- @foreach ($categories as $category)
                             <li class="dropdown">
                                 <a
                                     href="{{route('frontend.blog.categories',['categorySlug'=>$category->slug])}}"
@@ -47,7 +43,7 @@
                                     <i class="bi bi-chevron-right"></i
                                 ></a>
                             </li>
-                            @endforeach
+                            @endforeach -->
 
                             <li>
                                 <a href="{{ route('frontend.contactUs') }}"
@@ -60,32 +56,42 @@
 
                 <!-- Footer - News -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer_col">
-                    <div class="footer_news footer_column">
-                        <div class="footer_title">Twitter Feed</div>
-                        <!-- Twitter section -->
-                        <div class="twitter-footer">
-                            <!-- <a
-                                class="twitter-timeline"
-                                data-width="400"
-                                data-height="200"
-                                href="https://twitter.com/PowerShftAfrica?ref_src=twsrc%5Etfw"
-                            >
-                            </a> -->
-                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            <!-- <script>
-                                var script = document.createElement("script");
-                                script.src =
-                                    "https://platform.twitter.com/widgets.js";
-                                document.addEventListener(
-                                    "DOMContentLoaded",
-                                    function (event) {
-                                        document
-                                            .getElementsByTagName("head")[0]
-                                            .appendChild(script);
-                                    }
-                                );
-                            </script> -->
-                        </div>
+                <div class="footer_links footer_column">
+                        <div class="footer_title">What We Do</div>
+                        <ul class="footerlinks">
+                            <li>
+                                <a href="{{route('homepage.index')}}"
+                                    >Excavation and Dumping</a
+                                >
+                            </li>
+                            <li>
+                                <a href="{{route('frontend.aboutus')}}"
+                                    >Water and Sewer Works</a
+                                >
+                            </li>
+                                                        
+                            <!-- @foreach ($categories as $category)
+                            <li class="dropdown">
+                                <a
+                                    href="{{route('frontend.blog.categories',['categorySlug'=>$category->slug])}}"
+                                    ><span>{{$category->name}}</span>
+                                    <i class="bi bi-chevron-right"></i
+                                ></a>
+                            </li>
+                            @endforeach -->
+
+                            <li>
+                                <a href="{{ route('frontend.contactUs') }}"
+                                    >Equipments and Machine Hire</a
+                                >
+                            </li>
+
+                            <li>
+                                <a href="{{ route('frontend.contactUs') }}"
+                                    >Building materials supply</a
+                                >
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer_col">
@@ -159,16 +165,16 @@
                         class="copyright_content d-flex flex-lg-row flex-column align-items-lg-center justify-content-start"
                     >
                         <div class="cr">
-                            Copyright &copy;2022 All rights reserved by
+                            Copyright &copy;2023 All rights reserved by
                             <a href="" target="_blank"
-                                ><span>Power Shift Africa</span></a
+                                ><span>Pullman Construction</span></a
                             >
                         </div>
                         <div class="footer_social ml-lg-auto mr-5 mt-2 mb-2">
                             <ul>
                                 <li>
                                     <a
-                                        href="https://web.facebook.com/PowerShiftAfrica"
+                                        href="#"
                                         ><i
                                             class="fab fa-facebook"
                                             aria-hidden="true"
@@ -177,7 +183,7 @@
                                 </li>
                                 <li>
                                     <a
-                                        href="https://twitter.com/PowerShftAfrica"
+                                        href="#"
                                         ><i
                                             class="fab fa-twitter"
                                             aria-hidden="true"
@@ -186,7 +192,7 @@
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.instagram.com/powershiftafrica/"
+                                        href="#"
                                         ><i
                                             class="fab fa-instagram"
                                             aria-hidden="true"
@@ -196,7 +202,7 @@
 
                                 <li>
                                     <a
-                                        href="https://www.linkedin.com/company/power-shift-africa/"
+                                        href="#"
                                         ><i
                                             class="fab fa-linkedin"
                                             aria-hidden="true"
@@ -205,7 +211,7 @@
                                 </li>
                                 <li>
                                     <a
-                                        href="https://www.youtube.com/channel/UCgqnhtjPBFpFPFZumh2kXJQ"
+                                        href="#"
                                         ><i
                                             class="fab fa-youtube"
                                             aria-hidden="true"

@@ -22,7 +22,7 @@
 
       }
       .styled-h2 {
-          color: #663f17;
+          color: #EE1C25;
       }
 
       .swiper-wrapper{

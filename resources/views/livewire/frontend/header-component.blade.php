@@ -116,16 +116,7 @@
 
             <ul class="top-menu">
               <li class="menu-item nav-item"><a class="nav-link {{ $this->checkActivePage('home') }}" href="{{route('homepage.index')}}">Home</a></li>
-              <li class="menu-item has-sub-menu dropdown nav-item">
-                <a class="nav-link {{ $this->checkActivePage('aboutUs') }}" href="#" ><span>About Us</span>
-                  <span class="show-sub-menu"><i class="fa fa-plus"></i></span>
-                  <span class="close-sub-menu"><i class="fa fa-times"></i></span>
-                </a>
-                <ul class="sub-menu">
-                  <li class="menu-item"><a href="{{route('frontend.aboutus')}}" >Who we are</a></li>
-                  <li class="menu-item"><a href="{{route('frontend.team')}}">Our Team</a></li>
-                </ul>
-              </li>
+              <li class="menu-item nav-item"><a class="nav-link {{ $this->checkActivePage('aboutUs') }}" href="{{route('frontend.aboutus')}}">About Us</a></li>
               <li class="menu-item has-sub-menu dropdown nav-item">
                 <a href="{{route('frontend.whatWeDo')}}" class="nav-link {{ $this->checkActivePage('whatWeDo') }}" ><span>What We Do</span>
                   <span class="show-sub-menu"><i class="fa fa-plus"></i></span>
@@ -135,7 +126,6 @@
                   @forelse ($whatWeDos as $whatWeDo)
                     <li class="menu-item"><a href="{{route('frontend.whatWeDo.page', ['slug'=>$whatWeDo->slug])}}" >{{$whatWeDo->title}}</a></li>
                   @empty
-
                   @endforelse
                 </ul>
               </li>

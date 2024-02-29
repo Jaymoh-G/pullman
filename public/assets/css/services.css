@@ -195,7 +195,7 @@ section {
 .button {
     display: inline-block;
     height: 51px;
-    background: #663f17;
+    background: #EE1C25;
 }
 .button::after {
     display: block;
@@ -277,7 +277,7 @@ section {
 
 .top_bar {
     width: 100%;
-    background: #663f17;
+    background: #EE1C25;
 }
 .top_bar_content {
     width: 100%;
@@ -639,7 +639,7 @@ section {
     padding-bottom: 57px;
 }
 .service:hover {
-    background: #663f17;
+    background: #EE1C25;
 }
 .service::after {
     display: block;
@@ -736,7 +736,7 @@ section {
 
 .features {
     width: 100%;
-    background: #663f17;
+    background: #EE1C25;
     padding-top: 95px;
     padding-left: 62px;
     padding-right: 63px;

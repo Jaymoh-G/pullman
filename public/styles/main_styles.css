@@ -195,7 +195,7 @@ section {
 .button {
     display: inline-block;
     height: 51px;
-    background: #663f17;
+    background: #EE1C25;
 }
 .button::after {
     display: block;
@@ -216,7 +216,7 @@ section {
 
 .sidebar-button {
     border: 1px solid #e5e5e5;
-    color: #663f17;
+    color: #EE1C25;
     margin: 1px auto;
     padding: 7px;
     font-weight: 500;
@@ -339,7 +339,7 @@ section {
 }
 #topbar .fa-envelope,
 #topbar .fa-phone {
-    color: #663f17;
+    color: #EE1C25;
 }
 #topbar .fa span {
     color: white;
@@ -986,12 +986,12 @@ section {
 .box_title {
     font-size: 12px;
     font-weight: 800;
-    color: #663f17;
+    color: #EE1C25;
     margin-top: 11px;
     text-transform: uppercase;
 }
 .box-brown {
-    background: #663f17;
+    background: #EE1C25;
     color: #eaf2d7;
 }
 .box-brown .box_title,
@@ -1383,7 +1383,7 @@ section {
 
 /* Projects section */
 .projects .styled-h2 {
-    color: #663f17;
+    color: #EE1C25;
     margin-top: 1em;
 }
 /***** Top content *****/
@@ -1409,7 +1409,7 @@ section {
 .carousel-item .proj-name p {
     position: relative;
     background-color: #f7f3f3;
-    color: #663f17;
+    color: #EE1C25;
     font-weight: 500;
     padding-top: 0.6em;
     height: 54px;
@@ -1423,7 +1423,7 @@ section {
     left: 2em;
 }
 .carousel-item .proj-name .btn:hover {
-    background-color: #663f17;
+    background-color: #EE1C25;
     cursor: pointer;
 }
 .carousel-item .proj-name {
@@ -1466,7 +1466,7 @@ section {
     width: 120px;
 }
 .get-in-touch .btn:hover {
-    background-color: #663f17;
+    background-color: #EE1C25;
     cursor: pointer;
 }
 
@@ -1569,7 +1569,7 @@ section {
 }
 
 .section2 h2 {
-    color: #663f17;
+    color: #EE1C25;
     font-size: 19px;
     font-weight: 800;
     text-transform: uppercase;
@@ -1714,7 +1714,7 @@ section {
 }
 
 .searches .searches-found h2 > span {
-    color: #663f17;
+    color: #EE1C25;
     font-style: italic;
     font-size: 28px;
 }
@@ -1774,7 +1774,7 @@ hr {
     margin-bottom: 6%;
 }
 .latest .styled-h2 {
-    color: #663f17;
+    color: #EE1C25;
     font-weight: 600;
 }
 
@@ -1791,7 +1791,7 @@ hr {
 }
 
 .btn {
-    background-color: #663f17;
+    background-color: #EE1C25;
     border: none;
     border-radius: 0;
     font-size: 14px;
@@ -1873,7 +1873,7 @@ hr {
 
 .joinUs_button {
     margin-top: 50px;
-    background-color: #663f17;
+    background-color: #EE1C25;
     width: 150px;
     height: 40px;
     padding-top: 8px;
@@ -1885,7 +1885,7 @@ hr {
  Media
 *********************************/
 .media .styled-h2 {
-    color: #663f17;
+    color: #EE1C25;
     font-weight: 600;
 }
 
@@ -1994,7 +1994,7 @@ hr {
     padding-bottom: 57px;
 }
 .service:hover {
-    background: #663f17;
+    background: #EE1C25;
 }
 .service::after {
     display: block;
@@ -2206,7 +2206,7 @@ hr {
 }
 
 .blogs p > i {
-    color: #663f17;
+    color: #EE1C25;
     margin-top: 0;
 }
 .detail .blog-date {
@@ -2356,8 +2356,8 @@ hr {
     padding: 8px 21px;
     color: #fff;
     border-radius: 0;
-    background: #663f17;
-    border: 3px solid #663f17;
+    background: #EE1C25;
+    border: 3px solid #EE1C25;
     display: inline-block;
     height: 44px;
     width: 180px;
@@ -2367,7 +2367,7 @@ hr {
 }
 
 .btn-comment {
-    background-color: #663f17;
+    background-color: #EE1C25;
     width: 180px;
     cursor: pointer;
     margin-top: 0.8em;
@@ -2485,7 +2485,7 @@ hr {
     font-family: "Montserrat", sans-serif;
 }
 .user-reply .name {
-    color: #663f17;
+    color: #EE1C25;
     font-weight: 500;
     font-size: 14px;
 }
@@ -2528,7 +2528,7 @@ textarea {
 .reply-form input[type="text"]:focus,
 .reply-form textarea:focus {
     outline-style: none;
-    border: 1px solid #663f17;
+    border: 1px solid #EE1C25;
 }
 
 .reply-form [type="text"]:focus,
@@ -2584,11 +2584,11 @@ textarea {
     height: 50px;
     margin: 0;
     padding: 13px 23px 0 0;
-    color: #663f17;
+    color: #EE1C25;
     width: 343px;
 }
 li > a {
-    color: #663f17;
+    color: #EE1C25;
     padding-left: 0em;
     /* padding-top: 2em; */
     cursor: pointer;
@@ -2729,7 +2729,7 @@ li > a {
 }
 .contact-div .btn-contact {
     background-color: #f1eeee;
-    color: #663f17;
+    color: #EE1C25;
     margin-bottom: 2em;
     font-size: 13px;
     font-weight: 700;
@@ -2809,7 +2809,7 @@ li > a {
 }
 .other-events .btn-event:hover {
     height: 2.6em;
-    background-color: #663f17;
+    background-color: #EE1C25;
 }
 
 /*********************************
@@ -2896,7 +2896,7 @@ li > a {
     font-family: "Montserrat", sans-serif;
 }
 .member-desc .styled-h2 {
-    color: #663f17;
+    color: #EE1C25;
     text-transform: uppercase;
     font-size: 22px;
     letter-spacing: 0.1px;
@@ -2918,7 +2918,7 @@ li > a {
 
 .other-teams .styled-h2 {
     font-family: "Montserrat", sans-serif;
-    color: #663f17;
+    color: #EE1C25;
     padding-top: 2em;
     font-size: 26px;
     padding-left: 2em;
@@ -2934,7 +2934,7 @@ li > a {
 }
 .other-teams .team-name h2 {
     font-family: "Montserrat", sans-serif;
-    color: #663f17;
+    color: #EE1C25;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -3373,7 +3373,7 @@ li > a {
     font-size: 24px;
 }
 .btn:hover {
-    background-color: #663f17;
+    background-color: #EE1C25;
 }
 
 .events h2 {
@@ -3773,7 +3773,7 @@ Media Page
 }
 
 .gallery-page .cat-btns li > a {
-    color: #663f17;
+    color: #EE1C25;
     padding-left: 0.4em;
     cursor: pointer;
     font-size: 11px;

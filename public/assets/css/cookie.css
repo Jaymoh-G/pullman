@@ -3,10 +3,10 @@
         bottom:-100%;
         left:0;
         right:0;
-        background: #663f17;
+        background: #EE1C25;
         color:#f5f6fa;
         padding:0 32px;
-        box-shadow:0 -2px 16px #663f17; 
+        box-shadow:0 -2px 16px #EE1C25; 
 
         transition:400ms;
     }
@@ -19,7 +19,7 @@
         }
 
         .btn-cookie{
-    border: 1px solid #663f17;
+    border: 1px solid #EE1C25;
     background: #4dae47;
     color: #fff;
     display: inline-block;

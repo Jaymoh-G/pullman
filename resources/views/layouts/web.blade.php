@@ -234,7 +234,7 @@
             best experience on our website.
             <!-- <a
                 href="https://cookiesandyou.com/"
-                style="color: #663f17"
+                style="color: #EE1C25"
                 target="_blank"
                 >Learn more</a
             > -->

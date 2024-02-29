@@ -191,7 +191,7 @@ section {
 .button {
     display: inline-block;
     height: 51px;
-    background: #663f17;
+    background: #EE1C25;
 }
 .button::after {
     display: block;
@@ -273,7 +273,7 @@ section {
 
 .top_bar {
     width: 100%;
-    background: #663f17;
+    background: #EE1C25;
 }
 .top_bar_content {
     width: 100%;
@@ -856,7 +856,7 @@ section {
 .box {
     width: 100%;
     height: 287px;
-    background: #663f17;
+    background: #EE1C25;
     padding-left: 42px;
     padding-top: 29px;
     -webkit-transition: all 200ms ease;

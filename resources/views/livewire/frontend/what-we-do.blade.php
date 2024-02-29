@@ -41,18 +41,17 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center">
-                <h2>We are the best at what we do</h2>
+                <h2>We are the best at construction</h2>
                 <p class="pb-3">
-                    PSA’s mission is to mobilise climate action in Africa,
-                    amplify African voices through increased visibility in media
-                    and public communications, and leveraging this voice
-                    internationally. As part of our work, PSA is helping to
-                    build a dedicated group of African civil society
-                    organisations that will engage the Africa Renewable Energy
-                    Initiative (AREI) to ensure it delivers the proposed 10GW of
-                    new and additional renewable energy generation capacity by
-                    2020 and mobilise the African potential to generate at least
-                    300GW by 2030.
+                At Pullman Construction, we uphold the highest standards,
+                where excellence is not just a goal but our standard.
+                With a track record of successfully completing challenging
+                projects to the utmost satisfaction of our customers, 
+                we pride ourselves on being industry leaders. 
+                Our unwavering commitment to every project we undertake
+                remains steadfast, ensuring exceptional results every time.
+                Contact us today to experience the best in construction services.
+                Let's build something extraordinary together.
                 </p>
             </div>
         </div>
@@ -65,27 +64,30 @@
         <div class="row">
             <div class="climate-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img src="images/climate change.png" alt="" srcset="" />
-                <h2>Multilateral climate negotiations</h2>
+                <h2>Water and Sewer Works</h2>
                 <p>
-                    Civil society engagement in climate negotiations is
-                    important in advancing the needs of the people
+                From installation to maintenance, our Water and Sewer
+                works service offers comprehensive solutions for the 
+                development and upkeep of vital infrastructure, ensuring
+                the efficient flow of essential utilities.
                 </p>
                 <a
-                    href="{{route('frontend.whatWeDo.page',['slug'=>'multilateral-climate-negotiations'])}}"
+                    href="{{route('frontend.whatWeDo.page',['slug'=>'water-and-sewer-works'])}}"
                     class="btn text-white"
                     >Learn More</a
                 >
             </div>
             <div class="energy-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <i class="fas fa-fire box-icon"></i>
-                <h2>Renewable Energy</h2>
+                <h2>Excavation and Dumping</h2>
                 <p>
-                    Investing in reliable, affordable, distributed,
-                    people-centred, and modern power systems is important in
-                    ensuring that Africa makes the most of the benefits
+                With our expertise in earthmoving and waste management,
+                we provide reliable solutions for excavation and dumping
+                needs, guaranteeing safe and efficient handling of 
+                materials to meet project requirements.
                 </p>
                 <a
-                    href="{{route('frontend.whatWeDo.page',['slug'=>'renewable-energy'])}}"
+                    href="{{route('frontend.whatWeDo.page',['slug'=>'excavation-and-dumping'])}}"
                     class="btn text-white"
                     >Learn More</a
                 >
@@ -104,26 +106,30 @@
                     alt=""
                     srcset=""
                 />
-                <h2>Sustainable Development</h2>
+                <h2>Equipments and Machine Hire</h2>
                 <p>
-                    Climate change presents one of the most significant risks to
-                    Africa’s sustainable development objectives
+                Access top-quality machinery for your construction needs
+                with our Equipments and Machine Hire service, offering a 
+                diverse range of equipment for rent, ensuring optimal 
+                performance and productivity on-site.
                 </p>
                 <a
-                    href="{{route('frontend.whatWeDo.page',['slug'=>'sustainable-development'])}}"
+                    href="{{route('frontend.whatWeDo.page',['slug'=>'equipment-and-machine-hire'])}}"
                     class="btn text-white"
                     >Learn More</a
                 >
             </div>
             <div class="energy-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img src="images/climate resilience.png" alt="" srcset="" />
-                <h2>Climate Resilience</h2>
+                <h2>Building Materials Supply</h2>
                 <p>
-                    Extreme weather events caused by changing climate conditions
-                    are affecting many communities in Africa
+                Our Building Materials Supply service sources and delivers
+                essential construction materials, including cement, steel, 
+                and bricks, ensuring timely availability and quality
+                assurance for projects of any scale.
                 </p>
                 <a
-                    href="{{route('frontend.whatWeDo.page',['slug'=>'climate-resilience'])}}"
+                    href="{{route('frontend.whatWeDo.page',['slug'=>'building-materials-supply'])}}"
                     class="btn text-white"
                     >Learn More</a
                 >
@@ -135,22 +141,20 @@
 <!-- About fossil fuel -->
 <div class="whatwedo-cta">
     <div class="cta-content">
-        <h2>About fossil fuel project</h2>
+        <h2>Crafting Excellence in Construction</h2>
         <p>
-            The main cause of the climate emergency is fossil fuels. This global
-            initiative seeks to phase out fossil fuels and support a just
-            transition. Phasing out fossil fuel production, and fast-tracking
-            progress towards safer and more cost-effective alternatives, will
-            require unprecedented international cooperation in three main areas
-            – non-proliferation, global disarmament and a peaceful, just
-            transition
+        At Pullman Construction, we pride ourselves
+        on delivering top-quality construction solutions
+        tailored to meet your every need. From groundbreaking
+        projects to meticulous attention to detail, 
+        trust us to build your vision into reality
         </p>
         <p>
-            <a
-                style="color: white"
-                href="/latest/blog/why-the-world-needs-a-fossil-fuel-treaty"
-                >Read more</a
-            >
+        <a href="{{ route('frontend.contactUs') }}">
+                    <button class="btn btn-primary pt-1">
+                        Get In Touch
+                        <i class="pl-1 fas fa-chevron-right text"></i></button
+                ></a>
         </p>
     </div>
 </div>
@@ -160,9 +164,8 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-lg-9">
-                <p>
-                    Looking to partner with a think-tank for cutting-edge
-                    analysis and solutions
+                <p class="text-white">
+                    Looking to work with a seasoned and innovative team for construction solutions
                 </p>
             </div>
             <div class="col-lg-3">

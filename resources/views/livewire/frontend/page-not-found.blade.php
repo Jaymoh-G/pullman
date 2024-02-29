@@ -2,7 +2,7 @@
     <link rel="stylesheet" type="text/css" href="styles/carousel.css" />
     <style>
         .styled-h2 {
-            color: #663f17;
+            color: #EE1C25;
         }
     </style>
     <div class="super_container">
