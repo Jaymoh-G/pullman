@@ -36,7 +36,7 @@ class HomepageComponent extends Component{
         $this->latestPressRelease = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
                 ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
                 ->where('categories.name', '=', 'Press Releases')
-                ->take(1)->latest('blogs.updated_at')->get();
+                ->take(3)->latest('blogs.updated_at')->get();
         $this->latestPowershiftNews = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
                 ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
                 ->where('categories.name', '=', 'Power Shift in the News')

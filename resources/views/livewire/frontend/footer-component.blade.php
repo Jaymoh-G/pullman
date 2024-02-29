@@ -60,12 +60,12 @@
                         <div class="footer_title">What We Do</div>
                         <ul class="footerlinks">
                             <li>
-                                <a href="{{route('homepage.index')}}"
+                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'excavation-and-dumping'])}}"
                                     >Excavation and Dumping</a
                                 >
                             </li>
                             <li>
-                                <a href="{{route('frontend.aboutus')}}"
+                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'water-and-sewer-works'])}}"
                                     >Water and Sewer Works</a
                                 >
                             </li>
@@ -81,13 +81,13 @@
                             @endforeach -->
 
                             <li>
-                                <a href="{{ route('frontend.contactUs') }}"
+                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'equipment-and-machine-hire'])}}"
                                     >Equipments and Machine Hire</a
                                 >
                             </li>
 
                             <li>
-                                <a href="{{ route('frontend.contactUs') }}"
+                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'building-materials-supply'])}}"
                                     >Building materials supply</a
                                 >
                             </li>

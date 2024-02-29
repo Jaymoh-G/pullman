@@ -907,7 +907,7 @@ section {
     margin-right: 2px;
 }
 .breadcrumbs ul li:last-child {
-    color: #4dae47;
+    color: #EE1C25;
 }
 .breadcrumbs ul li,
 .breadcrumbs ul li a {
@@ -1598,9 +1598,9 @@ section {
     z-index: 1;
 }
 
-/* About fossil fuel */
+/* About Pullman */
 .whatwedo-cta {
-    background-image: url("/images/Group 167.png");
+    background-image: url("/images/pullmanbackground.png");
     height: 300px;
     background-position: center;
     background-size: cover;

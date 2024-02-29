@@ -63,8 +63,8 @@
     <div class="container">
         <div class="row">
             <div class="climate-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="images/climate change.png" alt="" srcset="" />
-                <h2>Water and Sewer Works</h2>
+                <img src="images/water.png" alt="" srcset="" />
+                <h2 style="color:#111112;">Water and Sewer Works</h2>
                 <p>
                 From installation to maintenance, our Water and Sewer
                 works service offers comprehensive solutions for the 
@@ -78,8 +78,8 @@
                 >
             </div>
             <div class="energy-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <i class="fas fa-fire box-icon"></i>
-                <h2>Excavation and Dumping</h2>
+            <img src="images/earthworks.png" alt="" srcset="" />
+                <h2 style="color:#111112;">Excavation and Dumping</h2>
                 <p>
                 With our expertise in earthmoving and waste management,
                 we provide reliable solutions for excavation and dumping
@@ -102,11 +102,11 @@
         <div class="row">
             <div class="climate-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img
-                    src="images/sustainable development.png"
+                    src="images/crane.png"
                     alt=""
                     srcset=""
                 />
-                <h2>Equipments and Machine Hire</h2>
+                <h2 style="color:#111112;">Equipments and Machine Hire</h2>
                 <p>
                 Access top-quality machinery for your construction needs
                 with our Equipments and Machine Hire service, offering a 
@@ -120,8 +120,8 @@
                 >
             </div>
             <div class="energy-box col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                <img src="images/climate resilience.png" alt="" srcset="" />
-                <h2>Building Materials Supply</h2>
+                <img src="images/materials.png" alt="" srcset="" />
+                <h2 style="color:#111112;">Building Materials Supply</h2>
                 <p>
                 Our Building Materials Supply service sources and delivers
                 essential construction materials, including cement, steel, 
