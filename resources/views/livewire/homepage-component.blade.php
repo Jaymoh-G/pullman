@@ -3,11 +3,11 @@
     <style>
         .pdficon-img {
             object-fit: cover;
-            width: 150px;
-            height: 180px;
+            width: 300px;
+            height: 148px;
         }
         .media-subtitle {
-            height: 70px !important;
+            height: 40px !important;
             padding-top: 10px;
         }
         .pub_text {
@@ -276,16 +276,12 @@
                                     <h3 class="media-subtitle">
                                       {{$publication->title}}
                                     </h3></a>
-                                    <!-- <a
-                                        href="{{'/'.$publication->file_path}}"
+                                    <a
+                                        href="{{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
                                         class="btn btn-primary pt-1 publication-download-button"
                                     >
-                                        <i
-                                            class="fa fa-cloud-download"
-                                            aria-hidden="true"
-                                        ></i>
-                                        Download
-                                    </a> -->
+                                        Read More
+                                    </a>
                                 </div>
                             </div>
                             @empty Publications not found @endforelse

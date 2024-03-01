@@ -1207,7 +1207,7 @@ section {
 
 /* About goals */
 .goals .container-full {
-    background-color: #e0f2df;
+    background-color: #f3dee4;
 }
 .goals img {
     margin-top: 2em;
@@ -1965,7 +1965,7 @@ hr {
 
 .subscriber {
     width: 100%;
-    background-color: #e0f2df;
+    background-color: #f3dee4;
     padding-top: 65px;
     padding-bottom: 35px;
 }
@@ -1975,7 +1975,7 @@ hr {
 
 .services {
     width: 100%;
-    background-color: #e0f2df;
+    background-color: #f3dee4;
     padding-top: 65px;
     padding-bottom: 35px;
 }
@@ -2751,7 +2751,7 @@ li > a {
 /* Subscribe section */
 .super-eventdetail .subscriber {
     width: 100%;
-    background-color: #e0f2df;
+    background-color: #f3dee4;
 }
 .super-eventdetail .subscriber .styled-h2 {
     font-family: "Montserrat", sans-serif;
@@ -3017,7 +3017,7 @@ li > a {
 
 .news-sec {
     height: auto;
-    background-color: #e0f2df;
+    background-color: #f3dee4;
     margin-bottom: 3em;
 }
 .latest-row .card-title a {
@@ -3995,7 +3995,7 @@ audio::-webkit-media-controls-panel {
 
 .job-desc a .btn .btn-reply {
     background-color: #111112;
-    color: #e0f2df;
+    color: #f3dee4;
     width: 120px;
     height: 40px;
 }

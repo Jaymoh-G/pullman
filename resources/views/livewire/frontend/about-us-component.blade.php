@@ -288,20 +288,20 @@
                 delay: 2000,
             },
             loop: true,
-            slidesPerView: 5,
+            slidesPerView: 6,
             spaceBetween: 0,
             breakpoints: {
                 0: {
                     slidesPerView: 1,
                 },
                 640: {
-                    slidesPerView: 2,
+                    slidesPerView: 1,
                 },
                 768: {
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                 },
                 1024: {
-                    slidesPerView: 3,
+                    slidesPerView: 6,
                 },
             },
             navigation: {
