@@ -138,6 +138,12 @@
             <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
               <h2>{{$this->whatWeDos->title}}</h2>
                 {!!$this->whatWeDos->description!!}
+                <p>
+                  <a href="https://wa.me/2547?text=Hi,%20I%20got%20your%20contacts%20from%20the%20website%20and%20I&apos;m%20interested%20in%20your%20services"
+                  class="btn btn-primary pt-1">
+                    Get in Touch
+                  </a>
+                </p>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
               <img src="/{{$this->whatWeDos->image}}" style="width:475px;height:200px" alt="{{$this->whatWeDos->image}}" srcset="">
@@ -145,8 +151,7 @@
           </div>
         </div>
       </div>
-
-
+      
         <!-- WHAT WE HAVE DONE -->
         <div class="container-full section-done">
           <div class="container">
