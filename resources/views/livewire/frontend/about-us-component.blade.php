@@ -7,7 +7,7 @@
 
     <style>
         .styled-h2 {
-            color: #EE1C25;
+            color: #ee1c25;
         }
 
         .swiper-slide {
@@ -98,7 +98,7 @@
                                             >
                                         </li>
 
-                                        <li>Who we are</li>
+                                        <li>Who we are1</li>
                                     </ul>
                                 </div>
                             </div>
@@ -204,7 +204,9 @@
         <!-- PARTNERS SECTION  -->
         <div class="container-full partners pt-2 mb-4">
             <div class="container text-center">
-                <h2 class="styled-h2 media_title" style="color:#111112">Clients</h2>
+                <h2 class="styled-h2 media_title" style="color: #111112">
+                    Clients
+                </h2>
             </div>
             <!-- Top content -->
             <div class="swiper-container partners-slider">
@@ -232,7 +234,9 @@
             <div class="row">
                 <div class="col">
                     <div>
-                        <h2 class="styled-h2" style="color:#111112">Subscribe to our newsletter</h2>
+                        <h2 class="styled-h2" style="color: #111112">
+                            Subscribe to our newsletter1
+                        </h2>
                     </div>
                 </div>
             </div>
