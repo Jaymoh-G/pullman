@@ -288,7 +288,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pub_videos">
                             <iframe
-                                src="https://www.youtube.com/embed/GrrTLrP99BY"
+                                src="#"
                             >
                             </iframe>
                         </div>
