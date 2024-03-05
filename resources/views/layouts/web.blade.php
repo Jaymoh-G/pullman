@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <!-- Google tag (gtag.js) -->
-        <script
+        <!-- <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=AW-329295031"
         ></script>
@@ -14,7 +14,7 @@
             gtag("js", new Date());
 
             gtag("config", "AW-329295031");
-        </script>
+        </script> -->
         <!-- End of Google tag (gtag.js) -->
         <link
             rel="apple-touch-icon"
@@ -25,7 +25,7 @@
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href="/nofavicon-32x32.png"
         />
         <link
             rel="icon"
@@ -50,7 +50,7 @@
         <meta name="description" content="Pullman construction" />
         @endif
         <!-- Google Tag Manager -->
-        <script>
+        <!-- <script>
             (function (w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({
@@ -64,7 +64,7 @@
                 j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
                 f.parentNode.insertBefore(j, f);
             })(window, document, "script", "dataLayer", "GTM-TG9ZBJK");
-        </script>
+        </script> -->
         <!-- End Google Tag Manager -->
         <link
             href="{{ asset('assets/css/lib/bootstrap.min.css') }}"
