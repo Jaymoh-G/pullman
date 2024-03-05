@@ -210,7 +210,7 @@
                         <div class="card">
                             <img
                                 class="card-img-top post-img"
-                                src="{{&quot;/&quot;.$pr->image}}"
+                                src='{{"/".$pr->image}}'
                                 alt="{{$pr->title}}"
                                 width="330"
                                 height="247"
