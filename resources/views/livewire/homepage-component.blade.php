@@ -150,13 +150,7 @@
             <div
                 class="cta_background parallax-window"
                 data-parallax="scroll"
-                style="
-                    background-image: linear-gradient(
-                        rgba(82, 70, 58, 0.4),
-                        rgba(179, 104, 18, 0.6)
-                    );
-                "
-                data-image-src="images/Pullman-Exacavators-Kenya.png"
+                data-image-src="images/Pullman-Exacavators-Kenya-modified-1.png"
                 data-speed="0.8"
             ></div>
             <div class="container">

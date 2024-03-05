@@ -803,7 +803,7 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .homepage .home {
@@ -992,11 +992,11 @@ section {
 }
 .box-brown {
     background: #EE1C25;
-    color: #eaf2d7;
+    color: #F3DEE4;
 }
 .box-brown .box_title,
 .box-brown .box_text {
-    color: #eaf2d7;
+    color: #F3DEE4;
 }
 .working_hours {
     padding-top: 22px;
@@ -4110,7 +4110,7 @@ audio::-webkit-media-controls-panel {
     width: 11rem;
     height: 2.6rem;
     padding: 4px;
-    color: #eaf2d7;
+    color: #F3DEE4;
     float: left;
     font-weight: 600;
     border-radius: 2px;
@@ -4285,7 +4285,7 @@ audio::-webkit-media-controls-panel {
 }
 .copyright {
     width: 100%;
-    background: #eaf2d7;
+    background: #F3DEE4;
 }
 
 .copyright_content {
