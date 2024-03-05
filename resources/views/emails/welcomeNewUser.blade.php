@@ -4,7 +4,7 @@ Hi {{ $username }}, <br />
 Your account was created successfully. Your credentials are as follows: <br />
 Email: {{ $email }} Password: {{ $password }}
 
-@component('mail::button', ['url' =>'https://powershiftafrica.org/login']) Login
+@component('mail::button', ['url' =>'https://pullmanexcavatorskenya.com//login']) Login
 @endcomponent Thanks,<br />
 {{ config("app.name") }}
 @endcomponent

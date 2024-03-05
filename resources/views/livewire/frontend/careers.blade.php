@@ -145,11 +145,11 @@
                                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                                             {!!$this->sectionTwoData->text!!}
                                             <div class="social">
-                                                <a href="https://web.facebook.com/PowerShiftAfrica" target="_blank" rel="noopener noreferrer"class="facebook"><i class="fab fa-facebook"></i></a>
-                                                <a href="https://twitter.com/PowerShftAfrica"target="_blank" rel="noopener noreferrer" class="twitter"><i class="fab fa-twitter"></i></a>
-                                                <a href="https://www.instagram.com/powershiftafrica/" target="_blank" rel="noopener noreferrer"class="instagram"><i class="fab fa-instagram"></i></a>
-                                                <a href="https://www.youtube.com/channel/UCgqnhtjPBFpFPFZumh2kXJQ" target="_blank" rel="noopener noreferrer"class="instagram"><i class="fab fa-youtube-square"></i></a>
-                                                <a href="https://www.linkedin.com/company/power-shift-africa/"target="_blank" rel="noopener noreferrer" class="linkedin mr-5"><i class="fab fa-linkedin"></i></i></a>
+                                                <a href="#" target="_blank" rel="noopener noreferrer"class="facebook"><i class="fab fa-facebook"></i></a>
+                                                <a href="#"target="_blank" rel="noopener noreferrer" class="twitter"><i class="fab fa-twitter"></i></a>
+                                                <a href="#" target="_blank" rel="noopener noreferrer"class="instagram"><i class="fab fa-instagram"></i></a>
+                                                <a href="#" target="_blank" rel="noopener noreferrer"class="instagram"><i class="fab fa-youtube-square"></i></a>
+                                                <a href="#"target="_blank" rel="noopener noreferrer" class="linkedin mr-5"><i class="fab fa-linkedin"></i></i></a>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">

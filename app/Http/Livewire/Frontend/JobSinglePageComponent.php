@@ -123,7 +123,7 @@ class JobSinglePageComponent extends Component{
         // send success application mail
         $job = Job::find($this->jobId);
         $dateToday = date('Y-m-d H:i:s');
-        Mail::to('mailing@powershiftafrica.org')->send(new JobApplicationSuccess($this->name, $job->title , $this->email, $dateToday));
+        Mail::to('info@pullmanexcavatorskenya.com')->send(new JobApplicationSuccess($this->name, $job->title , $this->email, $dateToday));
         redirect()->to(route('frontend.careers.details', $this->jobSlug));
     }
 

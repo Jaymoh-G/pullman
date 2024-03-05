@@ -64,7 +64,7 @@
          }
     </style>
    <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=391014521283089&autoLogAppEvents=1" nonce="s1SQPzMI"></script>
+<script async defer crossorigin="anonymous" src="#" nonce="s1SQPzMI"></script>
     <div class="home">
         <div
             class="home_background parallax-window"
@@ -259,17 +259,17 @@
                                 class="twitter-timeline"
                                 data-width="341"
                                 data-height="400"
-                                href="https://twitter.com/PowerShftAfrica?ref_src=twsrc%5Etfw"
+                                href="#"
                             >
                                 Power Shift Africa</a
                             >
                             <script
                                 async
-                                src="https://platform.twitter.com/widgets.js"
+                                src="#"
                                 charset="utf-8"
                             ></script>
                             <h3>Facebook Feed</h3>
-                            <div class="fb-page" data-href="https://web.facebook.com/PowerShiftAfrica" data-tabs="timeline" data-width="" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://web.facebook.com/PowerShiftAfrica" class="fb-xfbml-parse-ignore"><a href="https://web.facebook.com/PowerShiftAfrica">Power Shift Africa</a></blockquote></div>
+                            <div class="fb-page" data-href="#" data-tabs="timeline" data-width="" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="#" class="fb-xfbml-parse-ignore"><a href="#">Power Shift Africa</a></blockquote></div>
                         </div>
                     </div>
                 </div>

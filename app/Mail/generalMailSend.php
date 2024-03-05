@@ -32,6 +32,6 @@ class generalMailSend extends Mailable
      */
     public function build()
     {
-        return $this->from('info@powershift.org')->subject($this->subject)->view('emails.generalMail')->with(['username'=>$this->name,'generalMessage'=>$this->body]);
+        return $this->from('info@pullmanexcavatorskenya.com')->subject($this->subject)->view('emails.generalMail')->with(['username'=>$this->name,'generalMessage'=>$this->body]);
     }
 }

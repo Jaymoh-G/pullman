@@ -169,7 +169,7 @@ return [
             'to' => 'james@breezetechnologies.co.ke',
 
             'from' => [
-                'address' => env('MAIL_FROM_ADDRESS', 'info@powershiftafrica.org'),
+                'address' => env('MAIL_FROM_ADDRESS', 'info@pullmanexcavatorskenya.com'),
                 'name' => env('MAIL_FROM_NAME', 'PSA Backup'),
             ],
         ],

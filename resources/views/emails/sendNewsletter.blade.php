@@ -6,7 +6,7 @@ Hi {{$username}},
 
 {!!$newsletterMessage!!}
 
-@component('mail::button', ['url' => 'https:://powershiftafrica.org']) Visit Site @endcomponent 
+@component('mail::button', ['url' => 'https://pullmanexcavatorskenya.com']) Visit Site @endcomponent 
 
 Thanks,<br />
 {{ config("app.name") }}

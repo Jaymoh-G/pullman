@@ -26,7 +26,7 @@ class ContactUs extends Component
             
         ]);
 
-        Mail::to('test@powershiftafrica.org')->send(new ContactUsMail($this->name, $this->email, $this->subject, $this->message));
+        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->email, $this->subject, $this->message));
 
         $this->resetInput();
         session()->flash('message', 'Your message has been sent.');

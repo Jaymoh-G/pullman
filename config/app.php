@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://powershiftafrica.org/'),
+    'url' => env('APP_URL', 'https://pullmanexcavatorskenya.com//'),
 
     'asset_url' => env('ASSET_URL', null),
 

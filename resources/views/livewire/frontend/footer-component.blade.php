@@ -130,7 +130,6 @@
                                     ></i>
                                 </div>
 
-                                <!-- mailto link to info@powershiftafrica.org-->
                                 <a href="mailto:info@pullmanexcavatorskenya.com"
                                     ><span>info@pullmanexcavatorskenya.com</span></a
                                 >

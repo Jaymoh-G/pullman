@@ -2,6 +2,6 @@
 
 Hi {{ $name }}, <br />
 Thank for subscribing to our newsletter. @component('mail::button', ['url'
-=>'https://powershiftafrica.org']) Visit our Site @endcomponent Thanks,<br />
+=>'https://pullmanexcavatorskenya.com/']) Visit our Site @endcomponent Thanks,<br />
 {{ config("app.name") }}
 @endcomponent
