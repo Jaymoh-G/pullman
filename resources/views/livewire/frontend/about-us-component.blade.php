@@ -98,7 +98,7 @@
                                             >
                                         </li>
 
-                                        <li>Who we are1</li>
+                                        <li>Who we are</li>
                                     </ul>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@
                 <div class="col">
                     <div>
                         <h2 class="styled-h2" style="color: #111112">
-                            Subscribe to our newsletter1
+                            Subscribe to our newsletter
                         </h2>
                     </div>
                 </div>
