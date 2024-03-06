@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire;
 
+
 use Newsletter;
 use App\Models\Blog;
 use App\Models\Event;
@@ -14,11 +15,20 @@ use App\Models\Page;
 use App\Models\PageSection;
 use App\Mail\WelcomeSubscriber;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Livewire\ContactUs;
+use App\Mail\ContactUsMail;
+use Livewire\WithFileUploads;
 
 class HomepageComponent extends Component{
+    use WithFileUploads;
+
     public $title;
     public $name;
     public $email;
+    public $subject;
+    public $phone;
+    public $message;
+    public $photos = [];
     public $publication;
     public $categories;
     public $latestPressRelease;
@@ -94,6 +104,37 @@ class HomepageComponent extends Component{
                 ->where('page_sections.name', 'like', '%'.$sectionName.'%')
                 ->where('pages.name', 'like', '%homepage%')
                 ->latest('page_sections.updated_at')->first();
+    }
+
+    function resetInput(){
+        $this->name = '';
+        $this->email = '';
+        $this->subject = '';
+        $this->message = '';
+        $this->phone = '';
+    }
+
+    function send(){
+        $this->validate([
+            'name' => 'required',
+            'email' => 'email',
+            'phone' => 'nullable',
+            'message' => 'nullable',
+            'photos.*' => 'image|max:2048',        
+        ]);
+    
+        $photosPaths = [];
+        if ($this->photos) {
+            foreach ($this->photos as $photo) {
+                $path = $photo->store('photos', 'public');
+                $photosPaths[] = public_path("storage/{$path}");
+            }
+        }
+    
+        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->email, $this->subject, $this->message, $this->phone, $photosPaths));
+    
+        $this->resetInput();
+        session()->flash('message', 'Your message has been sent.');
     }
 
 }

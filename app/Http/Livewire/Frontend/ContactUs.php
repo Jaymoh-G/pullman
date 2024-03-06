@@ -12,6 +12,7 @@ class ContactUs extends Component
     public $email;
     public $subject;
     public $message;
+    public $phone;
 
     public function render(){
         return view('livewire.frontend.contact-us')->layout('layouts.web');
@@ -20,13 +21,10 @@ class ContactUs extends Component
     public function send(){
         $this->validate([
             'name' => 'required',
-            'email' => 'required|email',
-            'subject' => 'required',
-            'message' => 'required'
             
         ]);
 
-        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->email, $this->subject, $this->message));
+        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->email, $this->subject, $this->message, $this->phone));
 
         $this->resetInput();
         session()->flash('message', 'Your message has been sent.');
@@ -37,6 +35,7 @@ class ContactUs extends Component
         $this->email = '';
         $this->subject = '';
         $this->message = '';
+        $this->phone = '';
     }
 
 }
