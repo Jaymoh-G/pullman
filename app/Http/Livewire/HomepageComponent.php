@@ -26,6 +26,7 @@ class HomepageComponent extends Component{
     public $sliders;
     public $sectionOneData;
     public $sectionTwoData;
+    public $News;
 
     public function mount(){
         $this->sectionOneData = $this->getSectionData('Crafting foundations, Building Africa');
@@ -35,11 +36,16 @@ class HomepageComponent extends Component{
         $this->petition = Petition::orderBy('id', 'desc')->take(1)->get();
         $this->latestPressRelease = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
                 ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
-                ->where('categories.name', '=', 'Press Releases')
+                ->where('categories.name', '=', 'Water and Sewer Works')
                 ->take(3)->latest('blogs.updated_at')->get();
         $this->latestPowershiftNews = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
                 ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
-                ->where('categories.name', '=', 'Power Shift in the News')
+                ->where('categories.name', '=', 'Excavation and Dumping')
+                ->take(2)->latest('blogs.updated_at')->get();
+
+           $this->News = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
+                ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
+                ->where('categories.name', '=', 'News')
                 ->take(2)->latest('blogs.updated_at')->get();
 
         $this->latestEvent = Event::orderBy('date_from', 'desc')->take(1)->get();
@@ -62,7 +68,7 @@ class HomepageComponent extends Component{
         ]);
 
         try{
-            if(Newsletter::isSubscribed($this->email)){                
+            if(Newsletter::isSubscribed($this->email)){
                 $this->emptyInput();
                 return redirect()->back()->with('message', 'You are already subscribed');
             }else{
