@@ -253,7 +253,7 @@
                                 </div>
                             </div>
                             @else
-                            <p>Latest Power Shift news not found</p>
+                            <p>Latest news not found</p>
                             @endif
                         </div>
                     </div>
@@ -311,7 +311,7 @@
                                 </div>
                             </div>
                             @else
-                            <p>Latest Power Shift news not found</p>
+                            <p>Latest Excavation works not found</p>
                             @endif
                         </div>
                     </div>
@@ -365,7 +365,7 @@
                                 </div>
                             </div>
                             @else
-                            <p>Latest press release not found</p>
+                            <p>Latest Machire hire not found</p>
                             @endif
                         </div>
                     </div>
