@@ -34,7 +34,7 @@
                                     >About Us</a
                                 >
                             </li>
-                                                        
+
                             <!-- @foreach ($categories as $category)
                             <li class="dropdown">
                                 <a
@@ -69,7 +69,7 @@
                                     >Water and Sewer Works</a
                                 >
                             </li>
-                                                        
+
                             <!-- @foreach ($categories as $category)
                             <li class="dropdown">
                                 <a
@@ -109,7 +109,7 @@
                                     <span>+254 726 634 673</span></a
                                 >
                             </li>
-                            
+
                             <li>
                                 <div class="footer_about_icon">
                                     <i
@@ -118,10 +118,10 @@
                                     ></i>
                                 </div>
                                 <a href="tel:+254726634673">
-                                    <span>+254 726 634 673</span
+                                    <span>+254 726 151 933</span
                                     ></a>
                             </li>
-                            
+
                             <li>
                                 <div class="footer_about_icon">
                                     <i

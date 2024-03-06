@@ -48,7 +48,7 @@
         <div class="container-full latest-events">
             <div class="container">
                 <div class="top-content">
-                    <h2>Events</h2>
+                    <h2>News</h2>
                     <a href="{{ route('frontend.events') }}">
                         <p>View all</p>
                     </a>
@@ -112,7 +112,7 @@
         <div class="container-full news-sec">
             <div class="container">
                 <div class="top-content">
-                    <h2>News</h2>
+                    <h2>Ongoing Projects</h2>
                     <a href="{{ route('frontend.blog.categories',['categorySlug'=>'power-shift-in-the-news']) }}"> <p>View all</p></a>
                 </div>
                 <div class="row latest-row">
@@ -161,7 +161,7 @@
         <div class="container-full press">
             <div class="container">
                 <div class="top-content">
-                    <h2>Press Release</h2>
+                    <h2>Complete Projects</h2>
                     <a href="{{ route('frontend.blog.categories',['categorySlug'=>'Press Releases']) }}"><p>View all</p></a>
                 </div>
                 <div class="row latest-row">

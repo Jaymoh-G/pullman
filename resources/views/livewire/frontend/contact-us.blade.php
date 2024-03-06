@@ -66,7 +66,7 @@
                                 <div class="contact_about_icon">
                                     <img src="images/phone-call.svg" alt="" />
                                 </div>
-                                <span>+254 726 634 673</span>
+                                <span>+254 726 151 933</span>
                             </a>
                         </li>
                         <li>
