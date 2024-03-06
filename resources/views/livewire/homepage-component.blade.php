@@ -201,18 +201,18 @@
                 <div class="row">
                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="card">
-                            @if (count($News) > 0)
+                            @if (count($Water) > 0)
                             <div class="img-preview">
                                 <img
                                     class="card-img-top post-img"
-                                    src="{{'/'.$News[0]->image}}"
+                                    src="{{'/'.$Water[0]->image}}"
                                     alt="Card image cap"
                                     width="330"
                                     height="247"
                                 />
                                 <p class="power-title">
-                                    <a href="/{{$News[0]->category->slug}}">
-                                        {{$News[0]->category->name}}
+                                    <a href="/{{$Water[0]->category->slug}}">
+                                        {{$Water[0]->category->name}}
                                     </a>
                                 </p>
                             </div>
@@ -220,10 +220,10 @@
                                 <div class="row pl-2">
                                     <div class="col-10 col-sm-10">
                                         <a
-                                            href="{{route('frontend.blog.details',['category'=>$News[0]->category->slug,'slug'=>$News[0]->slug])}}"
+                                            href="{{route('frontend.blog.details',['category'=>$Water[0]->category->slug,'slug'=>$Water[0]->slug])}}"
                                         >
                                             <h5 class="card-title pt-2 pl-0">
-                                                {{$News[0]->titleExcerpt()}}
+                                                {{$Water[0]->titleExcerpt()}}
                                             </h5>
                                             <div class="card-body pt-0 pl-0">
                                                 <p class="card-text">
@@ -237,12 +237,12 @@
                                                 ></i>
                                                 <span class="card-date"
                                                     >
-                                                    {!! htmlspecialchars_decode($News[0]->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
+                                                    {!! htmlspecialchars_decode($Water[0]->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
                                                 </span
                                                 >
                                                 <div class="readmore-sec1">
                                                     <a
-                                                        href="{{route('frontend.blog.details',['category'=>$News[0]->category->slug,'slug'=>$News[0]->slug])}}"
+                                                        href="{{route('frontend.blog.details',['category'=>$Water[0]->category->slug,'slug'=>$Water[0]->slug])}}"
                                                         class="btn btn-primary pt-1"
                                                         >Read More
                                                     </a>
@@ -395,7 +395,7 @@
         <div class="media container pt-5 media-pub">
             <div class="container text-center">
                 <h2 class="styled-h2 media_title" style="color: black">
-                    News
+                    News & Articles
                 </h2>
                 <div class="container p-3">
                     <div class="row">
