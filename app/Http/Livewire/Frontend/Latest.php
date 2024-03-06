@@ -11,20 +11,41 @@ class Latest extends Component
 {
   public function render()
   {
-    $PressRelease = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
+    $WaterSewer = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
       ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
-      ->where('categories.name', '=', 'Press Releases')
+      ->where('categories.name', '=', 'Water and Sewer Works')
       ->orderBy('blogs.updated_at', 'desc')
 
       ->take(3)->get();
 
-    $news = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
+    $Excavation = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
       ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
-      ->where('categories.name', '=', 'Power Shift in the News')
+      ->where('categories.name', '=', 'Excavation and Dumping')
+      ->orderBy('blogs.updated_at', 'desc')
+
+      ->take(3)->get();
+
+    $Equipment = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
+      ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
+      ->where('categories.name', '=', 'Equipment and Machine Hire')
+      ->orderBy('blogs.updated_at', 'desc')
+
+      ->take(3)->get();
+
+    $Materials = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
+      ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
+      ->where('categories.name', '=', 'Building Materials Supply')
+      ->orderBy('blogs.updated_at', 'desc')
+
+      ->take(3)->get();
+
+    $News = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
+      ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
+      ->where('categories.name', '=', 'news')
       ->orderBy('blogs.updated_at', 'desc')
 
       ->take(3)->get();
     $events = Event::orderBy('date_from', 'desc')->take(3)->get();
-    return view('livewire.frontend.latest', ['news' => $news, 'events' => $events, 'PressRelease' => $PressRelease])->layout('layouts.web', ['activePage' => 'latest']);
+    return view('livewire.frontend.latest', ['News' => $News, 'events' => $events, 'WaterSewer' => $WaterSewer, 'Excavation' => $Excavation, 'Equipment' => $Equipment, 'Materials' => $Materials])->layout('layouts.web', ['activePage' => 'latest']);
   }
 }

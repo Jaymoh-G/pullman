@@ -44,79 +44,58 @@
     </div>
     <!-- News -->
     <div class="news">
-        <!-- Events Section -->
-        <div class="container-full latest-events">
+    <!--  Excavation and Dumping section -->
+        <div class="container-full press">
             <div class="container">
                 <div class="top-content">
-                    <h2>News</h2>
-                    <a href="{{ route('frontend.events') }}">
-                        <p>View all</p>
-                    </a>
+                    <h2> News</h2>
+                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'news']) }}"><p>View all</p></a>
                 </div>
-
                 <div class="row latest-row">
-                    @forelse($events as $event)
+                    @forelse($News as $pr)
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
-                            <img
-                                class="card-img-top post-img"
-                                src="{{'/'.$event->image}}"
-                                alt="{{$event->title}}"
-                            />
-                            <p class="power-title">Power Shift Events</p>
-                            <div class="container">
-                                <div class="row">
+                            <img class="card-img-top" src="{{"/".$pr->image}}"
+                            alt="{{$pr->title}}" />
+                            <div class="card-body">
+                                <p class="card-text-head">
+                                    {{$pr->category->name}}
+                                </p>
+                                <a
+                                    href="{{route('frontend.blog.details',['category'=>$pr->category->name,'slug'=>$pr->slug])}}"
 
-                                     <div class="col-lg-3 col-md-3 col-sm-12 card-date pt-3"><span class="date-no">{!! htmlspecialchars_decode($event->date_from->format('d<\s\u\p>S</\s\u\p>')) !!}
-                                    </span><p class="card-date pl-2">{{ \Carbon\Carbon::parse($event->date_from)->translatedFormat('M,Y')}} </p></div>
-                                    <div class="col-md-9 col-sm-9 col-xs-9">
-                                        <h5 class="card-title pt-3 pl-0">
-                                            <a
-                                                href="{{ route('frontend.event.details', $event->slug) }}"
-                                            >
-                                                {{ $event->titleExcerpt()}}
-                                            </a>
-                                        </h5>
-                                        <div class="card-body pt-0 pl-0">
-                                            <i
-                                                class="fas fa-map-marker-alt"
-                                            ></i>
-                                            <a href="#">
-                                                <span class="card-date">
-                                                    {{ $event->location }}
-                                                </span>
-                                            </a>
-                                            <div class="">
-                                                <a
-                                                    href="{{ route('frontend.event.details', $event->slug) }}"
-                                                    class="btn btn-primary pt-1"
-                                                    >View event</a
-                                                >
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                >
+                                    <h6 class="card-title">
+                                        {{$pr->titleExcerpt()}}
+                                    </h6>
+                                    <p class="card-text">
+                                        <!-- {{$pr->excerpt()}} -->
+                                    </p>
+                                </a>
+                                <i class="fas fa-calendar-check"></i>
+                            <span class="card-date">
+                                {!! htmlspecialchars_decode($pr->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
+                            </span>
                             </div>
                         </div>
                     </div>
                     @empty
-                    <p>No Upcoming Event</p>
+                    <p>No post found.</p>
                     @endforelse
                 </div>
             </div>
         </div>
+        <!-- End  Excavation and Dumping section -->
 
-        <!-- End Events Section -->
-
-        <!-- News Section -->
+        <!--Water and Sewer Works -->
         <div class="container-full news-sec">
             <div class="container">
                 <div class="top-content">
-                    <h2>Ongoing Projects</h2>
-                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'power-shift-in-the-news']) }}"> <p>View all</p></a>
+                    <h2>Water and Sewer Works</h2>
+                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'water-and-sewer-works']) }}"> <p>View all</p></a>
                 </div>
                 <div class="row latest-row">
-                    @forelse($news as $new)
+                    @forelse($WaterSewer as $new)
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <img class="card-img-top" src="{{'/'.$new->image}}"
@@ -155,17 +134,17 @@
                 </div>
             </div>
         </div>
-        <!-- End News Section -->
+        <!-- End Water and Sewer Works -->
 
-        <!-- Press Release section -->
+        <!--  Excavation and Dumping section -->
         <div class="container-full press">
             <div class="container">
                 <div class="top-content">
-                    <h2>Complete Projects</h2>
-                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'Press Releases']) }}"><p>View all</p></a>
+                    <h2> Excavation and Dumping</h2>
+                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'excavation-and-dumping']) }}"><p>View all</p></a>
                 </div>
                 <div class="row latest-row">
-                    @forelse($PressRelease as $pr)
+                    @forelse($Excavation as $pr)
                     <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
                         <div class="card">
                             <img class="card-img-top" src="{{"/".$pr->image}}"
@@ -198,6 +177,105 @@
                 </div>
             </div>
         </div>
-        <!-- End Press Release section -->
+        <!-- End  Excavation and Dumping section -->
+          <!--equipment-and-machine-hire Works -->
+        <div class="container-full news-sec">
+            <div class="container">
+                <div class="top-content">
+                    <h2>Equipment and Machine Hire</h2>
+                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'Water and Sewer Works']) }}"> <p>View all</p></a>
+                </div>
+                <div class="row latest-row">
+                    @forelse($Equipment as $new)
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="{{'/'.$new->image}}"
+
+                            alt="{{$new->title}}" />
+                            <div class="card-body">
+                                <p class="card-text-head">
+                                    {{$new->category->name}}
+                                </p>
+                                <a
+                                    href="{{route('frontend.blog.details',['category'=>$new->category->name,'slug'=>$new->slug])}}"
+                                >
+                                    <h5 class="card-title">
+                                        {{$new->titleExcerpt()}}
+                                    </h5></a
+                                >
+                                <div>
+                                    <p class="card-text">
+                                        <!-- {!!$new->body!!} -->
+                                    </p>
+                                </div>
+                                <i class="fas fa-calendar-check"></i>
+                                <a href="#">
+                                    <span class="card-date"
+                                                    >
+                                                    {!! htmlspecialchars_decode($new->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
+                                                </span
+                                                >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    @empty
+                    <p>No post found.</p>
+                    @endforelse
+                </div>
+            </div>
+        </div>
+        <!-- End equipment-and-machine-hire -->
+
+           <!--Building and Material Supply -->
+        <div class="container-full press">
+            <div class="container">
+                <div class="top-content">
+                    <h2>Building and Material Supply</h2>
+                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'Water and Sewer Works']) }}"> <p>View all</p></a>
+                </div>
+                <div class="row latest-row">
+                    @forelse($Materials as $new)
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <img class="card-img-top" src="{{'/'.$new->image}}"
+
+                            alt="{{$new->title}}" />
+                            <div class="card-body">
+                                <p class="card-text-head">
+                                    {{$new->category->name}}
+                                </p>
+                                <a
+                                    href="{{route('frontend.blog.details',['category'=>$new->category->name,'slug'=>$new->slug])}}"
+                                >
+                                    <h5 class="card-title">
+                                        {{$new->titleExcerpt()}}
+                                    </h5></a
+                                >
+                                <div>
+                                    <p class="card-text">
+                                        <!-- {!!$new->body!!} -->
+                                    </p>
+                                </div>
+                                <i class="fas fa-calendar-check"></i>
+                                <a href="#">
+                                    <span class="card-date"
+                                                    >
+                                                    {!! htmlspecialchars_decode($new->created_at->format('d<\s\u\p>S</\s\u\p> F, Y')) !!}
+                                                </span
+                                                >
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    @empty
+                    <p>No post found.</p>
+                    @endforelse
+                </div>
+            </div>
+        </div>
+        <!-- End Building and Material Supply -->
+
+
     </div>
 </div>
