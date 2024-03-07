@@ -128,13 +128,13 @@
                                 <div class="col-md-6 input_col">
                                     <div class="input_container">
                                         <input
-                                            type="email"
+                                            type="telephone"
                                             class="contact_input"
-                                            wire:model="email"
-                                            placeholder="E-mail"
+                                            wire:model="phone"
+                                            placeholder="Phone"
                                             required="required"
                                         />
-                                        @error('email')
+                                        @error('phone')
                                         <span class="error text-danger">{{
                                             $message
                                         }}</span>

@@ -9,11 +9,15 @@ use Livewire\WithPagination;
 use App\Mail\WelcomeSubscriber;
 use Illuminate\Support\Facades\Mail;
 use App\Models\NewsletterSubscription;
+use App\Mail\ContactUsMail;
+
 
 class LatestCategory extends Component
 {
     public $name;
-    public $email;
+    public $subject;
+    public $phone;
+    public $message;
     public $title;
 
     public function render()
@@ -37,30 +41,25 @@ class LatestCategory extends Component
         return view('livewire.latest-category', ['blogs' => $blogs])->layout('layouts.web', ['activePage' => 'latest']);
     }
 
-    function mailchimpSubscribe()
-    {
-        $this->validate([
-            'name' => 'required',
-            'email' => 'required|email',
-        ]);
-
-        try {
-            if (Newsletter::isSubscribed($this->email)) {
-                $this->emptyInput();
-                return redirect()->back()->with('message', 'You are already subscribed');
-            } else {
-                Newsletter::subscribe($this->email, ['FNAME' => $this->name, 'LNAME' => '']);
-                $this->emptyInput();
-                return redirect()->back()->with('message', 'You have successfully subscribed');
-            }
-        } catch (\Exception $e) {
-            return redirect()->back()->with('error', $e->getMessage());
-        }
+    function resetInput(){
+        $this->name = '';
+        $this->subject = '';
+        $this->message = '';
+        $this->phone = '';
     }
 
-    function emptyInput()
-    {
-        $this->name = null;
-        $this->email = null;
+    function send(){
+        $this->validate([
+            'name' => 'required',
+            'phone' => 'nullable',
+            'message' => 'nullable',
+        ]);
+        
+        $subject = "Request for a Service";
+    
+        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
+    
+        $this->resetInput();
+        session()->flash('message', 'Your message has been sent.');
     }
 }

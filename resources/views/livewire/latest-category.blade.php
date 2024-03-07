@@ -135,15 +135,14 @@
             </div>   
         </div>
     </div>
-
-    <!-- SUBSCRIBE SECTION -->
-   <div class="subscriber">
+                <!-- REQUEST SERVICE SECTION -->
+                <div class="subscriber">
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
                         <div>
                             <h2 class="styled-h2">
-                                Subscribe to our newsletter
+                                Request a Service
                             </h2>
                         </div>
                     </div>
@@ -152,14 +151,16 @@
                     <!-- Service -->
                     <div class="col-lg-12 col-md-12 service_col text-center">
                         <div class="subscribe">
-                            @if(Session::has('message'))
-                            <div class="alert alert-success" role="alert">
-                                {{Session::get('message')}}
-                            </div>
-                            @endif
+                        @if(Session::has('message'))
+                        <div class="alert alert-success" role="alert">
+                            {{Session::get('message')}}
+                        </div>
+                        @endif
                             <form
-                                class="form-horizontal"
-                                wire:submit.prevent="mailchimpSubscribe"
+                                action="#"
+                                id="contact_form"
+                                class="contact_form"
+                                wire:submit.prevent="send"
                             >
                                 <input
                                     class="name mr-1"
@@ -174,25 +175,32 @@
                                 }}</span>
                                 @enderror
                                 <input
+                                    class="name mr-1"
+                                    wire:model="phone"
+                                    type="text"
+                                    placeholder="Phone"
+                                    
+                                />
+                                @error('name')
+                                <span class="error text-danger">{{
+                                    $message
+                                }}</span>
+                                @enderror
+                                
+                                <input
                                     class="mail mr-1"
-                                    wire:model="email"
-                                    type="email"
-                                    placeholder="Email address"
-                                    required
+                                    wire:model="message"
+                                    type="text"
+                                    placeholder="Describe Service"
+                                    
                                 />
 
                                 <button type="submit" class="subscribe-btn">
-                                    Subscribe
+                                    Send
                                 </button>
                             </form>
-                            @error('email')
-                            <span class="error text-danger">{{
-                                $message
-                            }}</span>
-                            @enderror
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-</div>

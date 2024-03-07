@@ -17,18 +17,14 @@ use App\Mail\WelcomeSubscriber;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Livewire\ContactUs;
 use App\Mail\ContactUsMail;
-use Livewire\WithFileUploads;
 
 class HomepageComponent extends Component{
-    use WithFileUploads;
 
     public $title;
     public $name;
-    public $email;
     public $subject;
     public $phone;
     public $message;
-    public $photos = [];
     public $publication;
     public $categories;
     public $latestPressRelease;
@@ -71,26 +67,6 @@ class HomepageComponent extends Component{
         $this->title = $title;
     }
 
-    function mailchimpSubscribe(){
-        $this->validate([
-            'name' => 'required',
-            'email' => 'required|email',
-        ]);
-
-        try{
-            if(Newsletter::isSubscribed($this->email)){
-                $this->emptyInput();
-                return redirect()->back()->with('message', 'You are already subscribed');
-            }else{
-                Newsletter::subscribe($this->email, ['FNAME' => $this->name, 'LNAME' => '']);
-                Mail::to($this->email)->send(new WelcomeSubscriber($this->name, $this->email));
-                $this->emptyInput();
-                return redirect()->back()->with('message', 'You have successfully subscribed');
-            }
-        }catch(\Exception $e){
-            return redirect()->back()->with('error', $e->getMessage());
-        }
-    }
 
     function emptyInput(){
         $this->name = null;
@@ -108,7 +84,6 @@ class HomepageComponent extends Component{
 
     function resetInput(){
         $this->name = '';
-        $this->email = '';
         $this->subject = '';
         $this->message = '';
         $this->phone = '';
@@ -117,21 +92,13 @@ class HomepageComponent extends Component{
     function send(){
         $this->validate([
             'name' => 'required',
-            'email' => 'email',
             'phone' => 'nullable',
             'message' => 'nullable',
-            'photos.*' => 'image|max:2048',        
         ]);
+        
+        $subject = "Request for a Service";
     
-        $photosPaths = [];
-        if ($this->photos) {
-            foreach ($this->photos as $photo) {
-                $path = $photo->store('photos', 'public');
-                $photosPaths[] = public_path("storage/{$path}");
-            }
-        }
-    
-        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->email, $this->subject, $this->message, $this->phone, $photosPaths));
+        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
     
         $this->resetInput();
         session()->flash('message', 'Your message has been sent.');

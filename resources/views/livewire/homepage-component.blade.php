@@ -443,7 +443,7 @@
             </div>
         </div>
 
-                <!-- SUBSCRIBE SECTION -->
+                <!-- REQUEST SERVICE SECTION -->
         <div class="subscriber">
             <div class="container text-center">
                 <div class="row">
@@ -482,18 +482,6 @@
                                     $message
                                 }}</span>
                                 @enderror
-                                <input
-                                    type="email"
-                                    class="contact_input"
-                                    wire:model="email"
-                                    placeholder="E-mail"
-                                    required="required"
-                                    />
-                                        @error('email')
-                                        <span class="error text-danger">{{
-                                            $message
-                                        }}</span>
-                                        @enderror
                                 <input
                                     class="name mr-1"
                                     wire:model="phone"

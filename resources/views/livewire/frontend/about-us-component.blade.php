@@ -228,63 +228,76 @@
         </div>
     </div>
 
-    <!-- SUBSCRIBE SECTION -->
-    <div class="subscriber">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col">
-                    <div>
-                        <h2 class="styled-h2" style="color: #111112">
-                            Subscribe to our newsletter
-                        </h2>
+                    <!-- REQUEST SERVICE SECTION -->
+                    <div class="subscriber">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <h2 class="styled-h2">
+                                Request a Service
+                            </h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <!-- Service -->
-                <div class="col-lg-12 col-md-12 service_col text-center">
-                    <div class="subscribe">
+                <div class="row">
+                    <!-- Service -->
+                    <div class="col-lg-12 col-md-12 service_col text-center">
+                        <div class="subscribe">
                         @if(Session::has('message'))
                         <div class="alert alert-success" role="alert">
                             {{Session::get('message')}}
                         </div>
                         @endif
-                        <form
-                            class="form-horizontal"
-                            wire:submit.prevent="mailchimpSubscribe"
-                        >
-                            <input
-                                class="name mr-1"
-                                wire:model="name"
-                                type="text"
-                                placeholder="Name"
-                                required
-                            />
-                            @error('name')
-                            <span class="error text-danger">{{
-                                $message
-                            }}</span>
-                            @enderror
-                            <input
-                                class="mail mr-1"
-                                wire:model="email"
-                                type="email"
-                                placeholder="Email address"
-                                required
-                            />
+                            <form
+                                action="#"
+                                id="contact_form"
+                                class="contact_form"
+                                wire:submit.prevent="send"
+                            >
+                                <input
+                                    class="name mr-1"
+                                    wire:model="name"
+                                    type="text"
+                                    placeholder="Name"
+                                    required
+                                />
+                                @error('name')
+                                <span class="error text-danger">{{
+                                    $message
+                                }}</span>
+                                @enderror
+                                <input
+                                    class="name mr-1"
+                                    wire:model="phone"
+                                    type="text"
+                                    placeholder="Phone"
+                                    
+                                />
+                                @error('name')
+                                <span class="error text-danger">{{
+                                    $message
+                                }}</span>
+                                @enderror
+                                
+                                <input
+                                    class="mail mr-1"
+                                    wire:model="message"
+                                    type="text"
+                                    placeholder="Describe Service"
+                                    
+                                />
 
-                            <button type="submit" class="subscribe-btn">
-                                Subscribe
-                            </button>
-                        </form>
-                        @error('email')
-                        <span class="error text-danger">{{ $message }}</span>
-                        @enderror
+                                <button type="submit" class="subscribe-btn">
+                                    Send
+                                </button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+
     <script>
         var swiper = new Swiper(".partners-slider", {
             centeredSlides: false,

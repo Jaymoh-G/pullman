@@ -7,11 +7,15 @@ use App\Mail\WelcomeSubscriber;
 use Illuminate\Support\Facades\Mail;
 use App\Models\NewsletterSubscription;
 use App\Models\PageSectionData;
+use App\Mail\ContactUsMail;
+
 
 class AboutUsComponent extends Component
 {
     public $name;
-    public $email;
+    public $subject;
+    public $phone;
+    public $message;
     public $whoWeAre;
     public $partners;
 
@@ -28,30 +32,28 @@ class AboutUsComponent extends Component
         return view('livewire.frontend.about-us-component')->layout('layouts.web',['activePage'=>'aboutUs']);
     }
 
-      function mailchimpSubscribe(){
+    function resetInput(){
+        $this->name = '';
+        $this->subject = '';
+        $this->message = '';
+        $this->phone = '';
+    }
+
+    function send(){
         $this->validate([
             'name' => 'required',
-            'email' => 'required|email',
+            'phone' => 'nullable',
+            'message' => 'nullable',
         ]);
-
-        try{
-            if(Newsletter::isSubscribed($this->email)){
-                $this->emptyInput();
-               return redirect()->back()->with('message', 'You are already subscribed');
-            }else{
-                Newsletter::subscribe($this->email, ['FNAME' => $this->name, 'LNAME' => '']);
-                $this->emptyInput();
-                return redirect()->back()->with('message', 'You have successfully subscribed');
-            }
-        }catch(\Exception $e){
-            return redirect()->back()->with('error', $e->getMessage());
-        }
+        
+        $subject = "Request for a Service";
+    
+        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
+    
+        $this->resetInput();
+        session()->flash('message', 'Your message has been sent.');
     }
 
-     function emptyInput(){
-        $this->name = null;
-        $this->email = null;
-    }
 
     function getSectionData($sectionName){
         return PageSectionData::join('page_sections', 'page_section_data.page_section_id', '=', 'page_sections.id')
