@@ -400,12 +400,12 @@
                 <div class="container p-3">
                     <div class="row">
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
-                            @forelse ($publications as $publication)
+                            @forelse ($News as $publication)
                             <div class="publication">
                                 <div class="pub_img">
                                     <img
                                         class="pdficon-img"
-                                        src="{{'/'.$publication->publication_image}}"
+                                        src="{{'/'.$News[0]->image}}"
                                         alt=""
                                         srcset=""
                                         width="150px"
@@ -414,14 +414,14 @@
                                 </div>
                                 <div class="pub_text">
                                     <a
-                                        href="{{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
+                                        href="{{route('frontend.blog.details',['category'=>$News[0]->category->slug,'slug'=>$News[0]->slug])}}"
                                     >
                                         <h3 class="media-subtitle">
                                             {{$publication->title}}
                                         </h3></a
                                     >
                                     <a
-                                        href="{{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
+                                        href="{{route('frontend.blog.details',['category'=>$News[0]->category->slug,'slug'=>$News[0]->slug])}}"
                                         class="btn btn-primary pt-1 publication-download-button"
                                     >
                                         Read More

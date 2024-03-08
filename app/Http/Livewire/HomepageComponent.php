@@ -33,6 +33,7 @@ class HomepageComponent extends Component{
     public $sectionOneData;
     public $sectionTwoData;
     public $Water;
+    public $News;
 
     public function mount(){
         $this->sectionOneData = $this->getSectionData('Crafting foundations, Building Africa');
@@ -52,6 +53,11 @@ class HomepageComponent extends Component{
            $this->Water = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
                 ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
                 ->where('categories.name', '=', 'Water and Sewer Works')
+                ->take(2)->latest('blogs.updated_at')->get();
+
+                $this->News = Blog::join('categories', 'blogs.category_id', '=', 'categories.id')
+                ->select('blogs.*', 'categories.name as category_name', 'categories.slug as category_slug')
+                ->where('categories.name', '=', 'News')
                 ->take(2)->latest('blogs.updated_at')->get();
 
         $this->latestEvent = Event::orderBy('date_from', 'desc')->take(1)->get();
@@ -95,11 +101,11 @@ class HomepageComponent extends Component{
             'phone' => 'nullable',
             'message' => 'nullable',
         ]);
-        
+
         $subject = "Request for a Service";
-    
+
         Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
-    
+
         $this->resetInput();
         session()->flash('message', 'Your message has been sent.');
     }
