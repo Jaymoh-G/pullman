@@ -195,7 +195,7 @@
 
       <div class="container latest mt-5">
             <div class="container text-center">
-                <h2 class="styled-h2 media_title mb-5">Latest</h2>
+                <h2 class="styled-h2 media_title mb-5">Latest Projects</h2>
             </div>
             <div class="container-full cards">
                 <div class="row">
@@ -253,7 +253,7 @@
                                 </div>
                             </div>
                             @else
-                            <p>Latest news not found</p>
+                            <p>Latest Water Projects not found</p>
                             @endif
                         </div>
                     </div>
@@ -487,20 +487,20 @@
                                     wire:model="phone"
                                     type="text"
                                     placeholder="Phone"
-                                    
+
                                 />
                                 @error('name')
                                 <span class="error text-danger">{{
                                     $message
                                 }}</span>
                                 @enderror
-                                
+
                                 <input
                                     class="mail mr-1"
                                     wire:model="message"
                                     type="text"
                                     placeholder="Describe Service"
-                                    
+
                                 />
 
                                 <button type="submit" class="subscribe-btn">
