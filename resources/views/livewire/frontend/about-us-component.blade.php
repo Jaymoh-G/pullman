@@ -6,6 +6,22 @@
     />
 
     <style>
+        .partners-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review {
+        margin-bottom: 20px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        max-width: 600px;
+        width: 100%;
+        text-align: left;
+    }
         .styled-h2 {
             color: #ee1c25;
         }
@@ -201,35 +217,28 @@
             </div>
         </div>
 
-        <!-- PARTNERS SECTION  -->
-        <div class="container-full partners pt-2 mb-4">
-            <div class="container text-center">
-                <h2 class="styled-h2 media_title" style="color: #111112">
-                    Clients
-                </h2>
-            </div>
-            <!-- Top content -->
-            <div class="swiper-container partners-slider">
-                <div class="swiper-wrapper">
-                    @if(!is_null($partners)) @forelse ($partners as $partner)
-                    <div class="swiper-slide slide">
-                        <img
-                            src="{{'/'.$partner->image}}"
-                            alt="{{$partner->name}}"
-                        />
+    <div class="about mission">
+            <div class="container">
+                <div class="row">
+                    <!-- About Content -->
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="about_text">
+                        "Excellent service! The team went above and beyond to meet our requirements."
+                            <h2>Client</h2>
+                        </div>
                     </div>
-                    @empty
-                    <p>No partner found.</p>
-                    @endforelse @endif
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="about_text">
+                        "Highly recommended! Great communication and delivered the project on time."
+                        <h2>Client</h2>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
             </div>
-        </div>
     </div>
 
                     <!-- REQUEST SERVICE SECTION -->
-                    <div class="subscriber">
+        <div class="subscriber">
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
