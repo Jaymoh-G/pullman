@@ -405,7 +405,7 @@
                                 <div class="pub_img">
                                     <img
                                         class="pdficon-img"
-                                        src="{{'/'.$News[0]->image}}"
+                                        src="{{'/'.$publication->image}}"
                                         alt=""
                                         srcset=""
                                         width="150px"
