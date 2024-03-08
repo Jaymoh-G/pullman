@@ -153,6 +153,9 @@
                         </ul>
                     </div>
                 </div>
+                <div class="footer_about_text">
+                    <p>Total Site Visits: {{4908 + $visitorCount }}</p>
+                </div>
             </div>
         </div>
     </div>
