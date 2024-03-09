@@ -440,7 +440,7 @@
                             <blockquote class="tiktok-embed"
                             cite="https://www.tiktok.com/@scout2015/video/6718335390845095173"
                             data-video-id="6718335390845095173"
-                            style="max-width: 350px;min-width: 220px;"
+                            style="height: 200px; max-width: 350px;min-width: 220px;"
                             >
                             <section>
                             <script type="text/javascript"
