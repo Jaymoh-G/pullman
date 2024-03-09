@@ -194,9 +194,9 @@
                                 </li>
                                 <li>
                                     <a
-                                        href="#"
+                                        href="https://wa.me/254726634673?text=Hello.+I+got+your+contacts+from+your+website+and+I%27m+interested+in+your+services."
                                         ><i
-                                            class="fab fa-instagram"
+                                            class="fab fa-whatsapp"
                                             aria-hidden="true"
                                         ></i
                                     ></a>

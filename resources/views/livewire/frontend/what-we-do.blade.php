@@ -41,7 +41,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center">
-                <h2>We are the best at construction</h2>
+                <h2>WE ARE THE BEST AT WHAT WE DO</h2>
                 <p class="pb-3">
                 At Pullman Construction, we uphold the highest standards,
                 where excellence is not just a goal but our standard.
