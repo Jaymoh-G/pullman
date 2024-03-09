@@ -437,28 +437,9 @@
                                 src="https://www.tiktok.com/@scout2015/video/6718335390845095173"
                             >
                             </iframe> -->
-                            <blockquote class="tiktok-embed"
-                            cite="https://www.tiktok.com/@pullman.excavators"
-                            data-video-id=""
-                            style="height: 200px; max-width: 350px;min-width: 220px;"
-                            >
-                            <section>
-                            <script type="text/javascript"
-                            src="https://www.embedista.com/j/tiktok.js">
-                            </script>
-                            <div
-                            style="overflow: auto; position: absolute; height: 0pt; width: 0pt;">
-                            </div>
-                            <div
-                            style="position: absolute;width: 91%;bottom: 4px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"
-                            >
-                            </div>
-                            </section>
-                            </blockquote>
-                            <script
-                            async src="https://www.tiktok.com/embed.js"
-                            >
-                            </script>
+                            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@pullman.excavators/video/7341421645774507270" data-video-id="7341421645774507270" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@pullman.excavators" href="https://www.tiktok.com/@pullman.excavators?refer=embed">@pullman.excavators</a> <p>positive vybe.</p> <a target="_blank" title="♬ original sound - nyarkisii05" href="https://www.tiktok.com/music/original-sound-7246088521063123714?refer=embed">♬ original sound - nyarkisii05</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+                            
+                           
                         </div>
                     </div>
                 </div>
