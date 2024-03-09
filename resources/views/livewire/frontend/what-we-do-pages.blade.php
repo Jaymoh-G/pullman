@@ -146,12 +146,12 @@
                 </p>
             </div>
             <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
-              <img src="/{{$this->whatWeDos->image}}" style="width:475px;height:200px" alt="{{$this->whatWeDos->image}}" srcset="">
+              <img src="/{{$this->whatWeDos->image}}" style="width:475px" alt="{{$this->whatWeDos->image}}" srcset="">
             </div>
           </div>
         </div>
       </div>
-      
+
         <!-- WHAT WE HAVE DONE -->
         <div class="container-full section-done">
           <div class="container">
@@ -203,7 +203,7 @@
           <div class="swiper-button-next"></div>
       </div>
   </div>
-	
+
     <!-- GET IN TOUCH SECTION -->
   <div class="get-in-touch">
 		<div class="container text-center">
