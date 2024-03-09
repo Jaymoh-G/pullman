@@ -433,10 +433,32 @@
                         <div
                             class="col-lg-6 col-md-12 col-sm-12 col-xs-12 pub_videos"
                         >
-                            <iframe
-                                src="https://www.youtube.com/watch?v=lMJXxhRFO1k"
+                            <!-- <iframe
+                                src="https://www.tiktok.com/@scout2015/video/6718335390845095173"
                             >
-                            </iframe>
+                            </iframe> -->
+                            <blockquote class="tiktok-embed"
+                            cite="https://www.tiktok.com/@scout2015/video/6718335390845095173"
+                            data-video-id="6718335390845095173"
+                            style="max-width: 350px;min-width: 220px;"
+                            >
+                            <section>
+                            <script type="text/javascript"
+                            src="https://www.embedista.com/j/tiktok.js">
+                            </script>
+                            <div
+                            style="overflow: auto; position: absolute; height: 0pt; width: 0pt;">
+                            </div>
+                            <div
+                            style="position: absolute;width: 91%;bottom: 4px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"
+                            >
+                            </div>
+                            </section>
+                            </blockquote>
+                            <script
+                            async src="https://www.tiktok.com/embed.js"
+                            >
+                            </script>
                         </div>
                     </div>
                 </div>

@@ -219,6 +219,15 @@
 
     <div class="about mission">
             <div class="container">
+            <div class="row text-center">
+                    <div class="col">
+                        <div>
+                            <h2 class="styled-h2">
+                                What our clients say
+                            </h2>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
                     <!-- About Content -->
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
