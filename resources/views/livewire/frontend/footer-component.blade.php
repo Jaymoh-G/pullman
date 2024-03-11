@@ -25,12 +25,10 @@
                         <div class="footer_title">Useful Links</div>
                         <ul class="footerlinks">
                             <li>
-                                <a href="{{route('homepage.index')}}"
-                                    >Home</a
-                                >
+                                <a href="{{ route('homepage.index') }}">Home</a>
                             </li>
                             <li>
-                                <a href="{{route('frontend.aboutus')}}"
+                                <a href="{{ route('frontend.aboutus') }}"
                                     >About Us</a
                                 >
                             </li>
@@ -56,16 +54,18 @@
 
                 <!-- Footer - News -->
                 <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 footer_col">
-                <div class="footer_links footer_column">
+                    <div class="footer_links footer_column">
                         <div class="footer_title">What We Do</div>
                         <ul class="footerlinks">
                             <li>
-                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'excavation-and-dumping'])}}"
+                                <a
+                                    href="{{route('frontend.whatWeDo.page',['slug'=>'excavation-and-dumping'])}}"
                                     >Excavation and Dumping</a
                                 >
                             </li>
                             <li>
-                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'water-and-sewer-works'])}}"
+                                <a
+                                    href="{{route('frontend.whatWeDo.page',['slug'=>'water-and-sewer-works'])}}"
                                     >Water and Sewer Works</a
                                 >
                             </li>
@@ -81,13 +81,15 @@
                             @endforeach -->
 
                             <li>
-                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'equipment-and-machine-hire'])}}"
+                                <a
+                                    href="{{route('frontend.whatWeDo.page',['slug'=>'equipment-and-machine-hire'])}}"
                                     >Equipments and Machine Hire</a
                                 >
                             </li>
 
                             <li>
-                                <a href="{{route('frontend.whatWeDo.page',['slug'=>'building-materials-supply'])}}"
+                                <a
+                                    href="{{route('frontend.whatWeDo.page',['slug'=>'building-materials-supply'])}}"
                                     >Building materials supply</a
                                 >
                             </li>
@@ -118,8 +120,8 @@
                                     ></i>
                                 </div>
                                 <a href="tel:+254726634673">
-                                    <span>+254 726 151 933</span
-                                    ></a>
+                                    <span>+254 726 151 933</span></a
+                                >
                             </li>
 
                             <li>
@@ -131,7 +133,9 @@
                                 </div>
 
                                 <a href="mailto:info@pullmanexcavatorskenya.com"
-                                    ><span>info@pullmanexcavatorskenya.com</span></a
+                                    ><span
+                                        >info@pullmanexcavatorskenya.com</span
+                                    ></a
                                 >
                             </li>
                             <li>
@@ -146,15 +150,14 @@
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <span>Nairobi, Kenya<br />
-                                    </span>
+                                    <span>Nairobi, Kenya<br /> </span>
                                 </a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="footer_about_text">
-                    <p>Total Site Visits: {{4908 + $visitorCount }}</p>
+                    <p>Total Site Visits: {{ 4908 + $visitorCount }}</p>
                 </div>
             </div>
         </div>
@@ -184,8 +187,7 @@
                                     ></a>
                                 </li>
                                 <li>
-                                    <a
-                                        href="https://twitter.com/gachoka_john"
+                                    <a href="https://twitter.com/gachoka_john"
                                         ><i
                                             class="fab fa-twitter"
                                             aria-hidden="true"
@@ -194,9 +196,11 @@
                                 </li>
                                 <li>
                                     <a
+                                        class="whats-app"
                                         href="https://wa.me/254726634673?text=Hello.+I+got+your+contacts+from+your+website+and+I%27m+interested+in+your+services."
                                         ><i
-                                            class="fab fa-whatsapp"
+                                            class="fab fa-whatsapp-square my-float"
+                                            style="color: white; font-size: 36px; height: fit-content;"
                                             aria-hidden="true"
                                         ></i
                                     ></a>

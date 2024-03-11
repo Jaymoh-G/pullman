@@ -195,7 +195,7 @@ section {
 .button {
     display: inline-block;
     height: 51px;
-    background: #EE1C25;
+    background: #ee1c25;
 }
 .button::after {
     display: block;
@@ -216,7 +216,7 @@ section {
 
 .sidebar-button {
     border: 1px solid #e5e5e5;
-    color: #EE1C25;
+    color: #ee1c25;
     margin: 1px auto;
     padding: 7px;
     font-weight: 500;
@@ -290,7 +290,7 @@ section {
 *********************************/
 #topbar {
     font-family: "Montserrat", sans-serif;
-    background: #EE1C25;
+    background: #ee1c25;
     height: 40px;
     font-size: 12.5px;
     transition: all 0.5s;
@@ -339,7 +339,7 @@ section {
 }
 #topbar .fa-envelope,
 #topbar .fa-phone {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 #topbar .fa span {
     color: white;
@@ -664,11 +664,11 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 
 .navbar .nav-item .nav-link.active {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 
 .navbar .dropdown ul {
@@ -698,7 +698,7 @@ section {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 .navbar .dropdown:hover > ul {
     opacity: 1;
@@ -888,7 +888,7 @@ section {
     color: #ffffff;
 }
 .home_title span {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 
 .breadcrumbs {
@@ -907,7 +907,7 @@ section {
     margin-right: 2px;
 }
 .breadcrumbs ul li:last-child {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 .breadcrumbs ul li,
 .breadcrumbs ul li a {
@@ -986,17 +986,17 @@ section {
 .box_title {
     font-size: 12px;
     font-weight: 800;
-    color: #EE1C25;
+    color: #ee1c25;
     margin-top: 11px;
     text-transform: uppercase;
 }
 .box-brown {
-    background: #EE1C25;
-    color: #F3DEE4;
+    background: #ee1c25;
+    color: #f3dee4;
 }
 .box-brown .box_title,
 .box-brown .box_text {
-    color: #F3DEE4;
+    color: #f3dee4;
 }
 .working_hours {
     padding-top: 22px;
@@ -1383,7 +1383,7 @@ section {
 
 /* Projects section */
 .projects .styled-h2 {
-    color: #EE1C25;
+    color: #ee1c25;
     margin-top: 1em;
 }
 /***** Top content *****/
@@ -1409,7 +1409,7 @@ section {
 .carousel-item .proj-name p {
     position: relative;
     background-color: #f7f3f3;
-    color: #EE1C25;
+    color: #ee1c25;
     font-weight: 500;
     padding-top: 0.6em;
     height: 54px;
@@ -1423,7 +1423,7 @@ section {
     left: 2em;
 }
 .carousel-item .proj-name .btn:hover {
-    background-color: #EE1C25;
+    background-color: #ee1c25;
     cursor: pointer;
 }
 .carousel-item .proj-name {
@@ -1466,7 +1466,7 @@ section {
     width: 120px;
 }
 .get-in-touch .btn:hover {
-    background-color: #EE1C25;
+    background-color: #ee1c25;
     cursor: pointer;
 }
 
@@ -1569,7 +1569,7 @@ section {
 }
 
 .section2 h2 {
-    color: #EE1C25;
+    color: #ee1c25;
     font-size: 19px;
     font-weight: 800;
     text-transform: uppercase;
@@ -1714,7 +1714,7 @@ section {
 }
 
 .searches .searches-found h2 > span {
-    color: #EE1C25;
+    color: #ee1c25;
     font-style: italic;
     font-size: 28px;
 }
@@ -1743,7 +1743,7 @@ hr {
     margin-bottom: 1em;
 }
 .searchpage .input-group-text {
-    background-color: #EE1C25;
+    background-color: #ee1c25;
     height: 49px;
 }
 .searchpage .widget_categories a {
@@ -1774,7 +1774,7 @@ hr {
     margin-bottom: 6%;
 }
 .latest .styled-h2 {
-    color: #EE1C25;
+    color: #ee1c25;
     font-weight: 600;
 }
 
@@ -1791,7 +1791,7 @@ hr {
 }
 
 .btn {
-    background-color: #EE1C25;
+    background-color: #ee1c25;
     border: none;
     border-radius: 0;
     font-size: 14px;
@@ -1873,7 +1873,7 @@ hr {
 
 .joinUs_button {
     margin-top: 50px;
-    background-color: #EE1C25;
+    background-color: #ee1c25;
     width: 150px;
     height: 40px;
     padding-top: 8px;
@@ -1885,7 +1885,7 @@ hr {
  Media
 *********************************/
 .media .styled-h2 {
-    color: #EE1C25;
+    color: #ee1c25;
     font-weight: 600;
 }
 
@@ -1994,7 +1994,7 @@ hr {
     padding-bottom: 57px;
 }
 .service:hover {
-    background: #EE1C25;
+    background: #ee1c25;
 }
 .service::after {
     display: block;
@@ -2206,7 +2206,7 @@ hr {
 }
 
 .blogs p > i {
-    color: #EE1C25;
+    color: #ee1c25;
     margin-top: 0;
 }
 .detail .blog-date {
@@ -2290,7 +2290,7 @@ hr {
     font-weight: 600;
 }
 .post-social .fab:hover {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 
 .btn-part {
@@ -2319,7 +2319,7 @@ hr {
 .input-group .form-control:active {
     background: #fff;
     border-radius: 2px;
-    box-shadow: 0 0 0 2px #EE1C25;
+    box-shadow: 0 0 0 2px #ee1c25;
 }
 .input-group .form-control {
     font-size: 14px;
@@ -2356,8 +2356,8 @@ hr {
     padding: 8px 21px;
     color: #fff;
     border-radius: 0;
-    background: #EE1C25;
-    border: 3px solid #EE1C25;
+    background: #ee1c25;
+    border: 3px solid #ee1c25;
     display: inline-block;
     height: 44px;
     width: 180px;
@@ -2367,7 +2367,7 @@ hr {
 }
 
 .btn-comment {
-    background-color: #EE1C25;
+    background-color: #ee1c25;
     width: 180px;
     cursor: pointer;
     margin-top: 0.8em;
@@ -2485,7 +2485,7 @@ hr {
     font-family: "Montserrat", sans-serif;
 }
 .user-reply .name {
-    color: #EE1C25;
+    color: #ee1c25;
     font-weight: 500;
     font-size: 14px;
 }
@@ -2528,7 +2528,7 @@ textarea {
 .reply-form input[type="text"]:focus,
 .reply-form textarea:focus {
     outline-style: none;
-    border: 1px solid #EE1C25;
+    border: 1px solid #ee1c25;
 }
 
 .reply-form [type="text"]:focus,
@@ -2550,7 +2550,7 @@ textarea {
     width: 100px;
 }
 .input-group-text {
-    background-color: #EE1C25;
+    background-color: #ee1c25;
 }
 .fa-search {
     color: white;
@@ -2584,11 +2584,11 @@ textarea {
     height: 50px;
     margin: 0;
     padding: 13px 23px 0 0;
-    color: #EE1C25;
+    color: #ee1c25;
     width: 343px;
 }
 li > a {
-    color: #EE1C25;
+    color: #ee1c25;
     padding-left: 0em;
     /* padding-top: 2em; */
     cursor: pointer;
@@ -2729,7 +2729,7 @@ li > a {
 }
 .contact-div .btn-contact {
     background-color: #f1eeee;
-    color: #EE1C25;
+    color: #ee1c25;
     margin-bottom: 2em;
     font-size: 13px;
     font-weight: 700;
@@ -2809,7 +2809,7 @@ li > a {
 }
 .other-events .btn-event:hover {
     height: 2.6em;
-    background-color: #EE1C25;
+    background-color: #ee1c25;
 }
 
 /*********************************
@@ -2896,7 +2896,7 @@ li > a {
     font-family: "Montserrat", sans-serif;
 }
 .member-desc .styled-h2 {
-    color: #EE1C25;
+    color: #ee1c25;
     text-transform: uppercase;
     font-size: 22px;
     letter-spacing: 0.1px;
@@ -2918,7 +2918,7 @@ li > a {
 
 .other-teams .styled-h2 {
     font-family: "Montserrat", sans-serif;
-    color: #EE1C25;
+    color: #ee1c25;
     padding-top: 2em;
     font-size: 26px;
     padding-left: 2em;
@@ -2934,7 +2934,7 @@ li > a {
 }
 .other-teams .team-name h2 {
     font-family: "Montserrat", sans-serif;
-    color: #EE1C25;
+    color: #ee1c25;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
@@ -3176,7 +3176,7 @@ li > a {
 }
 
 .list_icons .fa-th-large {
-    color: #EE1C25;
+    color: #ee1c25;
     padding-right: 0.7em;
     font-size: 16px;
 }
@@ -3199,7 +3199,7 @@ li > a {
     top: 21px;
     width: 69px;
     height: 69px;
-    background: #EE1C25;
+    background: #ee1c25;
 }
 .news_day {
     display: inline-block;
@@ -3238,7 +3238,7 @@ li > a {
     top: 0;
     width: 54px;
     height: 3px;
-    background: #EE1C25;
+    background: #ee1c25;
     content: "";
 }
 .news_info {
@@ -3267,7 +3267,7 @@ li > a {
 }
 .news_author a,
 .news_tags a {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 .news_text {
     margin-top: 28px;
@@ -3280,7 +3280,7 @@ li > a {
     position: relative;
     font-size: 15px;
     font-weight: 400;
-    color: #EE1C25;
+    color: #ee1c25;
     line-height: 0.75;
 }
 .news_link a::after {
@@ -3290,7 +3290,7 @@ li > a {
     left: 0;
     width: 100%;
     height: 1px;
-    background: #EE1C25;
+    background: #ee1c25;
     content: "";
 }
 .news_page_nav {
@@ -3309,7 +3309,7 @@ li > a {
     line-height: 0.75;
 }
 .news_page_nav ul li.active a {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 .news-div .icons {
     display: flex;
@@ -3373,7 +3373,7 @@ li > a {
     font-size: 24px;
 }
 .btn:hover {
-    background-color: #EE1C25;
+    background-color: #ee1c25;
 }
 
 .events h2 {
@@ -3773,7 +3773,7 @@ Media Page
 }
 
 .gallery-page .cat-btns li > a {
-    color: #EE1C25;
+    color: #ee1c25;
     padding-left: 0.4em;
     cursor: pointer;
     font-size: 11px;
@@ -4110,7 +4110,7 @@ audio::-webkit-media-controls-panel {
     width: 11rem;
     height: 2.6rem;
     padding: 4px;
-    color: #F3DEE4;
+    color: #f3dee4;
     float: left;
     font-weight: 600;
     border-radius: 2px;
@@ -4119,6 +4119,23 @@ audio::-webkit-media-controls-panel {
 /*********************************
 8. Footer styling
 *********************************/
+.whats-app {
+    position: fixed;
+    width: 38px;
+    height:39px;
+    bottom: 30px;
+    background-color: #25d366;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    right: 20px;
+}
+
+.my-float {
+    margin-top: -5px;
+}
 .footer {
     width: 100%;
 }
@@ -4146,7 +4163,7 @@ audio::-webkit-media-controls-panel {
     left: 0;
     width: 100%;
     height: 4px;
-    background: #EE1C25;
+    background: #ee1c25;
     content: "";
 }
 .footer_logo_container a {
@@ -4195,7 +4212,7 @@ audio::-webkit-media-controls-panel {
     position: absolute;
     width: 16px;
     height: 16px;
-    color: #EE1C25;
+    color: #ee1c25;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -4277,7 +4294,7 @@ audio::-webkit-media-controls-panel {
 .footer_news_date {
     font-size: 13px;
     font-weight: 500;
-    color: #EE1C25;
+    color: #ee1c25;
     margin-top: 1px;
 }
 .footer_news ul li:not(:last-child) {
@@ -4285,7 +4302,7 @@ audio::-webkit-media-controls-panel {
 }
 .copyright {
     width: 100%;
-    background: #F3DEE4;
+    background: #f3dee4;
 }
 
 .copyright_content {
@@ -4304,7 +4321,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .cr span {
-    color: #EE1C25;
+    color: #ee1c25;
 }
 .cr span:hover {
     color: #a3141b;
@@ -4318,7 +4335,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .footer_social ul li a i {
-    color: #EE1C25;
+    color: #ee1c25;
     padding: 4px;
     font-size: 17px;
     -webkit-transition: all 200ms ease;
