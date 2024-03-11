@@ -1,1 +1,1 @@
-<img src="{{ asset('/images/power1.png') }}" />
+<img src="{{ asset('/images/logo_pullman-rsz.png') }}" />
