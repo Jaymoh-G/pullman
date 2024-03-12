@@ -169,7 +169,7 @@
                                 class="twitter-timeline"
                                 data-width="400"
                                 data-height="200"
-                                href="https://twitter.com/PowerShftAfrica?ref_src=twsrc%5Etfw"
+                                href="#"
                             >
                             </a>
 

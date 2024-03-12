@@ -262,8 +262,8 @@
                         </div>
                         <hr>
                         <!-- Twitter section -->
-                        <a class="twitter-timeline" data-tweet-limit="2" href="https://twitter.com/gachoka_john">
-                        PowerShftAfrica</a>
+                        <a class="twitter-timeline" data-tweet-limit="2" href="#">
+                        pullman Excavators Kenya</a>
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         </div>
                     </div>

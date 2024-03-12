@@ -179,7 +179,7 @@
                             <ul>
                                 <li>
                                     <a
-                                        href="https://www.facebook.com/gee.fresh.9"
+                                        href="#"
                                         ><i
                                             class="fab fa-facebook"
                                             aria-hidden="true"
@@ -187,7 +187,7 @@
                                     ></a>
                                 </li>
                                 <li>
-                                    <a href="https://twitter.com/gachoka_john"
+                                    <a href="#"
                                         ><i
                                             class="fab fa-twitter"
                                             aria-hidden="true"
@@ -217,7 +217,7 @@
                                 </li>
                                 <li>
                                     <a
-                                        href="https://ke.linkedin.com/in/pullman-excavators-kenya-ltd-77a063b6"
+                                        href="#"
                                         ><i
                                             class="fab fa-linkedin"
                                             aria-hidden="true"
