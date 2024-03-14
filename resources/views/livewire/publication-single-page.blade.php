@@ -164,21 +164,6 @@
                             <hr style="width: 100%;"/>
 
                              <!-- Twitter section -->
-                            <h3>Tweeter Feed</h3>
-                            <a
-                                class="twitter-timeline"
-                                data-width="400"
-                                data-height="200"
-                                href="#"
-                            >
-                            </a>
-
-                            <script
-                                async
-                                defer
-                                src="https://platform.twitter.com/widgets.js"
-                                charset="utf-8"
-                            ></script>
                         </div>
                         </div>
                     </div>

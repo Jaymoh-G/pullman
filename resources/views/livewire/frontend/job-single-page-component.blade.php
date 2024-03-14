@@ -115,18 +115,6 @@
                             <hr />
 
                             <!-- Twitter section -->
-                            <a
-                                class="twitter-timeline"
-                                data-tweet-limit="2"
-                                href="https://twitter.com/PowerShftAfrica?ref_src=twsrc%5Etfw"
-                            >
-                                Power Shift Africa</a
-                            >
-                            <script
-                                async
-                                src="https://platform.twitter.com/widgets.js"
-                                charset="utf-8"
-                            ></script>
                         </div>
                     </div>
                 </div>

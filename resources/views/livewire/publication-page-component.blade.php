@@ -253,32 +253,6 @@
                             </div>
                             <hr />
                             <!-- Twitter section -->
-                            <h3>Tweeter Feed</h3>
-                            <a
-
-                                class="twitter-timeline"
-                                data-width="341"
-                                data-height="400"
-                                href="#"
-                            >
-                                Power Shift Africa</a
-                            >
-                            <script
-                                async
-                                src="#"
-                                charset="utf-8"
-                            ></script>
-                            <h3>Facebook Feed</h3>
-                            <div class="fb-page" data-href="#" data-tabs="timeline" data-width="" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="#" class="fb-xfbml-parse-ignore"><a href="#">Power Shift Africa</a></blockquote></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
 
 
     <!-- SUBSCRIBE SECTION -->
