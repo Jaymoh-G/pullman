@@ -190,15 +190,6 @@ event-detail .twitter-section {
                           <a href="{{route('frontend.contactUs')}}" target="_blank" rel="noopener noreferrer"><button class="btn btn-contact">Contact Us</button></a>
                       </div>
 
-                      <!-- Twitter section -->
-                      <div class="twitter-section">
-                          <h4>Twitter Feed</h4>
-                          <a class="twitter-timeline" data-tweet-limit="1" href="https://twitter.com/PowerShftAfrica?ref_src=twsrc%5Etfw">
-                          PowerShftAfrica</a>
-                          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-                      </div>
-
                   </div>
               </div>
           </div>

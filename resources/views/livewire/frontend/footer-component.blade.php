@@ -197,7 +197,7 @@
                                 <li>
                                     <a
                                         style="    position: fixed;
-    width: 38px;
+    width: 39px;
     height:39px;
     bottom: 30px;
     background-color: #25d366;
@@ -207,6 +207,7 @@
     box-shadow: 2px 2px 3px #999;
     z-index: 100;
     right: 20px;"
+    
                                         href="https://wa.me/254726634673?text=Hello.+I+got+your+contacts+from+your+website+and+I%27m+interested+in+your+services."
                                         ><i
                                             class="fab fa-whatsapp-square my-float"
