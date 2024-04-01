@@ -45,7 +45,7 @@ class PublicationCreateComponent extends Component
             $this->file_path = $publication->file_path;
             $this->temp_file_path = $publication->file_path;
             $this->publication_image = $publication->publication_image;
-            $this->temp_publication_image = $publication->publication_image;            
+            $this->temp_publication_image = $publication->publication_image;
             $this->category_names = unserialize($publication->category_names);
             $this->file_size = $publication->file_size;
 
@@ -80,11 +80,11 @@ class PublicationCreateComponent extends Component
             Publication::create($data);
             session()->flash('message', 'Publication created successfully');
         }
-        redirect()->to('admin/publications/latest');
+        redirect()->to('admin/our-work/latest');
     }
 
-    public function fileUpload($fileData){             
-        $pdfName = $this->fileNameWithoutExtension.'_'.time().'.'.$this->fileExtension;        
+    public function fileUpload($fileData){
+        $pdfName = $this->fileNameWithoutExtension.'_'.time().'.'.$this->fileExtension;
         $image = str_replace('data:application/pdf;base64,', '', $fileData);
         $image = str_replace('data:image/jpeg;base64,', '', $image);
         $image = str_replace('data:image/jpg;base64,', '', $image);
@@ -95,7 +95,7 @@ class PublicationCreateComponent extends Component
             $this->file_path = 'storage/publications/' . $pdfName;
         }else{
             $this->publication_image = 'storage/publications/' . $pdfName;
-        }        
+        }
     }
 
     public function setFileData($fileData){
@@ -104,7 +104,7 @@ class PublicationCreateComponent extends Component
         $this->fileNameWithoutExtension = $fileData['file_name_without_extension'];
         if($this->fileExtension == 'pdf'){
             $this->file_size = $fileData['file_size'];
-        }        
+        }
     }
 
 }

@@ -10,7 +10,7 @@
                                 <li class="breadcrumb-item">
                                     <a href="#">Dashboard</a>
                                 </li>
-                                <li class="breadcrumb-item active">Publications</li>
+                                <li class="breadcrumb-item active">Our Work</li>
                             </ol>
                         </div>
                     </div>
@@ -24,7 +24,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-title">
-                                <h4>Create publication</h4>
+                                <h4>Create Our Work</h4>
                             </div>
                         <div class="card-body">
                                 @if(Session::has('message'))
@@ -108,7 +108,7 @@
                                      <div class="row">
                                           <div class="form-group col-lg-6">
                                             <label class="col-sm-4 control-label" >
-                                               Publication (PDF)
+                                               Work (PDF)
                                             </label>
                                             @if ($publicationId)
                                                  <div class="col-sm-8">
@@ -134,11 +134,11 @@
                                         </div>
                                            <div class="form-group col-lg-6">
                                             <label class="col-sm-4 control-label" >
-                                                Publication Cover Image
+                                                Work Cover Image
                                             </label>
                                             @if ($publicationId)
                                                  <div class="col-sm-6">
-                                                    <a href={{"/".$temp_publication_image}} download>Publication image</a>
+                                                    <a href={{"/".$temp_publication_image}} download>Work image</a>
                                                 </div>
                                             @endif
 
@@ -166,7 +166,7 @@
                                                     type="submit"
                                                     class="btn btn-default"
                                                 >
-                                                    {{ $publicationId ? "Update Publication" : "Add Publication" }}
+                                                    {{ $publicationId ? "Update Work" : "Add Work" }}
                                                 </button>
                                             </div>
                                         </div>
@@ -192,7 +192,7 @@
                     emitData(inputField);
                 } catch (error) {
                     console.error(error);
-                }                       
+                }
             });
             window.livewire.on('handlepublicationImageFileUpload', () => {
                 let inputField = document.getElementById('publicationImageFile')
@@ -200,7 +200,7 @@
                     emitData(inputField);
                 } catch (error) {
                     console.error(error);
-                }                       
+                }
             });
         });
 
@@ -222,6 +222,6 @@
             }
             reader.readAsDataURL(file);
         }
-        
+
     </script>
 </div>

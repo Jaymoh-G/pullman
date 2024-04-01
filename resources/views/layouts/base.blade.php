@@ -154,8 +154,8 @@
                             <a href="{{ route('admin.petition.list') }}"
                                 ><i class="ti-list"></i> Petition</a
                             >
-                        </li>                        
-                    
+                        </li>
+
                         <li>
                             <a href="{{ route('admin.media.list') }}"
                                 ><i class="ti-bookmark"></i> Media</a
@@ -168,9 +168,9 @@
                         </li>
                         <li>
                             <a href="{{ route('admin.publications') }}"
-                                ><i class="ti-bookmark"></i> Publications</a
+                                ><i class="ti-bookmark"></i> Our Work</a
                             >
-                        </li>                        
+                        </li>
 
                         @endif @if(Auth::user()->utype==='Editor' ||
                         Auth::user()->utype==='Admin' ||

@@ -120,8 +120,8 @@ Route::get('/COP28', Cop27::class)->name('frontend.cop27');
 Route::get('/events', Events::class)->name('frontend.events');
 Route::get('/events/all', AllEventsComponent::class)->name('frontend.events.all');
 Route::get('/media', FrontendMediaComponent::class)->name('frontend.media');
-Route::get('/publications', PublicationPageComponent::class)->name('frontend.publications');
-Route::get('/publications/{slug}', PublicationSinglePage::class)->name('frontend.publications.detail');
+Route::get('/our-work', PublicationPageComponent::class)->name('frontend.publications');
+Route::get('/our-work/{slug}', PublicationSinglePage::class)->name('frontend.publications.detail');
 Route::get('/join-us', Careers::class)->name('frontend.careers');
 Route::get('/join-us/careers/{slug}', JobSinglePageComponent::class)->name('frontend.careers.details');
 Route::get('/contact-us', ContactUs::class)->name('frontend.contactUs');
@@ -175,12 +175,12 @@ Route::middleware(['auth:sanctum', 'verified', 'authEditor'])->group(function ()
     Route::get('/admin/latest/comments', BlogCommentComponent::class)->name('admin.blogs.comments');
 
     //publications
-    Route::get('/admin/publications/latest', PublicationComponent::class)->name('admin.publications');
-    Route::get('/admin/publications/create', PublicationCreateComponent::class)->name('admin.publications.create');
-    Route::get('/admin/publications/category/list', PublicationCategoryComponent::class)->name('admin.publications.category.list');
-    Route::get('/admin/publications/category/create', PublicationCategoryCreateComponent::class)->name('admin.publications.category.create');
-    Route::get('/admin/publications/quoteCard/list', QuoteCardComponent::class)->name('admin.publications.quoteCard.list');
-    Route::get('/admin/publications/quoteCard/create', QuoteCardCreateComponent::class)->name('admin.publications.quoteCard.create');
+    Route::get('/admin/our-work/latest', PublicationComponent::class)->name('admin.publications');
+    Route::get('/admin/our-work/create', PublicationCreateComponent::class)->name('admin.publications.create');
+    Route::get('/admin/our-work/category/list', PublicationCategoryComponent::class)->name('admin.publications.category.list');
+    Route::get('/admin/our-work/category/create', PublicationCategoryCreateComponent::class)->name('admin.publications.category.create');
+    Route::get('/admin/our-work/quoteCard/list', QuoteCardComponent::class)->name('admin.publications.quoteCard.list');
+    Route::get('/admin/our-work/quoteCard/create', QuoteCardCreateComponent::class)->name('admin.publications.quoteCard.create');
 
     // Media
     Route::get('/admin/media/list', BackendMedia::class)->name('admin.media.list');

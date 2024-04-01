@@ -24,14 +24,14 @@ class PublicationComponent extends Component
         Publication::where('id',$publicationId)->delete();
         session()->flash('message', 'Comment deleted.');
         $this->showDeleteMessage = false;
-        redirect()->to('/admin/publications/latest');
+        redirect()->to('/admin/our-work/latest');
     }
 
     public function showDeleteModal($publicationId){
         $this->showDeleteMessage = true;
         $this->publicationId = $publicationId;
     }
-    
+
     public function closeModal(){
         $this->showDeleteMessage = false;
     }

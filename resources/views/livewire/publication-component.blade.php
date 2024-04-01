@@ -11,7 +11,7 @@
                                 <li class="breadcrumb-item">
                                     <a href="#">Dashboard</a>
                                 </li>
-                                <li class="breadcrumb-item active">Publication</li>
+                                <li class="breadcrumb-item active">Our Work</li>
                             </ol>
                         </div>
                     </div>
@@ -25,12 +25,12 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-title pr">
-                                <h4>Publications</h4>
+                                <h4>Our Work</h4>
                                 <a
                                     href="{{route('admin.publications.create')}}"
                                     class="btn btn-sm btn-default float-right header-button-icons"
                                 >
-                                    Add Publication
+                                    Add Our Work
                                 </a>
                                 <a
                                     href="{{route('admin.publications.category.list')}}"
@@ -38,7 +38,7 @@
                                 >
                                     Categories
                                 </a>
-                               
+
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
@@ -90,7 +90,7 @@
                                                 </td>
                                                 <td>
                                                     <a
-                                                        href={{$publication->category == "video" ? '/admin/publications/video/create?id='.$publication->id : '/admin/publications/create?id='.$publication->id}}
+                                                        href={{$publication->category == "video" ? '/admin/our-work/video/create?id='.$publication->id : '/admin/our-work/create?id='.$publication->id}}
                                                         class="btn btn-success btn-sm rounded-0"
                                                         data-toggle="tooltip"
                                                         data-placement="top"
@@ -99,7 +99,7 @@
                                                         <i class="fa fa-edit"></i>
                                                     </a>
                                                     <a
-                                                        href={{'/admin/publications/quoteCard/list?id='.$publication->id}}
+                                                        href={{'/admin/our-work/quoteCard/list?id='.$publication->id}}
                                                         class="btn btn-success btn-sm rounded-0"
                                                         data-toggle="tooltip"
                                                         data-placement="top"
