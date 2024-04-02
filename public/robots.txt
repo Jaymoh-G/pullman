@@ -1,5 +1,7 @@
 User-agent: *
-Disallow:
+Disallow: /wp-json/
+Disallow: /wp-includes/
+Disallow: /wp-admin/
 
 
 Sitemap: https://pullmanexcavatorskenya.com/sitemap.xml
