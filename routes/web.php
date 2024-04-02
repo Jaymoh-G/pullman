@@ -113,7 +113,7 @@ Route::get('/what-we-do', WhatWeDo::class)->name('frontend.whatWeDo');
 Route::get('/what-we-do/{slug}', WhatWeDoPages::class)->name('frontend.whatWeDo.page');
 Route::get('/latest', Latest::class)->name('frontend.latest');
 
-Route::get('/latest/{categorySlug}', LatestCategory::class)->name('frontend.blog.categories');
+Route::get('/latest/our-work/{categorySlug}', LatestCategory::class)->name('frontend.blog.categories');
 Route::get('/COP28/{subCategorySlug}', COPCategory::class)->name('frontend.cop.categories');
 Route::get('/COP28', Cop27::class)->name('frontend.cop27');
 
