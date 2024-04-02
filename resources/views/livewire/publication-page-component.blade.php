@@ -101,7 +101,7 @@
             <div class="row featured-options">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <div id="publications" class="pub-div">
-                        <h2>Power Shift Africa Publications</h2>
+                        <h2>Some of Our Work</h2>
                         <div class="row">
                             @forelse ($publications as $publication)
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -221,7 +221,7 @@
                                 </div>
                             </div>
                             @empty
-                            <p>Publications not found</p>
+                            <p>Work done not found</p>
                             @endforelse
                         </div>
                     </div>
@@ -236,12 +236,12 @@
                                 >
                                     <aside class="widget widget_categories">
                                         <h5 class="widget_title">
-                                            Publications Categories
+                                            Our Work Categories
                                         </h5>
                                         <ul>
                                             @forelse($categories as $category)
                                                 <a
-                                                    href="/publications?category={{$category->name}}"
+                                                    href="/our-work?category={{$category->name}}"
                                                     ><button class="sidebar-button">{{$category->name}}</button></a
                                                 >
                                             @empty
