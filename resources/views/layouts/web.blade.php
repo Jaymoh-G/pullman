@@ -201,7 +201,9 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        @livewireStyles
+        @livewireStyles @php $canonicalUrl = request()->url(); @endphp
+
+        <link rel="canonical" href="{{ $canonicalUrl }}" />
     </head>
     <body>
         <!-- Google Tag Manager (noscript) -->
