@@ -206,17 +206,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <p><a
-                                            href="{{'/'.$publication->file_path}}"
-                                            target="_blank"
-                                            class="btn btn-primary publication-download-button"
-                                        >
-                                            <i
-                                                class="fa fa-cloud-download"
-                                                aria-hidden="true"
-                                            ></i>
-                                            Download
-                                        </a></p>
+                                        
                                     </div>
                                 </div>
                             </div>

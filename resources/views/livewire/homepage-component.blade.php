@@ -211,7 +211,7 @@
                                     height="247"
                                 />
                                 <p class="power-title">
-                                    <a href="/{{$Water[0]->category->slug}}">
+                                    <a href="/our-work/{{$Water[0]->category->slug}}">
                                         {{$Water[0]->category->name}}
                                     </a>
                                 </p>
@@ -269,7 +269,7 @@
                                     height="247"
                                 />
                                 <p class="power-title">
-                                    <a href="/{{$latestPowershiftNews[0]->category->slug}}">
+                                    <a href="/our-work/{{$latestPowershiftNews[0]->category->slug}}">
                                         {{$latestPowershiftNews[0]->category->name}}
                                     </a>
                                 </p>
