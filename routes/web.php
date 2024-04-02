@@ -104,7 +104,7 @@ use App\Http\Livewire\Frontend\TeamComponent as FrontendTeams;
 
 Route::get("/generate-sitemap", function () {
     SitemapGenerator::create(config('app.url'))->writeToFile(public_path('sitemap.xml'));
-    dd(config('app.url'));
+    // dd(config('app.url'));
 });
 // Frontend Routes
 Route::get('/', HomepageComponent::class)->name('homepage.index');
@@ -230,7 +230,7 @@ Route::middleware(['auth:sanctum', 'verified', 'authEditor'])->group(function ()
     Route::get('/admin/whatWeDo/list', WhatWeDoComponent::class)->name('admin.whatWeDo.list');
     Route::get('/admin/whatWeDo/create', WhatWeDoCreateComponent::class)->name('admin.whatWeDo.create');
 });
-Route::get('/page-not-found', PageNotFound::class)->name('page.not.found');
-Route::fallback(function () {
-    return redirect()->route('page.not.found');
-});
+// Route::get('/page-not-found', PageNotFound::class)->name('page.not.found');
+// Route::fallback(function () {
+//     return redirect()->route('page.not.found');
+// });

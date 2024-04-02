@@ -61,7 +61,7 @@
                                     </li>
                                     <li>
                                         <a href="{{ route('frontend.publications') }}"
-                                            >Publications</a
+                                            >Our Work</a
                                         >
                                     <li>{{ $title }}</li>
                                 </ul>
@@ -149,7 +149,7 @@
                                         <ul>
                                             @forelse($categories as $category)
                                                 <a
-                                                    href="/publications?category={{$category->name}}"
+                                                    href="/our-work?category={{$category->name}}"
                                                     >
                                                     <button class="sidebar-button">
                                                     {{$category->name}}</button></a
