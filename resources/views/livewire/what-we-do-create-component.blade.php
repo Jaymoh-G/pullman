@@ -37,7 +37,7 @@
                                         class="form-horizontal"
                                         wire:submit.prevent="create(document.querySelector('#description').value)"
                                     >
-                                        @csrf                                        
+                                        @csrf
                                         <div class="form-group">
                                             <label
                                                 class="col-sm-2 control-label"
@@ -83,6 +83,23 @@
                                                 >{{ $message }}</span
                                             >
                                         @enderror
+
+                                           <div class="form-group">
+                <label class="col-sm-3 control-label">Meta description </label>
+                <small>Max: 158 characters</small>
+                <div class="col-sm-9">
+                    <textarea
+                        wire:model="metaDescription"
+                        cols="63"
+                        rows="10"
+                        placeholder="Enter meta description"
+                    ></textarea>
+                </div>
+                @error('metaDescription')
+                <p class="help is-danger">{{ $message }}</p>
+                @enderror
+            </div>
+
                                         <div class="form-group">
                                             <label class="col-sm-4 control-label" >
                                                 What we do cover image
@@ -207,7 +224,7 @@
                     emitData(inputField);
                 } catch (error) {
                     console.error(error);
-                }                       
+                }
             });
         });
 

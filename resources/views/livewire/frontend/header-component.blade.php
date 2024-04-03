@@ -104,9 +104,9 @@
   <div class="row">
     <div class="container d-flex align-items-center justify-content-between">
 
-          <h1 class="logo"><a href="{{route('homepage.index')}}">
+       <h2 class="logo"><a href="{{route('homepage.index')}}">
             <img style="height:60px; width:150px;" src="/images/logo_pullman-rsz.png">
-          </a></h1>
+          </a></h2>
           <div class="mobile-nav hamburger ml-auto"><i class="open-menu fa fa-bars" aria-hidden="true"></i></div>
           <nav id="navbar" class="navbar">
             <div class="close-menu-button">

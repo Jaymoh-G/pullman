@@ -61,9 +61,9 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8 col-sm-8">
                     <div class="detail" wire:ignore>
-                        <h2>
+                        <h1>
                         {{$blog->title}}
-                        </h2>
+                        </h1>
                         <div class="blog-details">
                             <p class="blog-date">
                                 <i class="far fa-clock"></i>{{$blog->created_at->format('d')}} {{$blog->created_at->format('F, Y')}}

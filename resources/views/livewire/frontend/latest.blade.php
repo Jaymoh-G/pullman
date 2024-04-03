@@ -62,7 +62,7 @@
                                     {{$pr->category->name}}
                                 </p>
                                 <a
-                                    href="{{route('frontend.blog.details',['category'=>$pr->category->name,'slug'=>$pr->slug])}}"
+                                    href="{{route('frontend.blog.details',['category'=>strtolower($pr->category->name),'slug'=>$pr->slug])}}"
 
                                 >
                                     <h6 class="card-title">
@@ -105,8 +105,8 @@
                                 <p class="card-text-head">
                                     {{$new->category->name}}
                                 </p>
-                                <a
-                                    href="{{route('frontend.blog.details',['category'=>$new->category->name,'slug'=>$new->slug])}}"
+                              <a
+                                    href="{{route('frontend.blog.details',['category'=>$new->category->slug,'slug'=>$new->slug])}}"
                                 >
                                     <h5 class="card-title">
                                         {{$new->titleExcerpt()}}
@@ -245,8 +245,8 @@
                                 <p class="card-text-head">
                                     {{$new->category->name}}
                                 </p>
-                                <a
-                                    href="{{route('frontend.blog.details',['category'=>$new->category->name,'slug'=>$new->slug])}}"
+                              <a
+                                    href="{{route('frontend.blog.details',['category'=>$new->category->slug,'slug'=>$new->slug])}}"
                                 >
                                     <h5 class="card-title">
                                         {{$new->titleExcerpt()}}
