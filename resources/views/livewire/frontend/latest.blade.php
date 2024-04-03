@@ -183,7 +183,7 @@
             <div class="container">
                 <div class="top-content">
                     <h2>Equipment and Machine Hire</h2>
-                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'Water and Sewer Works']) }}"> <p>View all</p></a>
+                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'equipment-and-machine-hire']) }}"> <p>View all</p></a>
                 </div>
                 <div class="row latest-row">
                     @forelse($Equipment as $new)
@@ -232,7 +232,7 @@
             <div class="container">
                 <div class="top-content">
                     <h2>Building and Material Supply</h2>
-                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'Water and Sewer Works']) }}"> <p>View all</p></a>
+                    <a href="{{ route('frontend.blog.categories',['categorySlug'=>'building-materials-supply']) }}"> <p>View all</p></a>
                 </div>
                 <div class="row latest-row">
                     @forelse($Materials as $new)
