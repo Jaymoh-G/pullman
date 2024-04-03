@@ -62,7 +62,7 @@
                                     {{$pr->category->name}}
                                 </p>
                                 <a
-                                    href="{{route('frontend.blog.details',['category'=>strtolower($pr->category->name),'slug'=>$pr->slug])}}"
+                                    href="{{route('frontend.blog.details',['category'=>strtolower($pr->category->slug),'slug'=>$pr->slug])}}"
 
                                 >
                                     <h6 class="card-title">
@@ -154,7 +154,7 @@
                                     {{$pr->category->name}}
                                 </p>
                                 <a
-                                    href="{{route('frontend.blog.details',['category'=>$pr->category->name,'slug'=>$pr->slug])}}"
+                                    href="{{route('frontend.blog.details',['category'=>$pr->category->slug,'slug'=>$pr->slug])}}"
 
                                 >
                                     <h6 class="card-title">
@@ -197,7 +197,7 @@
                                     {{$new->category->name}}
                                 </p>
                                 <a
-                                    href="{{route('frontend.blog.details',['category'=>$new->category->name,'slug'=>$new->slug])}}"
+                                    href="{{route('frontend.blog.details',['category'=>$new->category->slug,'slug'=>$new->slug])}}"
                                 >
                                     <h5 class="card-title">
                                         {{$new->titleExcerpt()}}
@@ -277,5 +277,5 @@
         <!-- End Building and Material Supply -->
 
 
-    </div>
+    </div>
 </div>
