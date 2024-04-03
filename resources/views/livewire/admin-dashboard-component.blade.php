@@ -42,7 +42,7 @@
                                     ></i>
                                 </div>
                                 <div class="stat-content dib">
-                                    <div class="stat-text">Publications</div>
+                                    <div class="stat-text">Our Work</div>
                                     <div class="stat-digit">
                                         {{ $publicationCount }}
                                     </div>
@@ -63,8 +63,7 @@
                                     ></i>
                                 </div>
                                 <div class="stat-content dib">
-                                    <div class="stat-text">Power Shift</div>
-                                    <div class="stat-text">in the News</div>
+                                    <div class="stat-text">Water and sewer works</div>
                                     <div class="stat-digit">
                                         {{ $inNewsCount }}
                                     </div>
@@ -72,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-3">
                         <div class="card">
                             <div class="stat-widget-one">
@@ -86,7 +85,7 @@
                                     ></i>
                                 </div>
                                 <div class="stat-content dib">
-                                    <div class="stat-text">Press releases</div>
+                                    <div class="stat-text">Excavation and Dumping</div>
                                     <div class="stat-digit">
                                         {{ $blogCategoryCount }}
                                     </div>
@@ -107,9 +106,9 @@
                                     ></i>
                                 </div>
                                 <div class="stat-content dib">
-                                    <div class="stat-text">Events</div>
+                                    <div class="stat-text">Equipment $ Machine</div>
                                     <div class="stat-digit">
-                                        {{ $eventCount }}
+                                        {{ $equipCount }}
                                     </div>
                                 </div>
                             </div>
