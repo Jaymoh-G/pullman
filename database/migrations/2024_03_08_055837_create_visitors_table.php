@@ -13,18 +13,19 @@ class CreateVisitorsTable extends Migration
      */
     public function up()
     {
+        if(Schema::hasTable('visitors')) return;
         Schema::create('visitors', function (Blueprint $table) {
 
             $table->id();
-            
+
             $table->string('ip_address');
-            
+
             $table->string('user_agent');
-            
+
             $table->timestamp('visited_at');
-            
+
             $table->timestamps();
-            
+
             });
     }
 

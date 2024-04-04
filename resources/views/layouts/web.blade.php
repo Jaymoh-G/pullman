@@ -46,8 +46,9 @@
             content="{{ isset($metaDescription) ? $metaDescription : $title }}"
         />
         @else
-        <title>Pullman Construction</title>
-        <meta name="description" content="Pullman construction" />
+
+        <title>Pullman Excavators Kenya</title>
+        <meta name="description" content="Looking for excavation and dumping services in Nairobi, Kenya? Call: +254 726 634 673" />
         @endif
         <!-- Google Tag Manager -->
         <script>

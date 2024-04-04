@@ -15,6 +15,7 @@ class WhatWeDoCreateComponent extends Component
 
     public $title;
     public $description;
+    public $metaDescription;
     public $image;
     public $partnerCountries;
     public $collaborations;
@@ -34,6 +35,7 @@ class WhatWeDoCreateComponent extends Component
             $whatWeDo = WhatWeDo::find($this->whatWeDoId);
             $this->title = $whatWeDo->title;
             $this->description = $whatWeDo->description;
+            $this->metaDescription = $whatWeDo->metaDescription;
             $this->image = $whatWeDo->image;
             $this->tempImage = $whatWeDo->image;
             $this->partnerCountries  = $whatWeDo->partnerCountries;
@@ -50,12 +52,17 @@ class WhatWeDoCreateComponent extends Component
     public function create($description){
         $this->validate([
             'title' => 'required|min:5',
+             'metaDescription' => 'required|min:3|max:158',
+        ],[
+              'metaDescription.max' => 'Meta description must be at least 3 characters',
+            'metaDescription.max' => 'Meta description maximum length is 158 characters',
         ]);
         $data = [
             'title' => $this->title,
             'description' => $description,
+            'metaDescription' => $this->metaDescription,
             'image' => $this->image ?: null,
-            'slug' => Str::slug($this->title),            
+            'slug' => Str::slug($this->title),
             'partnerCountries' => $this->partnerCountries,
             'collaborations' => $this->collaborations,
             'peopleReached' => $this->peopleReached
@@ -72,19 +79,19 @@ class WhatWeDoCreateComponent extends Component
         redirect()->to(route('admin.whatWeDo.list'));
     }
 
-    public function fileUpload($fileData){             
+    public function fileUpload($fileData){
         $pdfName = $this->fileNameWithoutExtension.'_'.time().'.'.$this->fileExtension;
         $image = str_replace('data:image/jpg;base64,', '', $fileData);
         $image = str_replace('data:image/png;base64,', '', $image);
         $image = str_replace('data:image/jpeg;base64,', '', $image);
         $image = str_replace(' ', '+', $image);
         Storage::disk('public')->put('/whatWeDo/'.$pdfName,base64_decode($image));
-        $this->image = 'storage/whatWeDo/' . $pdfName;      
+        $this->image = 'storage/whatWeDo/' . $pdfName;
     }
 
     public function setFileData($fileData){
         $this->fileName = $fileData['file_name'];
         $this->fileExtension = $fileData['file_extension'];
-        $this->fileNameWithoutExtension = $fileData['file_name_without_extension'];   
+        $this->fileNameWithoutExtension = $fileData['file_name_without_extension'];
     }
 }

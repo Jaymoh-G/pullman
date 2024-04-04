@@ -1,3 +1,16 @@
+<head>
+
+        @if(isset($title))
+        <title>{{ $title }}</title>
+        <meta
+            name="description"
+            content="{{ isset($metaDescription) ? $metaDescription : $title }}"
+        />
+        @else
+        <title>About Pullman Excavators Kenya</title>
+        <meta name="description" content="Earth works and equipment hire is our specialization. This includes general excavation, excavation and equipment like Graders, Cranes, Low Loaders Trailers among others." />
+        @endif
+</head>
 <div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
     <link
@@ -290,20 +303,20 @@
                                     wire:model="phone"
                                     type="text"
                                     placeholder="Phone"
-                                    
+
                                 />
                                 @error('name')
                                 <span class="error text-danger">{{
                                     $message
                                 }}</span>
                                 @enderror
-                                
+
                                 <input
                                     class="mail mr-1"
                                     wire:model="message"
                                     type="text"
                                     placeholder="Describe Service"
-                                    
+
                                 />
 
                                 <button type="submit" class="subscribe-btn">

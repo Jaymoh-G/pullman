@@ -66,7 +66,7 @@ class HomepageComponent extends Component{
     }
 
     public function render(){
-        return view('livewire.homepage-component')->layout('layouts.web',['activePage'=>'home']);
+        return view('livewire.homepage-component')->layout('layouts.web',['activePage'=>'home',  'title' => "Excavator Hire | Equipment Hire | Lowloader services ,Grader, Dozer ...", 'metaDescription' => 'We do provide - Excavation (Earthworks) and Equipment/Machine Hire services in Kenya. Call 0726634673 We are Kenya best Excavating company/contractor.']);
     }
 
     public function setTitle($title){
