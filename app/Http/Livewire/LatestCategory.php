@@ -5,11 +5,12 @@ namespace App\Http\Livewire;
 use Newsletter;
 use App\Models\Blog;
 use Livewire\Component;
+use App\Models\WhatWeDo;
+use App\Mail\ContactUsMail;
 use Livewire\WithPagination;
 use App\Mail\WelcomeSubscriber;
 use Illuminate\Support\Facades\Mail;
 use App\Models\NewsletterSubscription;
-use App\Mail\ContactUsMail;
 
 
 class LatestCategory extends Component
@@ -19,7 +20,14 @@ class LatestCategory extends Component
     public $phone;
     public $message;
     public $title;
+    public $whatWeDos;
 
+
+ public function mount() {
+
+        $this->whatWeDos = WhatWeDo::orderBy('created_at', 'desc')->get();
+
+    }
 
     public function render()
     {

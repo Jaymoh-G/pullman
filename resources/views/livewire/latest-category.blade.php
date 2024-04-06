@@ -44,8 +44,15 @@
 
     <!-- News -->
 
+
     <div class="news">
         <div class="container">
+             <div class="col-lg-7 col-md-12">
+                        <div class="">
+                            <h1 style="font-weight: 600; font-size: 30px;color: black;"> {{$title}}</h1>
+                        </div>
+                    </div>
+
             <div class="row ml-4 latest-row">
                 @foreach($blogs as $blog)
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
@@ -128,11 +135,11 @@
                         </div>
                     </div>
                 </div>
-                @endforeach                
-            </div>         
+                @endforeach
+            </div>
             <div style="margin: 10px">
                 <p>{{$blogs->links()}}</p>
-            </div>   
+            </div>
         </div>
     </div>
                 <!-- REQUEST SERVICE SECTION -->
@@ -179,20 +186,20 @@
                                     wire:model="phone"
                                     type="text"
                                     placeholder="Phone"
-                                    
+
                                 />
                                 @error('name')
                                 <span class="error text-danger">{{
                                     $message
                                 }}</span>
                                 @enderror
-                                
+
                                 <input
                                     class="mail mr-1"
                                     wire:model="message"
                                     type="text"
                                     placeholder="Describe Service"
-                                    
+
                                 />
 
                                 <button type="submit" class="subscribe-btn">

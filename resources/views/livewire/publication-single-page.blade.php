@@ -78,9 +78,9 @@
             <div class="row">
                 <div class="col-lg-8 col-md-8">
                     <div class="detail" wire:ignore>
-                        <h2>
+                        <h1 style="font-weight: 600; font-size: 30px;color: black;">
                             {{$publication->title}}
-                        </h2>
+                        </h1>
                         <div class="blog-details">
                             <p class="blog-date">
                                 <i class="far fa-clock"></i

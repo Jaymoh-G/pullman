@@ -110,7 +110,7 @@
             <div class="row featured-options">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <div id="publications" class="pub-div">
-                        <h2>Some of Our Work</h2>
+                        <h1 style="font-weight: 600; font-size: 30px;color: black;">Some of Our Work</h1>
                         <div class="row">
                             @forelse ($publications as $publication)
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -235,7 +235,7 @@
                 </div>
             </div></div>
 
-</div>   </div>
+</div>
             <!-- SUBSCRIBE SECTION -->
             <div class="subscriber">
                 <div class="container text-center">

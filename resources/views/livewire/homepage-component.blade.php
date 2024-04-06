@@ -107,9 +107,9 @@
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                         <div class="about_content">
                             <div class="about_text">
-                                <h2 class="pb-3">
+                                <h1 style="font-weight: 600; font-size: 30px;color: black;" class="pb-3">
                                     {{$sectionOneData->name}}
-                                </h2>
+                                </h1>
                                 <p>{!!$sectionOneData->text!!}</p>
                             </div>
 

@@ -133,7 +133,7 @@
                     <!-- About Content -->
                     <div class="col-lg-7 col-md-12">
                         <div class="about-title">
-                            <h2>{{$whoWeAre->name}}...</h2>
+                            <h1 style="font-weight: 600; font-size: 30px;color: black;">{{$whoWeAre->name}}...</h1>
                         </div>
                         <div class="about_text">{!!$whoWeAre->text!!}</div>
                     </div>

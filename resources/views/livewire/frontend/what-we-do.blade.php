@@ -41,13 +41,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center">
-                <h2>WE ARE THE BEST AT WHAT WE DO</h2>
+                <h1 style="font-weight: 600; font-size: 30px;color: black;">WE ARE THE BEST AT WHAT WE DO</h1>
                 <p class="pb-3">
                 At Pullman Construction, we uphold the highest standards,
                 where excellence is not just a goal but our standard.
                 With a track record of successfully completing challenging
-                projects to the utmost satisfaction of our customers, 
-                we pride ourselves on being industry leaders. 
+                projects to the utmost satisfaction of our customers,
+                we pride ourselves on being industry leaders.
                 Our unwavering commitment to every project we undertake
                 remains steadfast, ensuring exceptional results every time.
                 Contact us today to experience the best in construction services.
@@ -67,7 +67,7 @@
                 <h2 style="color:#111112;">Water and Sewer Works</h2>
                 <p>
                 From installation to maintenance, our Water and Sewer
-                works service offers comprehensive solutions for the 
+                works service offers comprehensive solutions for the
                 development and upkeep of vital infrastructure, ensuring
                 the efficient flow of essential utilities.
                 </p>
@@ -83,7 +83,7 @@
                 <p>
                 With our expertise in earthmoving and waste management,
                 we provide reliable solutions for excavation and dumping
-                needs, guaranteeing safe and efficient handling of 
+                needs, guaranteeing safe and efficient handling of
                 materials to meet project requirements.
                 </p>
                 <a
@@ -109,8 +109,8 @@
                 <h2 style="color:#111112;">Equipments and Machine Hire</h2>
                 <p>
                 Access top-quality machinery for your construction needs
-                with our Equipments and Machine Hire service, offering a 
-                diverse range of equipment for rent, ensuring optimal 
+                with our Equipments and Machine Hire service, offering a
+                diverse range of equipment for rent, ensuring optimal
                 performance and productivity on-site.
                 </p>
                 <a
@@ -124,7 +124,7 @@
                 <h2 style="color:#111112;">Building Materials Supply</h2>
                 <p>
                 Our Building Materials Supply service sources and delivers
-                essential construction materials, including cement, steel, 
+                essential construction materials, including cement, steel,
                 and bricks, ensuring timely availability and quality
                 assurance for projects of any scale.
                 </p>
@@ -146,7 +146,7 @@
         At Pullman Construction, we pride ourselves
         on delivering top-quality construction solutions
         tailored to meet your every need. From groundbreaking
-        projects to meticulous attention to detail, 
+        projects to meticulous attention to detail,
         trust us to build your vision into reality
         </p>
         <p>
