@@ -14,13 +14,13 @@ class ContactUs extends Component
     public $phone;
 
     public function render(){
-        return view('livewire.frontend.contact-us')->layout('layouts.web');
+        return view('livewire.frontend.contact-us')->layout('layouts.web',['title' => "Contact Pullman Excavators Kenya", 'metaDescription' => 'Get In Touch']);
     }
 
     public function send(){
         $this->validate([
             'name' => 'required',
-            
+
         ]);
 
         Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));

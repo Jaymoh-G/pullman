@@ -46,6 +46,6 @@ class Latest extends Component
 
       ->take(3)->get();
     $events = Event::orderBy('date_from', 'desc')->take(3)->get();
-    return view('livewire.frontend.latest', ['News' => $News, 'events' => $events, 'WaterSewer' => $WaterSewer, 'Excavation' => $Excavation, 'Equipment' => $Equipment, 'Materials' => $Materials])->layout('layouts.web', ['activePage' => 'latest']);
+    return view('livewire.frontend.latest', ['News' => $News, 'events' => $events, 'WaterSewer' => $WaterSewer, 'Excavation' => $Excavation, 'Equipment' => $Equipment, 'Materials' => $Materials])->layout('layouts.web', ['activePage' => 'latest', 'title' => "Latests on Pullman Excavators Kenya", 'metaDescription' => 'Latest on water and sewer works,Excavation and dumping, Equipment and machine hire, building material supply']);
   }
 }

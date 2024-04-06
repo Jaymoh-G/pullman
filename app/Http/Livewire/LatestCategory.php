@@ -20,6 +20,7 @@ class LatestCategory extends Component
     public $message;
     public $title;
 
+
     public function render()
     {
         // get category from route
@@ -33,12 +34,13 @@ class LatestCategory extends Component
             })
             ->orderBy('blogs.updated_at', 'desc')
             ->paginate(12);
+            // dd($blogs);
         //get title
         if ($blogs[0]) {
             $this->title = $blogs[0]->category->name;
         }
 
-        return view('livewire.latest-category', ['blogs' => $blogs])->layout('layouts.web', ['activePage' => 'latest']);
+        return view('livewire.latest-category', ['blogs' => $blogs])->layout('layouts.web', ['activePage' => 'latest', 'title'=> $this->title, 'metaDescription'=>$blogs[0]->metaDescription]);
     }
 
     function resetInput(){
@@ -54,11 +56,11 @@ class LatestCategory extends Component
             'phone' => 'nullable',
             'message' => 'nullable',
         ]);
-        
+
         $subject = "Request for a Service";
-    
+
         Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
-    
+
         $this->resetInput();
         session()->flash('message', 'Your message has been sent.');
     }
