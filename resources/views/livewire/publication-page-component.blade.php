@@ -14,7 +14,7 @@
         .pub_text {
             width: 65%;
         }
-         @media only screen and (max-width: 480px){
+        @media only screen and (max-width: 480px) {
             .cards {
                 margin-top: 0em !important;
             }
@@ -26,7 +26,6 @@
                 height: auto !important;
                 display: block;
                 margin: auto;
-
             }
             .media-subtitle {
                 height: auto !important;
@@ -55,16 +54,22 @@
                 margin-left: 0em !important;
             }
             .widget.widget_categories {
-    width: 95%;
-
-}.featured h2 {
-    text-align: center;
-    padding: 1%;
-}
-         }
+                width: 95%;
+            }
+            .featured h2 {
+                text-align: center;
+                padding: 1%;
+            }
+        }
     </style>
-   <div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="#" nonce="s1SQPzMI"></script>
+    <div id="fb-root"></div>
+    <script
+        async
+        defer
+        crossorigin="anonymous"
+        src="#"
+        nonce="s1SQPzMI"
+    ></script>
     <div class="home">
         <div
             class="home_background parallax-window"
@@ -85,7 +90,11 @@
                         <div class="home_content">
                             <div class="breadcrumbs">
                                 <ul>
-                                    <li><a href="{{route('homepage.index')}}">Home</a></li>
+                                    <li>
+                                        <a href="{{ route('homepage.index') }}"
+                                            >Home</a
+                                        >
+                                    </li>
                                     <li>Publications</li>
                                 </ul>
                             </div>
@@ -94,8 +103,8 @@
                 </div>
             </div>
         </div>
-    </div>
 
+ </div>
     <div class="featured publications">
         <div class="container-full cards">
             <div class="row featured-options">
@@ -118,11 +127,10 @@
                                         <h3 class="media-subtitle">
                                             <a
                                                 href="{{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
-                                                style="color: rgb(41, 39, 39);"
+                                                style="color: rgb(41, 39, 39)"
                                             >
                                                 {{substr($publication->title,0,80)}}
                                                 {{strlen($publication->title)>80 ? '...' : ''}}
-
                                             </a>
                                         </h3>
                                         <div class="folder-sec">
@@ -130,38 +138,29 @@
                                                 class="fa fa-folder"
                                                 aria-hidden="true"
                                             ></i> -->
-                                            <span class="media-spanmb"
-                                                >
+                                            <span class="media-spanmb">
                                                 <!-- {{$publication->file_size?round(($publication->file_size/1024),2).'mb' : 'mb'}} -->
-                                                <span class="share-txt">Share</span>
+                                                <span class="share-txt"
+                                                    >Share</span
+                                                >
                                             </span>
                                             <div class="share-sec">
                                                 <div class="share-icon">
                                                     <ul
-                                                        class="
-                                                            share-menu
-                                                            bottomLeft
-                                                        "
+                                                        class="share-menu bottomLeft"
                                                     >
                                                         <li class="share right">
                                                             <i
-                                                                class="
-                                                                    fa
-                                                                    fa-share-alt
-                                                                "
+                                                                class="fa fa-share-alt"
                                                             ></i>
                                                             <ul
-                                                                class="
-                                                                    share-submenu
-                                                                "
+                                                                class="share-submenu"
                                                             >
                                                                 <li>
                                                                     <a
-                                                                    href="https://api.whatsapp.com/send?text={{$publication->title}} {{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
+                                                                        href="https://api.whatsapp.com/send?text={{$publication->title}} {{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
                                                                         target="_blank"
-                                                                        class="
-                                                                            whatsapp
-                                                                        "
+                                                                        class="whatsapp"
                                                                     >
                                                                         <i
                                                                             class="fab fa-whatsapp"
@@ -170,33 +169,23 @@
                                                                 </li>
                                                                 <li>
                                                                     <a
-                                                                    href="https://www.facebook.com/sharer.php?u={{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
+                                                                        href="https://www.facebook.com/sharer.php?u={{route('frontend.publications.detail',['slug'=>$publication->slug])}}"
                                                                         target="_blank"
-                                                                        class="
-                                                                            facebook
-                                                                        "
+                                                                        class="facebook"
                                                                     >
                                                                         <i
-                                                                            class="
-                                                                                fab
-                                                                                fa-facebook
-                                                                            "
+                                                                            class="fab fa-facebook"
                                                                         ></i>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a
-                                                                    href="https://twitter.com/share?url={{route('frontend.publications.detail',['slug'=>$publication->slug])}}&text={{$publication->title}}"
+                                                                        href="https://twitter.com/share?url={{route('frontend.publications.detail',['slug'=>$publication->slug])}}&text={{$publication->title}}"
                                                                         target="_blank"
-                                                                        class="
-                                                                            twitter
-                                                                        "
+                                                                        class="twitter"
                                                                     >
                                                                         <i
-                                                                            class="
-                                                                                fab
-                                                                                fa-twitter
-                                                                            "
+                                                                            class="fab fa-twitter"
                                                                         ></i>
                                                                     </a>
                                                                 </li>
@@ -206,7 +195,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        
                                     </div>
                                 </div>
                             </div>
@@ -219,85 +207,94 @@
                 <!-- Sidebar -->
                 <div class="col-lg-4">
                     <div class="sidebar">
-                                                 <!-- Categories section -->
-                            <div class="category">
-                                <div
-                                    class="vc_wp_categories wpb_content_element"
-                                >
-                                    <aside class="widget widget_categories">
-                                        <h5 class="widget_title">
-                                            Our Work Categories
-                                        </h5>
-                                        <ul>
-                                            @forelse($categories as $category)
-                                                <a
-                                                    href="/our-work?category={{$category->name}}"
-                                                    ><button class="sidebar-button">{{$category->name}}</button></a
-                                                >
-                                            @empty
-                                            <p>No Categories found</p>
-                                            @endforelse
-                                        </ul>
-                                    </aside>
-                                </div>
+                        <!-- Categories section -->
+                        <div class="category">
+                            <div class="vc_wp_categories wpb_content_element">
+                                <aside class="widget widget_categories">
+                                    <h5 class="widget_title">
+                                        Our Work Categories
+                                    </h5>
+                                    <ul>
+                                        @forelse($categories as $category)
+                                        <a
+                                            href="/our-work?category={{$category->name}}"
+                                            ><button class="sidebar-button">
+                                                {{$category->name}}
+                                            </button></a
+                                        >
+                                        @empty
+                                        <p>No Categories found</p>
+                                        @endforelse
+                                    </ul>
+                                </aside>
                             </div>
-                            <hr />
-                            <!-- Twitter section -->
-
-
-    <!-- SUBSCRIBE SECTION -->
-    <div class="subscriber">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col">
-                    <div>
-                        <h2 class="styled-h2">Subscribe to our newsletter</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- Service -->
-                <div class="col-lg-12 col-md-12 service_col text-center">
-                    <div class="subscribe">
-                        @if(Session::has('message'))
-                        <div class="alert alert-success" role="alert">
-                            {{Session::get('message')}}
                         </div>
-                        @endif
-                        <form
-                            class="form-horizontal"
-                            wire:submit.prevent="mailchimpSubscribe"
-                        >
-                            <input
-                                class="name mr-1"
-                                wire:model="name"
-                                type="text"
-                                placeholder="Name"
-                                required
-                            />
-                            @error('name')
-                            <span class="error text-danger">{{
-                                $message
-                            }}</span>
-                            @enderror
-                            <input
-                                class="mail mr-1"
-                                wire:model="email"
-                                type="email"
-                                placeholder="Email address"
-                                required
-                            />
+                        <hr />
+                        <!-- Twitter section -->
+                    </div>
+                </div>
+            </div></div>
 
-                            <button type="submit" class="subscribe-btn">
-                                Subscribe
-                            </button>
-                        </form>
-                        @error('email')
-                        <span class="error text-danger">{{ $message }}</span>
-                        @enderror
+</div>   </div>
+            <!-- SUBSCRIBE SECTION -->
+            <div class="subscriber">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col">
+                            <div>
+                                <h2 class="styled-h2">
+                                    Subscribe to our newsletter
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- Service -->
+                        <div
+                            class="col-lg-12 col-md-12 service_col text-center"
+                        >
+                            <div class="subscribe">
+                                @if(Session::has('message'))
+                                <div class="alert alert-success" role="alert">
+                                    {{Session::get('message')}}
+                                </div>
+                                @endif
+                                <form
+                                    class="form-horizontal"
+                                    wire:submit.prevent="mailchimpSubscribe"
+                                >
+                                    <input
+                                        class="name mr-1"
+                                        wire:model="name"
+                                        type="text"
+                                        placeholder="Name"
+                                        required
+                                    />
+                                    @error('name')
+                                    <span class="error text-danger">{{
+                                        $message
+                                    }}</span>
+                                    @enderror
+                                    <input
+                                        class="mail mr-1"
+                                        wire:model="email"
+                                        type="email"
+                                        placeholder="Email address"
+                                        required
+                                    />
+
+                                    <button type="submit" class="subscribe-btn">
+                                        Subscribe
+                                    </button>
+                                </form>
+                                @error('email')
+                                <span class="error text-danger">{{
+                                    $message
+                                }}</span>
+                                @enderror
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
+
