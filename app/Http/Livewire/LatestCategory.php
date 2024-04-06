@@ -43,7 +43,7 @@ class LatestCategory extends Component
             })
             ->orderBy('blogs.updated_at', 'desc')
             ->paginate(12);
-        dd($blogs);
+        // dd($blogs);
         //get title
         if ($blogs[0]) {
             $this->title = $blogs[0]->category->name;
