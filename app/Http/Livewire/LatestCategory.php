@@ -20,13 +20,14 @@ class LatestCategory extends Component
     public $phone;
     public $message;
     public $title;
+    public $metaDescription;
     public $whatWeDos;
 
 
- public function mount() {
+    public function mount()
+    {
 
         $this->whatWeDos = WhatWeDo::orderBy('created_at', 'desc')->get();
-
     }
 
     public function render()
@@ -42,23 +43,25 @@ class LatestCategory extends Component
             })
             ->orderBy('blogs.updated_at', 'desc')
             ->paginate(12);
-            // dd($blogs);
+        dd($blogs);
         //get title
         if ($blogs[0]) {
             $this->title = $blogs[0]->category->name;
         }
 
-        return view('livewire.latest-category', ['blogs' => $blogs])->layout('layouts.web', ['activePage' => 'latest', 'title'=> $this->title, 'metaDescription'=>$blogs[0]->metaDescription]);
+        return view('livewire.latest-category', ['blogs' => $blogs])->layout('layouts.web', ['activePage' => 'latest', 'title' => $this->title, 'metaDescription' => $this->title]);
     }
 
-    function resetInput(){
+    function resetInput()
+    {
         $this->name = '';
         $this->subject = '';
         $this->message = '';
         $this->phone = '';
     }
 
-    function send(){
+    function send()
+    {
         $this->validate([
             'name' => 'required',
             'phone' => 'nullable',

@@ -35,6 +35,6 @@ class WhatWeDoPages extends Component
     }
     public function render()
     {
-        return view('livewire.frontend.what-we-do-pages')->layout('layouts.web', ['activePage' => 'whatWeDo', 'title' => "What we do", 'metaDescription' => "WATER AND SEWER WORKS, EXCAVATION AND DUMPING,EQUIPMENTS AND MACHINE HIRE,BUILDING MATERIALS SUPPLY"]);
+        return view('livewire.frontend.what-we-do-pages')->layout('layouts.web', ['activePage' => 'whatWeDo', 'title' => $this->title, 'metaDescription' => $this->metaDescription]);
     }
 }

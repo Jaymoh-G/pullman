@@ -49,7 +49,7 @@
                 <!-- Contact Info -->
                 <div class="col-lg-6">
                     <div class="section_title">
-                        <h2>Get in touch</h2>
+                        <h1 style="font-weight: 600; font-size: 30px;color: black;">Get in touch with Pullman Excavators</h1>
                     </div>
                     <div class="contact_text"></div>
                     <ul class="contact_about_list">
