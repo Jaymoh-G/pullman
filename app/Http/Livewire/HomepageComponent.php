@@ -104,7 +104,7 @@ class HomepageComponent extends Component{
 
         $subject = "Request for a Service";
 
-        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
+        Mail::to('info@pullmanconstructions@gmail.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
 
         $this->resetInput();
         session()->flash('message', 'Your message has been sent.');

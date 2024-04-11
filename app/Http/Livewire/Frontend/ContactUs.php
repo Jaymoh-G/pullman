@@ -23,7 +23,7 @@ class ContactUs extends Component
 
         ]);
 
-        Mail::to('info@pullmanexcavatorskenya.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
+        Mail::to('pullmanconstructions@gmail.com')->send(new ContactUsMail($this->name, $this->subject, $this->message, $this->phone));
 
         $this->resetInput();
         session()->flash('message', 'Your message has been sent.');

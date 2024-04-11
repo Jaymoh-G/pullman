@@ -70,11 +70,11 @@
                             </a>
                         </li>
                         <li>
-                            <a href="mailto:info@pullmanexcavatorskenya.com">
+                            <a href="mailto:pullmanconstructions@gmail.com">
                                 <div class="contact_about_icon">
                                     <img src="images/envelope.svg" alt="" />
                                 </div>
-                                <span>info@pullmanexcavatorskenya.com</span></a
+                                <span>pullmanconstructions@gmail.com</span></a
                             >
                         </li>
                         <li>
