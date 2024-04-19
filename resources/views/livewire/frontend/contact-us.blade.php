@@ -49,24 +49,32 @@
                 <!-- Contact Info -->
                 <div class="col-lg-6">
                     <div class="section_title">
-                        <h1 style="font-weight: 600; font-size: 30px;color: black;">Get in touch with Pullman Excavators</h1>
+                        <h1
+                            style="
+                                font-weight: 600;
+                                font-size: 30px;
+                                color: black;
+                            "
+                        >
+                            Get in touch with Pullman Excavators
+                        </h1>
                     </div>
                     <div class="contact_text"></div>
                     <ul class="contact_about_list">
-                        <li>
-                            <a href="tel:+254726151933">
-                                <div class="contact_about_icon">
-                                    <img src="images/phone-call.svg" alt="" />
-                                </div>
-                                <span>+254 726 634 673</span>
-                            </a>
-                        </li>
                         <li>
                             <a href="tel:+254726634673">
                                 <div class="contact_about_icon">
                                     <img src="images/phone-call.svg" alt="" />
                                 </div>
-                                <span>+254 726 151 933</span>
+                                <span>Tell: +254 726 634 673</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+254 202 634 673">
+                                <div class="contact_about_icon">
+                                    <img src="images/phone-call.svg" alt="" />
+                                </div>
+                                <span>Office: +254 202 634 673</span>
                             </a>
                         </li>
                         <li>
@@ -86,9 +94,7 @@
                                 <div class="contact_about_icon">
                                     <img src="images/placeholder.svg" alt="" />
                                 </div>
-                                <span
-                                    >Nairobi, Kenya</span
-                                ></a
+                                <span>Nairobi, Kenya</span></a
                             >
                         </li>
                     </ul>

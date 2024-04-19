@@ -107,8 +107,8 @@
                                         aria-hidden="true"
                                     ></i>
                                 </div>
-                                <a href="tel:+254726151933">
-                                    <span>+254 726 634 673</span></a
+                                <a href="tel:+254726634673">
+                                    <span> Tell: +254 726 634 673</span></a
                                 >
                             </li>
 
@@ -119,8 +119,8 @@
                                         aria-hidden="true"
                                     ></i>
                                 </div>
-                                <a href="tel:+254726634673">
-                                    <span>+254 726 151 933</span></a
+                                <a href="tel:+254202634673">
+                                    <span>Office: +254 202 634 673</span></a
                                 >
                             </li>
 
@@ -178,8 +178,7 @@
                         <div class="footer_social ml-lg-auto mr-5 mt-2 mb-2">
                             <ul>
                                 <li>
-                                    <a
-                                        href="#"
+                                    <a href="#"
                                         ><i
                                             class="fab fa-facebook"
                                             aria-hidden="true"
@@ -196,29 +195,33 @@
                                 </li>
                                 <li>
                                     <a
-                                        style="    position: fixed;
-    width: 39px;
-    height:39px;
-    bottom: 30px;
-    background-color: #25d366;
-    border-radius: 0px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-    right: 20px;"
-    
+                                        style="
+                                            position: fixed;
+                                            width: 39px;
+                                            height: 39px;
+                                            bottom: 30px;
+                                            background-color: #25d366;
+                                            border-radius: 0px;
+                                            text-align: center;
+                                            font-size: 30px;
+                                            box-shadow: 2px 2px 3px #999;
+                                            z-index: 100;
+                                            right: 20px;
+                                        "
                                         href="https://wa.me/254726634673?text=Hello.+I+got+your+contacts+from+your+website+and+I%27m+interested+in+your+services."
                                         ><i
                                             class="fab fa-whatsapp-square my-float"
-                                            style="color: white; font-size: 36px; height: fit-content;"
+                                            style="
+                                                color: white;
+                                                font-size: 36px;
+                                                height: fit-content;
+                                            "
                                             aria-hidden="true"
                                         ></i
                                     ></a>
                                 </li>
                                 <li>
-                                    <a
-                                        href="#"
+                                    <a href="#"
                                         ><i
                                             class="fab fa-linkedin"
                                             aria-hidden="true"
