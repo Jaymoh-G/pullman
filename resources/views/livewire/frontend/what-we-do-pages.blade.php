@@ -139,7 +139,7 @@
               <h1 style="font-weight: 600; font-size: 30px;color: black;">{{$this->whatWeDos->title}}</h1>
                 {!!$this->whatWeDos->description!!}
                 <p>
-                  <a href="https://wa.me/2547?text=Hi,%20I%20got%20your%20contacts%20from%20the%20website%20and%20I&apos;m%20interested%20in%20your%20services"
+                  <a href="https://wa.me/254726634673?text=Hi,%20I%20got%20your%20contacts%20from%20the%20website%20and%20I&apos;m%20interested%20in%20your%20services"
                   class="btn btn-primary pt-1">
                     Get in Touch
                   </a>
