@@ -72,7 +72,8 @@
       </div>
       <div class="social-links d-md-flex align-items-center pt-2">
         <div class="contact-links">
-          <span class="pl-2">+254 726 634 673</span>
+          <span class="pl-2">Mobile +254 726 634 673</span>
+          <span class="pl-2">Office 254 202 634 673</span>
           <span class="pl-2"><i class="fa fa-envelope"></i> info@pullmanexcavatorskenya.com</span>
         </div>
 
