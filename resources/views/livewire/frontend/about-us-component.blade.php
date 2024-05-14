@@ -232,12 +232,14 @@
                 <div class="row">
                     <!-- About Content -->
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="#" alt="" srcset="">
                         <div class="about_text">
                         "Excellent service! The team went above and beyond to meet our requirements."
                             <h2>Client</h2>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <img src="#" alt="" srcset="">
                         <div class="about_text">
                         "Highly recommended! Great communication and delivered the project on time."
                         <h2>Client</h2>
